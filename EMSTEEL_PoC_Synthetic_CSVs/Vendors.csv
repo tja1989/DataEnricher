@@ -1,0 +1,6 @@
+Vendor_ID,Vendor_Name,Aliases,Contact_Name,Contact_Email,Contact_Phone,Approval_Status,OEM_Authorized,Typical_Lead_Time_Days,Currency,Incoterms,Region
+V-DBX-01,Dubai Bearings & Seals LLC,DBX Bearings; Dubai Bearings,Ahmed Khan,sales@dbxbearings.ae,+971-4-555-1234,Approved,Y,5,AED,EXW,UAE
+V-ADB-02,Abu Dhabi Sealing Co.,AD Sealing; AbuDhabi Sealing,Fatima Al Nuaimi,orders@adsealing.ae,+971-2-555-9876,Qualified,N,7,AED,DAP,UAE
+V-GULF-01,Gulf Industrial Supplies FZE,Gulf Ind. Supplies F.Z.E.; GIS FZE,Mohammed Ali,info@gis-fze.com,+971-6-555-2222,Approved,Y,6,AED,FCA,UAE
+V-ARAB-03,Arabian Pumps & Valves Trading LLC,Arabian Pumps; APV Trading,Rashid Al Mansoori,sales@arabianpumps.ae,+971-4-555-4444,Approved,N,4,AED,EXW,UAE
+V-ALT-04,Gulf Industrial Supplies F.Z.E.,Gulf Industrial Supplies; Gulf Ind Supplies,Mohd. Ali,sales@gulfindsup.com,+971-6-555-2223,New,Y,8,AED,CIP,UAE

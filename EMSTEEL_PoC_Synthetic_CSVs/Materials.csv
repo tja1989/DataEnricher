@@ -1,0 +1,20 @@
+Material_ID,Material_Name,Base_UOM,Class,Key_Specs,Manufacturer,OEM_Part_No,Alt_Equivalent_PN,Storage_Location,Min_Level,Max_Level,Current_Stock,Approved_Suppliers,Spec_Sheet_File
+MAT-SEAL-35MM-2100,"Mechanical Seal 35mm, SiC/SiC, Viton, Type 2100",EA,mechanical seal,35 mm shaft; Faces SiC/SiC; Elastomer Viton(FKM); PN16; Max 120C,John Crane,96509547,,STORE-A1,1,3,1,"V-DBX-01,V-GULF-01",seal_type2100_datasheet.pdf
+MAT-SEAL-45MM-MFL85N,Cartridge Seal 45mm MFL85N,EA,mechanical seal,45 mm; Cartridge; EPDM; Max 140C,EagleBurgmann,MFL85N-45,,STORE-A2,1,2,0,V-ADB-02,mfl85n_datasheet.pdf
+MAT-BRG-22224-CCW33,Spherical Roller Bearing 22224 CC/W33,EA,bearing,22224; ID 120 mm; CC/W33; C3,SKF,22224 CC/W33,FAG 22224-E1A-M-C3,STORE-B1,1,2,1,"V-DBX-01,V-GULF-01",skf_22224_catalog.pdf
+MAT-BRG-6312-2ZC3,Deep Groove Ball Bearing 6312-2Z/C3,EA,bearing,ID 60 mm; 2Z; C3,SKF,6312-2Z/C3,,STORE-B1,2,6,3,V-DBX-01,skf_6312_catalog.pdf
+MAT-FILTER-HYDAC-0330D010,Hydraulic Filter Element 0330D010BN/HC,EA,filter element,10 micron; 330 series; BN/HC,HYDAC,0330D010BN/HC,,STORE-C2,2,6,2,V-GULF-01,hydac_0330d010.pdf
+MAT-GASKET-4IN-150-SS316G,"Spiral Wound Gasket 4"" 150# SS316/Graphite",EA,gasket,4 inch; ASME B16.20; Class 150; SS316/Graphite,Flexitallic,SWG-4-150-316G,,STORE-C1,5,20,8,V-ARAB-03,flexitallic_swg.pdf
+MAT-VBELT-SPB-2240,V-Belt SPB 2240,EA,belt,SPB profile; 2240 mm,Optibelt,SPB2240,,STORE-D1,2,6,1,V-ARAB-03,optibelt_spb.pdf
+MAT-IMPELLER-KSB-65-160,Impeller for KSB ETA 65-160,EA,pump impeller,ETA 65-160; Bronze,KSB,ETA-65-160-IMP,,STORE-A2,0,1,0,V-ADB-02,ksb_eta_impeller.pdf
+MAT-OIL-MOBIL-SHC632-20L,Gear Oil Mobil SHC 632 20L,CAN,lubricant,ISO VG 320; PAO; 20 L,Mobil,SHC632-20L,,LUBE-01,2,6,4,V-GULF-01,mobil_shc632_tds.pdf
+MAT-THERMO-TYPEK-1200,"Thermocouple Type K 1200mm 1/2"" NPT",EA,instrument,"Type K; 1200 mm; 1/2"" NPT; 0–1200C",Omega,KQXL-1200-12NPT,,STORE-E1,1,3,1,V-ARAB-03,omega_typek.pdf
+MAT-PT-ROSEM-3051-10B,Pressure Transmitter 3051 0–10 bar,EA,instrument,0–10 bar; 4-20mA; HART,Rosemount,3051-10B,,STORE-E1,1,2,1,V-GULF-01,rosemount_3051.pdf
+MAT-ORING-FKM-35X3,O-Ring Viton 35x3 mm,EA,seal,FKM 70 Shore; 35x3 mm,Trelleborg,OR-35x3-FKM,,STORE-C1,10,50,20,V-ARAB-03,trelleborg_orings.pdf
+MAT-HOSE-2SN-1/2-330,"Hydraulic Hose 1/2"" 2SN 330 bar",M,hose,DN12; 2SN; WP 330 bar,Parker,301-8,,STORE-C2,10,50,15,V-GULF-01,parker_2sn.pdf
+MAT-STARTER-ABB-AF116,Contactor AF116-30-11 110V,EA,electrical,AC-3 75kW @400V; 110V coil,ABB,AF116-30-11-11,,STORE-E2,1,2,1,V-ARAB-03,abb_af116.pdf
+MAT-FANFILTER-325,VFD Fan Filter 325x325 mm,EA,filter,325x325 mm; washable,Rittal,3412.225,,STORE-E2,2,6,2,V-ARAB-03,rittal_ffilter.pdf
+MAT-SLEEVE-CRN10,Pump Shaft Sleeve for CRN 10,EA,pump sleeve,CRN 10; SS316,Grundfos,CRN10-SL,,STORE-A1,0,1,0,V-ADB-02,grundfos_crn_spares.pdf
+MAT-POS-FISHER-DVC6200,Valve Positioner DVC6200,EA,instrument,HART; SIS capable,Fisher,DVC6200,,STORE-E1,0,1,0,V-GULF-01,fisher_dvc6200.pdf
+MAT-SOL-ASC0-551,Solenoid Valve 551 24VDC,EA,valve,G1/4; 24VDC; 10 bar,ASCO,551-24VDC,,STORE-E2,2,6,2,V-ARAB-03,asco_551.pdf
+MAT-COUP-SPIDER-1100T10,Coupling Spider for 1100T10,EA,coupling insert,Falk 1100T10; PU,Rexnord,1100T10-SPDR,,STORE-D1,1,3,1,V-GULF-01,rexnord_steelflex_spider.pdf

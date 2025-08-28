@@ -1,0 +1,6 @@
+FL_ID,FL_Name,Parent_FL_ID,Site_Area,Criticality
+FL-CCM-01,Continuous Casting Machine,FL-PLANT-A,Jebel Ali Plant A,H
+FL-HOTROLL-01,Hot Rolling Mill,FL-PLANT-A,Jebel Ali Plant A,H
+FL-UTIL-CT-01,Utilities - Cooling Tower,FL-PLANT-A,Jebel Ali Plant A,M
+FL-REHEAT-01,Reheating Furnace,FL-PLANT-A,Jebel Ali Plant A,H
+FL-CRANE-01,Overhead Crane Bay,FL-PLANT-A,Jebel Ali Plant A,M
