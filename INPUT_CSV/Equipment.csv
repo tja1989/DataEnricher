@@ -1,0 +1,21 @@
+Equipment_ID,Equipment_Name,Manufacturer,Model,Serial_No,Install_Date,FL_ID,Criticality,Nameplate_Power_kW,Nameplate_Capacity,Nameplate_Size,Downtime_Cost_per_Hour_AED,OEM_Manual_File,Nameplate_Photo_File
+EQ-PUMP-CRN10-6-01,Centrifugal Pump CRN 10-6,Grundfos,CRN 10-6 A-G-E-HQQE,GRF-2021-01923,2022-03-15,FL-UTIL-CT-01,H,7.5,10 m3/h,DN40,15000,grundfos_crn_series_manual.pdf,eq_pump_crn10-6_nameplate.jpg
+EQ-PUMP-KSB-65-160-01,Process Pump ETA 65-160,KSB,ETA 65-160,KSB-2019-7781,2020-09-10,FL-UTIL-CT-01,M,11.0,90 m3/h,DN65,8000,ksb_eta_series_manual.pdf,eq_pump_ksb_eta_nameplate.jpg
+EQ-COMP-ATC-GA45-01,Air Compressor GA45 VSD,Atlas Copco,GA45 VSD,AC-2020-55671,2021-01-18,FL-HOTROLL-01,H,45.0,7.5 m3/min,-,18000,atlas_copco_ga_manual.pdf,eq_comp_ga45_nameplate.jpg
+EQ-GEAR-FLENDER-H3SH-01,Main Drive Gearbox H3SH,Flender,H3SH-10,FLD-2018-3321,2019-04-02,FL-HOTROLL-01,H,250.0,-,-,50000,flender_h_series_manual.pdf,eq_gear_h3sh_nameplate.jpg
+EQ-IDFAN-BHF-30-01,Baghouse ID Fan BHF-30,FLSmidth,BHF-30,FLS-2017-2218,2018-08-22,FL-REHEAT-01,H,200.0,30000 m3/h,DN800,35000,flsm_baghouse_fan_manual.pdf,eq_bhf30_nameplate.jpg
+EQ-BURN-WEIS-WG40-01,Furnace Burner WG40,Weishaupt,Monarch WG40,WEI-2016-1187,2017-05-12,FL-REHEAT-01,H,3.5,"1,800 kW",-,40000,weishaupt_wg40_manual.pdf,eq_burner_wg40_nameplate.jpg
+EQ-CRANE-DEMAG-DH20-01,Hoist DH 20t,DEMAG,DH 20t,DMG-2015-9021,2016-03-30,FL-CRANE-01,M,15.0,20 t,-,12000,demag_dh_hoist_manual.pdf,eq_demag_dh_nameplate.jpg
+EQ-HPU-REX-45-01,Hydraulic Power Unit 45 kW,Bosch Rexroth,HPU-45,REX-2021-7782,2022-01-08,FL-HOTROLL-01,H,45.0,250 L/min,-,25000,rexroth_hpu_manual.pdf,eq_hpu_nameplate.jpg
+EQ-CAST-MOLD-MOX120-01,Mold Oscillator MOX-120,Primetals,MOX-120,PRM-2018-6610,2019-02-19,FL-CCM-01,H,22.0,-,-,60000,primetals_mox120_manual.pdf,eq_mox120_nameplate.jpg
+EQ-CT-FAN-MARLEY-01,Cooling Tower Geareducer,SPX Marley,Geareducer 22.5,MRL-2019-4431,2020-05-26,FL-UTIL-CT-01,M,22.5,-,-,7000,marley_geareducer_manual.pdf,eq_marley_nameplate.jpg
+EQ-DRIVE-ABB-ACS880-01,VFD ACS880,ABB,ACS880-01-038A-5,ABB-2020-9112,2021-06-14,FL-CCM-01,H,30.0,380-480V,-,22000,abb_acs880_manual.pdf,eq_abb_acs880_nameplate.jpg
+EQ-PLC-S7-1500-01,PLC CPU 1511-1PN,Siemens,S7-1500 1511-1PN,SIE-2021-3318,2022-09-01,FL-CCM-01,H,0.05,-,-,15000,siemens_s7_1500_manual.pdf,eq_s7_1511_nameplate.jpg
+EQ-BAGHOUSE-DFO3-12-01,Dust Collector DFO 3-12,Donaldson Torit,DFO 3-12,DON-2017-6619,2018-10-11,FL-REHEAT-01,M,18.5,-,-,9000,donaldson_dfo_manual.pdf,eq_dfo312_nameplate.jpg
+EQ-CONVEY-SEW-R97-01,Conveyor Gearmotor R97,SEW-Eurodrive,R97 DRS280,SEW-2019-5123,2020-02-07,FL-HOTROLL-01,M,22.0,-,-,10000,sew_r_series_manual.pdf,eq_sew_r97_nameplate.jpg
+EQ-MOTOR-SIEM-1LE1-01,Induction Motor 75 kW,Siemens,1LE1,SIE-2018-7777,2019-01-15,FL-HOTROLL-01,M,75.0,400V,-,12000,siemens_1le1_manual.pdf,eq_1le1_nameplate.jpg
+EQ-VALVE-FISHER-119-01,Control Valve 119,Fisher,119,FSH-2016-2211,2017-04-21,FL-REHEAT-01,M,0.0,DN100,150#,14000,fisher_119_manual.pdf,eq_fisher_119_nameplate.jpg
+EQ-INST-EH-PROMAG-01,Mag Flowmeter Promag,Endress+Hauser,Promag 53,E+H-2019-9981,2020-07-09,FL-UTIL-CT-01,L,0.0,DN80,-,3000,eh_promag_manual.pdf,eq_promag_nameplate.jpg
+EQ-GEARBOX-FALK-1100-01,Grid Coupling 1100T10,Falk,Steelflex 1100T10,FAL-2017-1120,2018-06-18,FL-HOTROLL-01,M,0.0,-,-,9000,falk_steelflex_manual.pdf,eq_falk_nameplate.jpg
+EQ-HPU-COOLER-01,Hydraulic Oil Cooler,HYDAC,HEX-45,HYD-2022-7711,2023-02-12,FL-HOTROLL-01,M,2.2,45 kW,-,6000,hydac_hex_manual.pdf,eq_hex_nameplate.jpg
+EQ-OVEN-SAFETY-PLC-01,Safety PLC,Pilz,PSS 4000,PLZ-2018-4412,2019-05-09,FL-REHEAT-01,H,0.08,-,-,20000,pilz_pss4000_manual.pdf,eq_pss4000_nameplate.jpg

@@ -46,6 +46,18 @@ logger = logging.getLogger(__name__)
 
 
 # ============================================================================
+# CUSTOM EXCEPTIONS
+# ============================================================================
+
+class ProcessingSuspendedException(Exception):
+    """Raised when processing is suspended due to API issues"""
+    pass
+
+class APIConnectionError(Exception):
+    """Raised when API connection cannot be established"""
+    pass
+
+# ============================================================================
 # DATA CLASSES
 # ============================================================================
 
@@ -138,6 +150,38 @@ class UniversalCSVProcessor:
         
         logger.info(f"UniversalCSVProcessor initialized in '{mode}' mode")
     
+    def check_api_connection(self) -> bool:
+        """Test API connectivity before processing"""
+        try:
+            # Simple test call
+            response = self.client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[{"role": "user", "content": "test"}],
+                max_tokens=5
+            )
+            return True
+        except Exception as e:
+            logger.error(f"API connection test failed: {e}")
+            return False
+    
+    def wait_for_api_connection(self, max_wait_seconds=300, check_interval=10):
+        """Wait for API to become available"""
+        start_time = time.time()
+        attempt = 1
+        
+        while time.time() - start_time < max_wait_seconds:
+            print(f"Checking API connection (attempt {attempt})...")
+            
+            if self.check_api_connection():
+                print("✅ API connection established!")
+                return True
+            
+            print(f"❌ API unavailable. Retrying in {check_interval} seconds...")
+            time.sleep(check_interval)
+            attempt += 1
+        
+        return False
+    
     def process(self, 
                 input_path: str,
                 output_path: Optional[str] = None,
@@ -155,6 +199,20 @@ class UniversalCSVProcessor:
         Returns:
             Processing results (format depends on mode)
         """
+        # Check API connection first
+        print("Checking API connection...")
+        if not self.check_api_connection():
+            print("⚠️ API unavailable. Attempting to reconnect...")
+            if not self.wait_for_api_connection():
+                raise APIConnectionError(
+                    "Cannot establish API connection. Please check:\n"
+                    "1. Your internet connection\n"
+                    "2. OpenAI API key is valid\n"
+                    "3. OpenAI service status"
+                )
+        
+        print("✅ API connection verified")
+        
         path = Path(input_path)
         
         # Determine processing mode
@@ -206,8 +264,9 @@ class UniversalCSVProcessor:
                 if row_count > 100:
                     self.batch_size = min(20, row_count // 10)
                 return "optimized"
-        except:
-            return "simple"  # Default to simple on error
+        except Exception as e:
+            logger.warning(f"Mode detection failed: {e}, defaulting to simple mode")
+            return "simple"
     
     # ========================================================================
     # SIMPLE MODE PROCESSING
@@ -379,16 +438,24 @@ class UniversalCSVProcessor:
         return results
     
     def _process_batch_with_retry(self, batch: List[Tuple[int, Dict]]) -> List[Dict]:
-        """Process batch with retry logic"""
+        """Process batch with retry logic - fail if cannot process"""
+        import random
         max_retries = 3
+        
         for attempt in range(max_retries):
             try:
                 return self._process_batch(batch)
             except Exception as e:
                 if attempt == max_retries - 1:
-                    logger.error(f"Batch processing failed after {max_retries} attempts: {e}")
-                    return self._process_batch_fallback(batch)
-                time.sleep(2 ** attempt)  # Exponential backoff
+                    # Don't fallback - raise the error
+                    error_msg = f"Batch processing failed after {max_retries} attempts: {e}"
+                    logger.error(error_msg)
+                    raise ProcessingSuspendedException(error_msg)
+                
+                # Exponential backoff with jitter
+                wait_time = (2 ** attempt) + random.uniform(0, 1)
+                logger.warning(f"Attempt {attempt + 1} failed, retrying in {wait_time:.1f}s...")
+                time.sleep(wait_time)
     
     def _process_batch(self, batch: List[Tuple[int, Dict]]) -> List[Dict]:
         """Process a batch of rows in single API call"""
@@ -418,7 +485,10 @@ class UniversalCSVProcessor:
                 semantic = batch_response.get(f"row_{i+1}", {}).get("semantic", "")
                 
                 if not semantic:
-                    semantic = self._fallback_semantic(row_data)
+                    # Don't use fallback - this is a real error
+                    error_msg = f"API returned empty response for row {row_num}"
+                    logger.error(error_msg)
+                    raise ValueError(error_msg)
                 
                 results.append({
                     "row_number": row_num,
@@ -431,26 +501,8 @@ class UniversalCSVProcessor:
             
         except Exception as e:
             logger.error(f"Batch processing failed: {e}")
-            return self._process_batch_fallback(batch)
+            raise  # Propagate error up - don't hide it
     
-    def _process_batch_fallback(self, batch: List[Tuple[int, Dict]]) -> List[Dict]:
-        """Fallback to process each row individually"""
-        results = []
-        for row_num, row_data in batch:
-            try:
-                semantic = self._generate_semantic_simple(row_data)
-            except:
-                semantic = self._fallback_semantic(row_data)
-            
-            results.append({
-                "row_number": row_num,
-                "json_data": row_data,
-                "semantic_statement": semantic,
-                "combined_text": self._create_combined_text(row_data, semantic)
-            })
-        
-        self.stats.api_calls += len(batch)
-        return results
     
     # ========================================================================
     # FOLDER MODE PROCESSING
@@ -679,8 +731,8 @@ Generate the sentence:"""
             self.stats.api_calls += 1
             return response.choices[0].message.content.strip()
         except Exception as e:
-            logger.warning(f"LLM generation failed: {e}")
-            return self._fallback_semantic(json_obj)
+            logger.error(f"LLM API call failed: {e}")
+            raise  # Don't fallback - raise the error for proper handling
     
     def _create_batch_prompt(self, batch: List[Tuple[int, Dict]]) -> str:
         """Create prompt for batch processing"""
@@ -706,15 +758,6 @@ Each description must include ALL fields and values."""
         
         return prompt
     
-    def _fallback_semantic(self, json_obj: Dict) -> str:
-        """Create fallback semantic without LLM"""
-        parts = []
-        for key, value in json_obj.items():
-            if value is not None:
-                readable_key = key.replace('_', ' ').replace('-', ' ')
-                parts.append(f"{readable_key} is {value}")
-        
-        return "Record with " + ", ".join(parts) + "."
     
     def _create_combined_text(self, json_obj: Dict, semantic: str) -> str:
         """Create combined text for vector embedding"""
@@ -775,6 +818,111 @@ Each description must include ALL fields and values."""
         logger.info(f"  Rows/second: {self.stats.rows_per_second:.1f}")
         logger.info(f"  API efficiency: {self.stats.api_efficiency:.1f} rows/call")
         logger.info("="*50)
+    
+    def _save_checkpoint(self, checkpoint_file: str, last_row: int, results: List[Dict]):
+        """Save processing state for resume"""
+        checkpoint = {
+            'last_successful_row': last_row,
+            'timestamp': time.time(),
+            'total_processed': len(results),
+            'results': results
+        }
+        with open(checkpoint_file, 'w') as f:
+            json.dump(checkpoint, f, indent=2)
+        logger.info(f"Checkpoint saved: {last_row} rows processed")
+    
+    def process_with_suspension(self, filepath: str, output_path: Optional[str] = None, 
+                               checkpoint_file: str = 'processing_state.json') -> List[Dict]:
+        """Process with automatic suspension on API failure"""
+        
+        # Load checkpoint if exists
+        start_row = 0
+        processed_results = []
+        
+        if os.path.exists(checkpoint_file):
+            with open(checkpoint_file, 'r') as f:
+                checkpoint = json.load(f)
+                start_row = checkpoint['last_successful_row']
+                processed_results = checkpoint['results']
+                print(f"📂 Resuming from row {start_row + 1}")
+                print(f"   Already processed: {len(processed_results)} rows")
+        
+        # Check API before starting
+        if not self.check_api_connection():
+            print("❌ API is not available. Waiting for connection...")
+            if not self.wait_for_api_connection():
+                raise ConnectionError("API connection could not be established. Process suspended.")
+        
+        try:
+            # Process with checkpointing
+            df = pd.read_csv(filepath)
+            total_rows = len(df)
+            
+            # Skip already processed rows
+            if start_row > 0:
+                df = df.iloc[start_row:]
+            
+            print(f"📊 Processing {len(df)} remaining rows (out of {total_rows} total)")
+            
+            for idx, row in df.iterrows():
+                actual_row_num = idx + 1  # 1-based row numbering
+                
+                try:
+                    # Process single row
+                    json_obj = self._row_to_json(row)
+                    semantic = self._generate_semantic_simple(json_obj)  # Will raise on failure
+                    
+                    result = {
+                        "row_number": actual_row_num,
+                        "json_data": json_obj,
+                        "semantic_statement": semantic,
+                        "combined_text": self._create_combined_text(json_obj, semantic)
+                    }
+                    
+                    processed_results.append(result)
+                    
+                    # Progress update
+                    if actual_row_num % 10 == 0:
+                        print(f"   Progress: {actual_row_num}/{total_rows} rows processed")
+                    
+                    # Save checkpoint every 100 rows
+                    if actual_row_num % 100 == 0:
+                        self._save_checkpoint(checkpoint_file, actual_row_num, processed_results)
+                        
+                except Exception as e:
+                    # Save state and suspend
+                    print(f"\n❌ Processing failed at row {actual_row_num}: {e}")
+                    self._save_checkpoint(checkpoint_file, actual_row_num - 1, processed_results)
+                    
+                    print("\n🔄 Process suspended. State saved.")
+                    print(f"   Checkpoint file: {checkpoint_file}")
+                    print(f"   Successfully processed: {len(processed_results)} rows")
+                    print(f"   To resume, run the same command again.")
+                    
+                    raise ProcessingSuspendedException(
+                        f"Processing suspended at row {actual_row_num}. "
+                        f"Checkpoint saved to {checkpoint_file}"
+                    )
+            
+            # Success - save results
+            if output_path:
+                self._save_results(processed_results, output_path)
+            
+            # Clean up checkpoint
+            if os.path.exists(checkpoint_file):
+                os.remove(checkpoint_file)
+                print(f"✅ Checkpoint file removed (processing complete)")
+                
+            print(f"\n✅ Processing completed successfully! Total rows: {len(processed_results)}")
+            return processed_results
+            
+        except Exception as e:
+            if not isinstance(e, ProcessingSuspendedException):
+                logger.error(f"Unexpected error: {e}")
+                # Save checkpoint even for unexpected errors
+                if processed_results:
+                    self._save_checkpoint(checkpoint_file, len(processed_results), processed_results)
+            raise
     
     def suggest_best_mode(self, csv_path: str) -> str:
         """
@@ -862,12 +1010,23 @@ def analyze_csv(csv_path: str) -> str:
 
 if __name__ == "__main__":
     import argparse
+    from datetime import datetime
+    
+    # Default paths
+    DEFAULT_INPUT_DIR = "INPUT_CSV"
+    DEFAULT_OUTPUT_DIR = f"OUTPUT_PROCESSED_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
     
     parser = argparse.ArgumentParser(
-        description="Universal CSV Processor - Process CSV files with automatic optimization"
+        description="Universal CSV Processor - Process CSV files with automatic optimization",
+        epilog=f"Default: Processes all CSVs in '{DEFAULT_INPUT_DIR}/' folder if no input specified"
     )
-    parser.add_argument("input", help="CSV file or directory to process")
-    parser.add_argument("-o", "--output", help="Output file/directory path")
+    parser.add_argument(
+        "input", 
+        nargs='?',  # Makes input optional
+        default=DEFAULT_INPUT_DIR,
+        help=f"CSV file or directory to process (default: {DEFAULT_INPUT_DIR})"
+    )
+    parser.add_argument("-o", "--output", help="Output file/directory path (auto-generated if not specified)")
     parser.add_argument(
         "-m", "--mode", 
         choices=["auto", "simple", "optimized", "folder"],
@@ -918,10 +1077,19 @@ if __name__ == "__main__":
         path = Path(args.input)
         
         if path.is_dir():
+            # Auto-generate output directory if not specified
+            output_path = args.output or DEFAULT_OUTPUT_DIR
+            
+            print(f"\n{'='*60}")
+            print(f"📁 Input folder: {args.input}")
+            print(f"📂 Output folder: {output_path}")
+            print(f"⚙️  Mode: {args.mode}")
+            print(f"{'='*60}\n")
+            
             # Folder processing
             results = processor.process(
                 args.input,
-                output_path=args.output,
+                output_path=output_path,
                 output_mode=args.output_mode
             )
             
