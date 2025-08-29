@@ -1,0 +1,215 @@
+[
+  {
+    "equipment": "Centrifugal Pump CRN 10-6",
+    "equipment_id": "EQ-PUMP-CRN10-6-01",
+    "materials": [
+      {
+        "material": "Primary seal",
+        "material_id": "MAT-SEAL-35MM-2100",
+        "vendors": [
+          {
+            "vendor_id": "V-DBX-01",
+            "vendor_name": "Dubai Bearings & Seals LLC"
+          }
+        ]
+      },
+      {
+        "material": "Shaft sleeve",
+        "material_id": "MAT-SLEEVE-CRN10",
+        "vendors": [
+          {
+            "vendor_id": "V-ADB-02",
+            "vendor_name": "Abu Dhabi Sealing Co."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "equipment": "Process Pump ETA 65-160",
+    "equipment_id": "EQ-PUMP-KSB-65-160-01",
+    "materials": [
+      {
+        "material": "Impeller",
+        "material_id": "MAT-IMPELLER-KSB-65-160",
+        "vendors": [
+          {
+            "vendor_id": "V-ADB-02",
+            "vendor_name": "Abu Dhabi Sealing Co."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "equipment": "Air Compressor GA45 VSD",
+    "equipment_id": "EQ-COMP-ATC-GA45-01",
+    "materials": []
+  },
+  {
+    "equipment": "Main Drive Gearbox H3SH",
+    "equipment_id": "EQ-GEAR-FLENDER-H3SH-01",
+    "materials": [
+      {
+        "material": "Main bearing",
+        "material_id": "MAT-BRG-22224-CCW33",
+        "vendors": [
+          {
+            "vendor_id": "V-ALT-04",
+            "vendor_name": "Gulf Industrial Supplies F.Z.E."
+          },
+          {
+            "vendor_id": "V-GULF-01",
+            "vendor_name": "Gulf Industrial Supplies FZE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "equipment": "Baghouse ID Fan BHF-30",
+    "equipment_id": "EQ-IDFAN-BHF-30-01",
+    "materials": []
+  },
+  {
+    "equipment": "Furnace Burner WG40",
+    "equipment_id": "EQ-BURN-WEIS-WG40-01",
+    "materials": []
+  },
+  {
+    "equipment": "Hoist DH 20t",
+    "equipment_id": "EQ-CRANE-DEMAG-DH20-01",
+    "materials": [
+      {
+        "material": "Legacy drive belt",
+        "material_id": "MAT-VBELT-SPB-2240",
+        "vendors": [
+          {
+            "vendor_id": "V-ARAB-03",
+            "vendor_name": "Arabian Pumps & Valves Trading LLC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "equipment": "Hydraulic Power Unit 45 kW",
+    "equipment_id": "EQ-HPU-REX-45-01",
+    "materials": [
+      {
+        "material": "Return filter",
+        "material_id": "MAT-FILTER-HYDAC-0330D010",
+        "vendors": [
+          {
+            "vendor_id": "V-GULF-01",
+            "vendor_name": "Gulf Industrial Supplies FZE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "equipment": "Mold Oscillator MOX-120",
+    "equipment_id": "EQ-CAST-MOLD-MOX120-01",
+    "materials": []
+  },
+  {
+    "equipment": "Cooling Tower Geareducer",
+    "equipment_id": "EQ-CT-FAN-MARLEY-01",
+    "materials": []
+  },
+  {
+    "equipment": "VFD ACS880",
+    "equipment_id": "EQ-DRIVE-ABB-ACS880-01",
+    "materials": [
+      {
+        "material": "Cooling filter",
+        "material_id": "MAT-FANFILTER-325",
+        "vendors": [
+          {
+            "vendor_id": "V-ARAB-03",
+            "vendor_name": "Arabian Pumps & Valves Trading LLC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "equipment": "PLC CPU 1511-1PN",
+    "equipment_id": "EQ-PLC-S7-1500-01",
+    "materials": []
+  },
+  {
+    "equipment": "Dust Collector DFO 3-12",
+    "equipment_id": "EQ-BAGHOUSE-DFO3-12-01",
+    "materials": []
+  },
+  {
+    "equipment": "Conveyor Gearmotor R97",
+    "equipment_id": "EQ-CONVEY-SEW-R97-01",
+    "materials": []
+  },
+  {
+    "equipment": "Induction Motor 75 kW",
+    "equipment_id": "EQ-MOTOR-SIEM-1LE1-01",
+    "materials": []
+  },
+  {
+    "equipment": "Control Valve 119",
+    "equipment_id": "EQ-VALVE-FISHER-119-01",
+    "materials": [
+      {
+        "material": "Positioner upgrade",
+        "material_id": "MAT-POS-FISHER-DVC6200",
+        "vendors": [
+          {
+            "vendor_id": "V-GULF-01",
+            "vendor_name": "Gulf Industrial Supplies FZE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "equipment": "Mag Flowmeter Promag",
+    "equipment_id": "EQ-INST-EH-PROMAG-01",
+    "materials": [
+      {
+        "material": "Used as temp probe",
+        "material_id": "MAT-THERMO-TYPEK-1200",
+        "vendors": [
+          {
+            "vendor_id": "V-ARAB-03",
+            "vendor_name": "Arabian Pumps & Valves Trading LLC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "equipment": "Grid Coupling 1100T10",
+    "equipment_id": "EQ-GEARBOX-FALK-1100-01",
+    "materials": [
+      {
+        "material": "Spider insert",
+        "material_id": "MAT-COUP-SPIDER-1100T10",
+        "vendors": [
+          {
+            "vendor_id": "V-DBX-01",
+            "vendor_name": "Dubai Bearings & Seals LLC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "equipment": "Hydraulic Oil Cooler",
+    "equipment_id": "EQ-HPU-COOLER-01",
+    "materials": []
+  },
+  {
+    "equipment": "Safety PLC",
+    "equipment_id": "EQ-OVEN-SAFETY-PLC-01",
+    "materials": []
+  }
+]

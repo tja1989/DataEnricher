@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "total_records": 10,
+    "failed_records": 0,
+    "success_rate": 100.0,
+    "timestamp": "2025-08-29T10:10:27.300779",
+    "batch_size": 20,
+    "api_calls": 4,
+    "total_retries": 0
+  },
+  "records": [
+    {
+      "row_number": 1,
+      "json_data": {
+        "File_Name": "grundfos_crn_series_manual.pdf",
+        "Related_Equipment_ID": "EQ-PUMP-CRN10-6-01",
+        "Related_Material_ID": "MAT-SEAL-35MM-2100",
+        "Pages_Of_Interest": "45-47"
+      },
+      "semantic_statement": "The file named 'grundfos_crn_series_manual.pdf' is related to the equipment identified as 'EQ-PUMP-CRN10-6-01' and includes information about the material 'MAT-SEAL-35MM-2100'. You can find relevant details on pages 45 to 47.",
+      "combined_text": "The file named 'grundfos_crn_series_manual.pdf' is related to the equipment identified as 'EQ-PUMP-CRN10-6-01' and includes information about the material 'MAT-SEAL-35MM-2100'. You can find relevant details on pages 45 to 47. | File_Name: grundfos_crn_series_manual.pdf | Related_Equipment_ID: EQ-PUMP-CRN10-6-01 | Related_Material_ID: MAT-SEAL-35MM-2100 | Pages_Of_Interest: 45-47"
+    },
+    {
+      "row_number": 2,
+      "json_data": {
+        "File_Name": "ksb_eta_series_manual.pdf",
+        "Related_Equipment_ID": "EQ-PUMP-KSB-65-160-01",
+        "Related_Material_ID": "MAT-IMPELLER-KSB-65-160",
+        "Pages_Of_Interest": "12-15"
+      },
+      "semantic_statement": "The document 'ksb_eta_series_manual.pdf' pertains to the equipment with the ID 'EQ-PUMP-KSB-65-160-01' and discusses the material 'MAT-IMPELLER-KSB-65-160'. Important information can be found on pages 12 to 15.",
+      "combined_text": "The document 'ksb_eta_series_manual.pdf' pertains to the equipment with the ID 'EQ-PUMP-KSB-65-160-01' and discusses the material 'MAT-IMPELLER-KSB-65-160'. Important information can be found on pages 12 to 15. | File_Name: ksb_eta_series_manual.pdf | Related_Equipment_ID: EQ-PUMP-KSB-65-160-01 | Related_Material_ID: MAT-IMPELLER-KSB-65-160 | Pages_Of_Interest: 12-15"
+    },
+    {
+      "row_number": 3,
+      "json_data": {
+        "File_Name": "flender_h_series_manual.pdf",
+        "Related_Equipment_ID": "EQ-GEAR-FLENDER-H3SH-01",
+        "Related_Material_ID": "MAT-BRG-22224-CCW33",
+        "Pages_Of_Interest": "88-92"
+      },
+      "semantic_statement": "In the 'flender_h_series_manual.pdf', you will find information related to the equipment 'EQ-GEAR-FLENDER-H3SH-01' and the material 'MAT-BRG-22224-CCW33'. Pages 88 to 92 contain the sections of interest.",
+      "combined_text": "In the 'flender_h_series_manual.pdf', you will find information related to the equipment 'EQ-GEAR-FLENDER-H3SH-01' and the material 'MAT-BRG-22224-CCW33'. Pages 88 to 92 contain the sections of interest. | File_Name: flender_h_series_manual.pdf | Related_Equipment_ID: EQ-GEAR-FLENDER-H3SH-01 | Related_Material_ID: MAT-BRG-22224-CCW33 | Pages_Of_Interest: 88-92"
+    },
+    {
+      "row_number": 4,
+      "json_data": {
+        "File_Name": "rexroth_hpu_manual.pdf",
+        "Related_Equipment_ID": "EQ-HPU-REX-45-01",
+        "Related_Material_ID": "MAT-FILTER-HYDAC-0330D010",
+        "Pages_Of_Interest": "33-35"
+      },
+      "semantic_statement": "The 'rexroth_hpu_manual.pdf' is associated with the equipment 'EQ-HPU-REX-45-01' and discusses the material 'MAT-FILTER-HYDAC-0330D010'. Relevant content is located on pages 33 to 35.",
+      "combined_text": "The 'rexroth_hpu_manual.pdf' is associated with the equipment 'EQ-HPU-REX-45-01' and discusses the material 'MAT-FILTER-HYDAC-0330D010'. Relevant content is located on pages 33 to 35. | File_Name: rexroth_hpu_manual.pdf | Related_Equipment_ID: EQ-HPU-REX-45-01 | Related_Material_ID: MAT-FILTER-HYDAC-0330D010 | Pages_Of_Interest: 33-35"
+    },
+    {
+      "row_number": 5,
+      "json_data": {
+        "File_Name": "abb_acs880_manual.pdf",
+        "Related_Equipment_ID": "EQ-DRIVE-ABB-ACS880-01",
+        "Related_Material_ID": "MAT-FANFILTER-325",
+        "Pages_Of_Interest": "10-11"
+      },
+      "semantic_statement": "The manual titled 'abb_acs880_manual.pdf' relates to the equipment 'EQ-DRIVE-ABB-ACS880-01' and includes information about the material 'MAT-FANFILTER-325'. You can refer to pages 10 to 11 for details.",
+      "combined_text": "The manual titled 'abb_acs880_manual.pdf' relates to the equipment 'EQ-DRIVE-ABB-ACS880-01' and includes information about the material 'MAT-FANFILTER-325'. You can refer to pages 10 to 11 for details. | File_Name: abb_acs880_manual.pdf | Related_Equipment_ID: EQ-DRIVE-ABB-ACS880-01 | Related_Material_ID: MAT-FANFILTER-325 | Pages_Of_Interest: 10-11"
+    },
+    {
+      "row_number": 6,
+      "json_data": {
+        "File_Name": "fisher_119_manual.pdf",
+        "Related_Equipment_ID": "EQ-VALVE-FISHER-119-01",
+        "Related_Material_ID": "MAT-POS-FISHER-DVC6200",
+        "Pages_Of_Interest": "60-61"
+      },
+      "semantic_statement": "In the 'fisher_119_manual.pdf', you will find information about the equipment 'EQ-VALVE-FISHER-119-01' and the material 'MAT-POS-FISHER-DVC6200'. Pages 60 to 61 are of particular interest.",
+      "combined_text": "In the 'fisher_119_manual.pdf', you will find information about the equipment 'EQ-VALVE-FISHER-119-01' and the material 'MAT-POS-FISHER-DVC6200'. Pages 60 to 61 are of particular interest. | File_Name: fisher_119_manual.pdf | Related_Equipment_ID: EQ-VALVE-FISHER-119-01 | Related_Material_ID: MAT-POS-FISHER-DVC6200 | Pages_Of_Interest: 60-61"
+    },
+    {
+      "row_number": 7,
+      "json_data": {
+        "File_Name": "marley_geareducer_manual.pdf",
+        "Related_Equipment_ID": "EQ-CT-FAN-MARLEY-01",
+        "Related_Material_ID": "MAT-OIL-MOBIL-SHC632-20L",
+        "Pages_Of_Interest": "5-6"
+      },
+      "semantic_statement": "The document 'marley_geareducer_manual.pdf' is related to the equipment 'EQ-CT-FAN-MARLEY-01' and discusses the material 'MAT-OIL-MOBIL-SHC632-20L'. Important information can be found on pages 5 to 6.",
+      "combined_text": "The document 'marley_geareducer_manual.pdf' is related to the equipment 'EQ-CT-FAN-MARLEY-01' and discusses the material 'MAT-OIL-MOBIL-SHC632-20L'. Important information can be found on pages 5 to 6. | File_Name: marley_geareducer_manual.pdf | Related_Equipment_ID: EQ-CT-FAN-MARLEY-01 | Related_Material_ID: MAT-OIL-MOBIL-SHC632-20L | Pages_Of_Interest: 5-6"
+    },
+    {
+      "row_number": 8,
+      "json_data": {
+        "File_Name": "donaldson_dfo_manual.pdf",
+        "Related_Equipment_ID": "EQ-BAGHOUSE-DFO3-12-01",
+        "Related_Material_ID": "MAT-GASKET-4IN-150-SS316G",
+        "Pages_Of_Interest": "21-22"
+      },
+      "semantic_statement": "The 'donaldson_dfo_manual.pdf' pertains to the equipment identified as 'EQ-BAGHOUSE-DFO3-12-01' and includes details about the material 'MAT-GASKET-4IN-150-SS316G'. Relevant sections are located on pages 21 to 22.",
+      "combined_text": "The 'donaldson_dfo_manual.pdf' pertains to the equipment identified as 'EQ-BAGHOUSE-DFO3-12-01' and includes details about the material 'MAT-GASKET-4IN-150-SS316G'. Relevant sections are located on pages 21 to 22. | File_Name: donaldson_dfo_manual.pdf | Related_Equipment_ID: EQ-BAGHOUSE-DFO3-12-01 | Related_Material_ID: MAT-GASKET-4IN-150-SS316G | Pages_Of_Interest: 21-22"
+    },
+    {
+      "row_number": 9,
+      "json_data": {
+        "File_Name": "sew_r_series_manual.pdf",
+        "Related_Equipment_ID": "EQ-CONVEY-SEW-R97-01",
+        "Related_Material_ID": "MAT-STARTER-ABB-AF116",
+        "Pages_Of_Interest": "14"
+      },
+      "semantic_statement": "In the 'sew_r_series_manual.pdf', you will find information related to the equipment 'EQ-CONVEY-SEW-R97-01' and the material 'MAT-STARTER-ABB-AF116'. Page 14 contains the relevant details.",
+      "combined_text": "In the 'sew_r_series_manual.pdf', you will find information related to the equipment 'EQ-CONVEY-SEW-R97-01' and the material 'MAT-STARTER-ABB-AF116'. Page 14 contains the relevant details. | File_Name: sew_r_series_manual.pdf | Related_Equipment_ID: EQ-CONVEY-SEW-R97-01 | Related_Material_ID: MAT-STARTER-ABB-AF116 | Pages_Of_Interest: 14"
+    },
+    {
+      "row_number": 10,
+      "json_data": {
+        "File_Name": "primetals_mox120_manual.pdf",
+        "Related_Equipment_ID": "EQ-CAST-MOLD-MOX120-01",
+        "Related_Material_ID": null,
+        "Pages_Of_Interest": "101-104"
+      },
+      "semantic_statement": "The manual 'primetals_mox120_manual.pdf' is associated with the equipment 'EQ-CAST-MOLD-MOX120-01'. There is no related material ID, but pages 101 to 104 contain important information.",
+      "combined_text": "The manual 'primetals_mox120_manual.pdf' is associated with the equipment 'EQ-CAST-MOLD-MOX120-01'. There is no related material ID, but pages 101 to 104 contain important information. | File_Name: primetals_mox120_manual.pdf | Related_Equipment_ID: EQ-CAST-MOLD-MOX120-01 | Pages_Of_Interest: 101-104"
+    }
+  ],
+  "failed_rows": []
+}

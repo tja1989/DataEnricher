@@ -1,0 +1,21 @@
+WO_ID,Equipment_ID,Request_Text,Start_Date,Finish_Date,Downtime_Hours,Materials_Consumed,Technician_Notes
+WO-2025-000101,EQ-PUMP-CRN10-6-01,Seal leakage; replace mech seal,2025-05-03,2025-05-03,4.0,MAT-SEAL-35MM-2100:1,Old seal worn; Viton required due to hot water
+WO-2025-000102,EQ-PUMP-KSB-65-160-01,Low flow; impeller damage suspected,2025-05-07,2025-05-08,6.0,MAT-IMPELLER-KSB-65-160:1,Replaced impeller; restored performance
+WO-2025-000103,EQ-GEAR-FLENDER-H3SH-01,Vibration high; inspect bearings,2025-06-01,2025-06-01,3.0,MAT-BRG-22224-CCW33:2,Installed SKF 22224 CC/W33; clearance C3
+WO-2025-000104,EQ-HPU-REX-45-01,Filter clogged; pressure drop,2025-06-12,2025-06-12,2.0,"MAT-FILTER-HYDAC-0330D010:2,MAT-OIL-MOBIL-SHC632-20L:1",Changed return filter; topped up Mobil SHC 632
+WO-2025-000105,EQ-CRANE-DEMAG-DH20-01,Belt wear on hoist drive,2025-04-20,2025-04-20,1.0,MAT-VBELT-SPB-2240:2,Temporary fix; consider chain drive
+WO-2025-000106,EQ-CT-FAN-MARLEY-01,Fan gearbox noise,2025-05-15,2025-05-15,2.0,MAT-OIL-MOBIL-SHC632-20L:1,Oil change reduced noise
+WO-2025-000107,EQ-DRIVE-ABB-ACS880-01,Overtemp alarm; check cooling,2025-07-01,2025-07-01,1.0,MAT-FANFILTER-325:1,Replaced fan filter
+WO-2025-000108,EQ-VALVE-FISHER-119-01,Valve hunting; positioner fault,2025-03-11,2025-03-12,3.0,MAT-POS-FISHER-DVC6200:1,Upgraded to DVC6200; loop tuned
+WO-2025-000109,EQ-PUMP-CRN10-6-01,Shaft sleeve scored,2025-02-14,2025-02-14,2.0,MAT-SLEEVE-CRN10:1,Sleeve replaced; align shaft
+WO-2025-000110,EQ-INST-EH-PROMAG-01,Temp probe replacement during calibration,2025-06-20,2025-06-20,0.5,MAT-THERMO-TYPEK-1200:1,Temporary probe used
+WO-2025-000111,EQ-PLC-S7-1500-01,Panel maintenance; replace clogged filter,2025-01-21,2025-01-21,0.5,MAT-FANFILTER-325:1,Preventive change
+WO-2025-000112,EQ-HPU-COOLER-01,Hose leak at pump outlet,2025-07-09,2025-07-09,1.5,"MAT-HOSE-2SN-1/2-330:3,MAT-ORING-FKM-35X3:2",Cut and crimped 3 m hose; replaced O-rings
+WO-2025-000113,EQ-GEARBOX-FALK-1100-01,Coupling insert worn,2025-05-27,2025-05-27,1.0,MAT-COUP-SPIDER-1100T10:1,Grid inspected OK
+WO-2025-000114,EQ-PUMP-KSB-65-160-01,Seal leaking (cartridge),2025-07-19,2025-07-19,3.0,MAT-SEAL-45MM-MFL85N:1,EagleBurgmann 45 mm cartridge installed
+WO-2025-000115,EQ-IDFAN-BHF-30-01,"Gasket failure on 4"" flange",2025-05-11,2025-05-11,2.0,MAT-GASKET-4IN-150-SS316G:2,Replaced both sides; torque per B16.5
+WO-2025-000116,EQ-CONVEY-SEW-R97-01,Motor starter failed (stuck contact),2025-03-30,2025-03-30,1.0,MAT-STARTER-ABB-AF116:1,Replaced AF116-30; coil 110V
+WO-2025-000117,EQ-COMP-ATC-GA45-01,Solenoid valve coil burnt,2025-04-09,2025-04-09,0.5,MAT-SOL-ASC0-551:1,ASCO 551 24VDC replaced
+WO-2025-000118,EQ-GEAR-FLENDER-H3SH-01,Unexpected bearing failure (emergency),2025-07-25,2025-07-25,6.0,"MAT-BRG-22224-CCW33:2,MAT-OIL-MOBIL-SHC632-20L:1",Used FAG equivalent once; topped oil
+WO-2025-000119,EQ-OVEN-SAFETY-PLC-01,Spurious trips; check IO and air filters,2025-06-04,2025-06-04,1.0,MAT-FANFILTER-325:1,Filter restricted airflow
+WO-2025-000120,EQ-CT-FAN-MARLEY-01,Thermocouple sheath cracked,2025-07-30,2025-07-30,1.0,MAT-THERMO-TYPEK-1200:1,Replaced with 1200mm Type K

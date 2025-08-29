@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "total_records": 10,
+    "failed_records": 0,
+    "success_rate": 100.0,
+    "timestamp": "2025-08-29T10:10:21.466140",
+    "batch_size": 20,
+    "api_calls": 2,
+    "total_retries": 0
+  },
+  "records": [
+    {
+      "row_number": 1,
+      "json_data": {
+        "Equipment_ID": "EQ-PUMP-CRN10-6-01",
+        "Material_ID": "MAT-SEAL-35MM-2100",
+        "Qty": 1,
+        "Is_Alternate": "N",
+        "Valid_From": "2022-03-15",
+        "Source": "OEM Manual",
+        "Notes": "Primary seal"
+      },
+      "semantic_statement": "For the equipment identified as EQ-PUMP-CRN10-6-01, there is one primary seal with the material ID MAT-SEAL-35MM-2100. This part is not an alternate and has been valid since March 15, 2022, as per the OEM manual.",
+      "combined_text": "For the equipment identified as EQ-PUMP-CRN10-6-01, there is one primary seal with the material ID MAT-SEAL-35MM-2100. This part is not an alternate and has been valid since March 15, 2022, as per the OEM manual. | Equipment_ID: EQ-PUMP-CRN10-6-01 | Material_ID: MAT-SEAL-35MM-2100 | Qty: 1 | Is_Alternate: N | Valid_From: 2022-03-15 | Source: OEM Manual | Notes: Primary seal"
+    },
+    {
+      "row_number": 2,
+      "json_data": {
+        "Equipment_ID": "EQ-PUMP-CRN10-6-01",
+        "Material_ID": "MAT-SLEEVE-CRN10",
+        "Qty": 1,
+        "Is_Alternate": "N",
+        "Valid_From": "2022-03-15",
+        "Source": "OEM Manual",
+        "Notes": "Shaft sleeve"
+      },
+      "semantic_statement": "For the equipment EQ-PUMP-CRN10-6-01, there is one shaft sleeve identified by the material ID MAT-SLEEVE-CRN10. This part is not an alternate and has been valid since March 15, 2022, according to the OEM manual.",
+      "combined_text": "For the equipment EQ-PUMP-CRN10-6-01, there is one shaft sleeve identified by the material ID MAT-SLEEVE-CRN10. This part is not an alternate and has been valid since March 15, 2022, according to the OEM manual. | Equipment_ID: EQ-PUMP-CRN10-6-01 | Material_ID: MAT-SLEEVE-CRN10 | Qty: 1 | Is_Alternate: N | Valid_From: 2022-03-15 | Source: OEM Manual | Notes: Shaft sleeve"
+    },
+    {
+      "row_number": 3,
+      "json_data": {
+        "Equipment_ID": "EQ-PUMP-KSB-65-160-01",
+        "Material_ID": "MAT-IMPELLER-KSB-65-160",
+        "Qty": 1,
+        "Is_Alternate": "N",
+        "Valid_From": "2020-09-10",
+        "Source": "OEM Manual",
+        "Notes": "Impeller"
+      },
+      "semantic_statement": "The equipment EQ-PUMP-KSB-65-160-01 requires one impeller with the material ID MAT-IMPELLER-KSB-65-160. This part is not an alternate and has been valid since September 10, 2020, as stated in the OEM manual.",
+      "combined_text": "The equipment EQ-PUMP-KSB-65-160-01 requires one impeller with the material ID MAT-IMPELLER-KSB-65-160. This part is not an alternate and has been valid since September 10, 2020, as stated in the OEM manual. | Equipment_ID: EQ-PUMP-KSB-65-160-01 | Material_ID: MAT-IMPELLER-KSB-65-160 | Qty: 1 | Is_Alternate: N | Valid_From: 2020-09-10 | Source: OEM Manual | Notes: Impeller"
+    },
+    {
+      "row_number": 4,
+      "json_data": {
+        "Equipment_ID": "EQ-HPU-REX-45-01",
+        "Material_ID": "MAT-FILTER-HYDAC-0330D010",
+        "Qty": 2,
+        "Is_Alternate": "N",
+        "Valid_From": "2022-01-08",
+        "Source": "Engineering",
+        "Notes": "Return filter"
+      },
+      "semantic_statement": "For the equipment EQ-HPU-REX-45-01, there are two return filters identified by the material ID MAT-FILTER-HYDAC-0330D010. This part is not an alternate and has been valid since January 8, 2022, based on engineering documentation.",
+      "combined_text": "For the equipment EQ-HPU-REX-45-01, there are two return filters identified by the material ID MAT-FILTER-HYDAC-0330D010. This part is not an alternate and has been valid since January 8, 2022, based on engineering documentation. | Equipment_ID: EQ-HPU-REX-45-01 | Material_ID: MAT-FILTER-HYDAC-0330D010 | Qty: 2 | Is_Alternate: N | Valid_From: 2022-01-08 | Source: Engineering | Notes: Return filter"
+    },
+    {
+      "row_number": 5,
+      "json_data": {
+        "Equipment_ID": "EQ-GEAR-FLENDER-H3SH-01",
+        "Material_ID": "MAT-BRG-22224-CCW33",
+        "Qty": 2,
+        "Is_Alternate": "N",
+        "Valid_From": "2019-04-02",
+        "Source": "Engineering",
+        "Notes": "Main bearing"
+      },
+      "semantic_statement": "The equipment EQ-GEAR-FLENDER-H3SH-01 requires two main bearings with the material ID MAT-BRG-22224-CCW33. This part is not an alternate and has been valid since April 2, 2019, according to engineering records.",
+      "combined_text": "The equipment EQ-GEAR-FLENDER-H3SH-01 requires two main bearings with the material ID MAT-BRG-22224-CCW33. This part is not an alternate and has been valid since April 2, 2019, according to engineering records. | Equipment_ID: EQ-GEAR-FLENDER-H3SH-01 | Material_ID: MAT-BRG-22224-CCW33 | Qty: 2 | Is_Alternate: N | Valid_From: 2019-04-02 | Source: Engineering | Notes: Main bearing"
+    },
+    {
+      "row_number": 6,
+      "json_data": {
+        "Equipment_ID": "EQ-CRANE-DEMAG-DH20-01",
+        "Material_ID": "MAT-VBELT-SPB-2240",
+        "Qty": 2,
+        "Is_Alternate": "Y",
+        "Valid_From": "2016-03-30",
+        "Source": "WO History",
+        "Notes": "Legacy drive belt"
+      },
+      "semantic_statement": "For the equipment EQ-CRANE-DEMAG-DH20-01, there are two legacy drive belts identified by the material ID MAT-VBELT-SPB-2240. This part is an alternate and has been valid since March 30, 2016, as per work order history.",
+      "combined_text": "For the equipment EQ-CRANE-DEMAG-DH20-01, there are two legacy drive belts identified by the material ID MAT-VBELT-SPB-2240. This part is an alternate and has been valid since March 30, 2016, as per work order history. | Equipment_ID: EQ-CRANE-DEMAG-DH20-01 | Material_ID: MAT-VBELT-SPB-2240 | Qty: 2 | Is_Alternate: Y | Valid_From: 2016-03-30 | Source: WO History | Notes: Legacy drive belt"
+    },
+    {
+      "row_number": 7,
+      "json_data": {
+        "Equipment_ID": "EQ-VALVE-FISHER-119-01",
+        "Material_ID": "MAT-POS-FISHER-DVC6200",
+        "Qty": 1,
+        "Is_Alternate": "N",
+        "Valid_From": "2017-04-21",
+        "Source": "Engineering",
+        "Notes": "Positioner upgrade"
+      },
+      "semantic_statement": "The equipment EQ-VALVE-FISHER-119-01 has one positioner upgrade with the material ID MAT-POS-FISHER-DVC6200. This part is not an alternate and has been valid since April 21, 2017, based on engineering documentation.",
+      "combined_text": "The equipment EQ-VALVE-FISHER-119-01 has one positioner upgrade with the material ID MAT-POS-FISHER-DVC6200. This part is not an alternate and has been valid since April 21, 2017, based on engineering documentation. | Equipment_ID: EQ-VALVE-FISHER-119-01 | Material_ID: MAT-POS-FISHER-DVC6200 | Qty: 1 | Is_Alternate: N | Valid_From: 2017-04-21 | Source: Engineering | Notes: Positioner upgrade"
+    },
+    {
+      "row_number": 8,
+      "json_data": {
+        "Equipment_ID": "EQ-DRIVE-ABB-ACS880-01",
+        "Material_ID": "MAT-FANFILTER-325",
+        "Qty": 2,
+        "Is_Alternate": "N",
+        "Valid_From": "2021-06-14",
+        "Source": "OEM Manual",
+        "Notes": "Cooling filter"
+      },
+      "semantic_statement": "For the equipment EQ-DRIVE-ABB-ACS880-01, there are two cooling filters identified by the material ID MAT-FANFILTER-325. This part is not an alternate and has been valid since June 14, 2021, according to the OEM manual.",
+      "combined_text": "For the equipment EQ-DRIVE-ABB-ACS880-01, there are two cooling filters identified by the material ID MAT-FANFILTER-325. This part is not an alternate and has been valid since June 14, 2021, according to the OEM manual. | Equipment_ID: EQ-DRIVE-ABB-ACS880-01 | Material_ID: MAT-FANFILTER-325 | Qty: 2 | Is_Alternate: N | Valid_From: 2021-06-14 | Source: OEM Manual | Notes: Cooling filter"
+    },
+    {
+      "row_number": 9,
+      "json_data": {
+        "Equipment_ID": "EQ-INST-EH-PROMAG-01",
+        "Material_ID": "MAT-THERMO-TYPEK-1200",
+        "Qty": 1,
+        "Is_Alternate": "Y",
+        "Valid_From": "2020-07-09",
+        "Source": "WO History",
+        "Notes": "Used as temp probe"
+      },
+      "semantic_statement": "The equipment EQ-INST-EH-PROMAG-01 requires one temperature probe, identified by the material ID MAT-THERMO-TYPEK-1200. This part is an alternate and has been valid since July 9, 2020, as per work order history.",
+      "combined_text": "The equipment EQ-INST-EH-PROMAG-01 requires one temperature probe, identified by the material ID MAT-THERMO-TYPEK-1200. This part is an alternate and has been valid since July 9, 2020, as per work order history. | Equipment_ID: EQ-INST-EH-PROMAG-01 | Material_ID: MAT-THERMO-TYPEK-1200 | Qty: 1 | Is_Alternate: Y | Valid_From: 2020-07-09 | Source: WO History | Notes: Used as temp probe"
+    },
+    {
+      "row_number": 10,
+      "json_data": {
+        "Equipment_ID": "EQ-GEARBOX-FALK-1100-01",
+        "Material_ID": "MAT-COUP-SPIDER-1100T10",
+        "Qty": 1,
+        "Is_Alternate": "N",
+        "Valid_From": "2018-06-18",
+        "Source": "OEM Manual",
+        "Notes": "Spider insert"
+      },
+      "semantic_statement": "For the equipment EQ-GEARBOX-FALK-1100-01, there is one spider insert identified by the material ID MAT-COUP-SPIDER-1100T10. This part is not an alternate and has been valid since June 18, 2018, according to the OEM manual.",
+      "combined_text": "For the equipment EQ-GEARBOX-FALK-1100-01, there is one spider insert identified by the material ID MAT-COUP-SPIDER-1100T10. This part is not an alternate and has been valid since June 18, 2018, according to the OEM manual. | Equipment_ID: EQ-GEARBOX-FALK-1100-01 | Material_ID: MAT-COUP-SPIDER-1100T10 | Qty: 1 | Is_Alternate: N | Valid_From: 2018-06-18 | Source: OEM Manual | Notes: Spider insert"
+    }
+  ],
+  "failed_rows": []
+}

@@ -1,0 +1,998 @@
+{
+  "metadata": {
+    "0": {
+      "id": "row_1",
+      "type": "Vendors",
+      "source_file": "Vendors_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 1,
+      "criticality": "N/A",
+      "json_data": {
+        "Vendor_ID": "V-DBX-01",
+        "Vendor_Name": "Dubai Bearings & Seals LLC",
+        "Aliases": "DBX Bearings; Dubai Bearings",
+        "Contact_Name": "Ahmed Khan",
+        "Contact_Email": "sales@dbxbearings.ae",
+        "Contact_Phone": "+971-4-555-1234",
+        "Approval_Status": "Approved",
+        "OEM_Authorized": "Y",
+        "Typical_Lead_Time_Days": "5",
+        "Currency": "AED",
+        "Incoterms": "EXW",
+        "Region": "UAE"
+      }
+    },
+    "1": {
+      "id": "row_2",
+      "type": "Vendors",
+      "source_file": "Vendors_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 2,
+      "criticality": "N/A",
+      "json_data": {
+        "Vendor_ID": "V-ADB-02",
+        "Vendor_Name": "Abu Dhabi Sealing Co.",
+        "Aliases": "AD Sealing; AbuDhabi Sealing",
+        "Contact_Name": "Fatima Al Nuaimi",
+        "Contact_Email": "orders@adsealing.ae",
+        "Contact_Phone": "+971-2-555-9876",
+        "Approval_Status": "Qualified",
+        "OEM_Authorized": "N",
+        "Typical_Lead_Time_Days": "7",
+        "Currency": "AED",
+        "Incoterms": "DAP",
+        "Region": "UAE"
+      }
+    },
+    "2": {
+      "id": "row_3",
+      "type": "Vendors",
+      "source_file": "Vendors_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 3,
+      "criticality": "N/A",
+      "json_data": {
+        "Vendor_ID": "V-GULF-01",
+        "Vendor_Name": "Gulf Industrial Supplies FZE",
+        "Aliases": "Gulf Ind. Supplies F.Z.E.; GIS FZE",
+        "Contact_Name": "Mohammed Ali",
+        "Contact_Email": "info@gis-fze.com",
+        "Contact_Phone": "+971-6-555-2222",
+        "Approval_Status": "Approved",
+        "OEM_Authorized": "Y",
+        "Typical_Lead_Time_Days": "6",
+        "Currency": "AED",
+        "Incoterms": "FCA",
+        "Region": "UAE"
+      }
+    },
+    "3": {
+      "id": "row_4",
+      "type": "Vendors",
+      "source_file": "Vendors_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 4,
+      "criticality": "N/A",
+      "json_data": {
+        "Vendor_ID": "V-ARAB-03",
+        "Vendor_Name": "Arabian Pumps & Valves Trading LLC",
+        "Aliases": "Arabian Pumps; APV Trading",
+        "Contact_Name": "Rashid Al Mansoori",
+        "Contact_Email": "sales@arabianpumps.ae",
+        "Contact_Phone": "+971-4-555-4444",
+        "Approval_Status": "Approved",
+        "OEM_Authorized": "N",
+        "Typical_Lead_Time_Days": "4",
+        "Currency": "AED",
+        "Incoterms": "EXW",
+        "Region": "UAE"
+      }
+    },
+    "4": {
+      "id": "row_5",
+      "type": "Vendors",
+      "source_file": "Vendors_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 5,
+      "criticality": "N/A",
+      "json_data": {
+        "Vendor_ID": "V-ALT-04",
+        "Vendor_Name": "Gulf Industrial Supplies F.Z.E.",
+        "Aliases": "Gulf Industrial Supplies; Gulf Ind Supplies",
+        "Contact_Name": "Mohd. Ali",
+        "Contact_Email": "sales@gulfindsup.com",
+        "Contact_Phone": "+971-6-555-2223",
+        "Approval_Status": "New",
+        "OEM_Authorized": "Y",
+        "Typical_Lead_Time_Days": "8",
+        "Currency": "AED",
+        "Incoterms": "CIP",
+        "Region": "UAE"
+      }
+    },
+    "5": {
+      "id": "EQ-PUMP-CRN10-6-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 1,
+      "criticality": "H",
+      "json_data": {
+        "Equipment_ID": "EQ-PUMP-CRN10-6-01",
+        "Equipment_Name": "Centrifugal Pump CRN 10-6",
+        "Manufacturer": "Grundfos",
+        "Model": "CRN 10-6 A-G-E-HQQE",
+        "Serial_No": "GRF-2021-01923",
+        "Install_Date": "2022-03-15",
+        "FL_ID": "FL-UTIL-CT-01",
+        "Criticality": "H",
+        "Nameplate_Power_kW": "7.5",
+        "Nameplate_Capacity": "10 m3/h",
+        "Nameplate_Size": "DN40",
+        "Downtime_Cost_per_Hour_AED": "15000",
+        "OEM_Manual_File": "grundfos_crn_series_manual.pdf",
+        "Nameplate_Photo_File": "eq_pump_crn10-6_nameplate.jpg"
+      }
+    },
+    "6": {
+      "id": "EQ-PUMP-KSB-65-160-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 2,
+      "criticality": "M",
+      "json_data": {
+        "Equipment_ID": "EQ-PUMP-KSB-65-160-01",
+        "Equipment_Name": "Process Pump ETA 65-160",
+        "Manufacturer": "KSB",
+        "Model": "ETA 65-160",
+        "Serial_No": "KSB-2019-7781",
+        "Install_Date": "2020-09-10",
+        "FL_ID": "FL-UTIL-CT-01",
+        "Criticality": "M",
+        "Nameplate_Power_kW": "11.0",
+        "Nameplate_Capacity": "90 m3/h",
+        "Nameplate_Size": "DN65",
+        "Downtime_Cost_per_Hour_AED": "8000",
+        "OEM_Manual_File": "ksb_eta_series_manual.pdf",
+        "Nameplate_Photo_File": "eq_pump_ksb_eta_nameplate.jpg"
+      }
+    },
+    "7": {
+      "id": "EQ-COMP-ATC-GA45-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 3,
+      "criticality": "H",
+      "json_data": {
+        "Equipment_ID": "EQ-COMP-ATC-GA45-01",
+        "Equipment_Name": "Air Compressor GA45 VSD",
+        "Manufacturer": "Atlas Copco",
+        "Model": "GA45 VSD",
+        "Serial_No": "AC-2020-55671",
+        "Install_Date": "2021-01-18",
+        "FL_ID": "FL-HOTROLL-01",
+        "Criticality": "H",
+        "Nameplate_Power_kW": "45.0",
+        "Nameplate_Capacity": "7.5 m3/min",
+        "Nameplate_Size": "-",
+        "Downtime_Cost_per_Hour_AED": "18000",
+        "OEM_Manual_File": "atlas_copco_ga_manual.pdf",
+        "Nameplate_Photo_File": "eq_comp_ga45_nameplate.jpg"
+      }
+    },
+    "8": {
+      "id": "EQ-GEAR-FLENDER-H3SH-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 4,
+      "criticality": "H",
+      "json_data": {
+        "Equipment_ID": "EQ-GEAR-FLENDER-H3SH-01",
+        "Equipment_Name": "Main Drive Gearbox H3SH",
+        "Manufacturer": "Flender",
+        "Model": "H3SH-10",
+        "Serial_No": "FLD-2018-3321",
+        "Install_Date": "2019-04-02",
+        "FL_ID": "FL-HOTROLL-01",
+        "Criticality": "H",
+        "Nameplate_Power_kW": "250.0",
+        "Nameplate_Capacity": "-",
+        "Nameplate_Size": "-",
+        "Downtime_Cost_per_Hour_AED": "50000",
+        "OEM_Manual_File": "flender_h_series_manual.pdf",
+        "Nameplate_Photo_File": "eq_gear_h3sh_nameplate.jpg"
+      }
+    },
+    "9": {
+      "id": "EQ-IDFAN-BHF-30-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 5,
+      "criticality": "H",
+      "json_data": {
+        "Equipment_ID": "EQ-IDFAN-BHF-30-01",
+        "Equipment_Name": "Baghouse ID Fan BHF-30",
+        "Manufacturer": "FLSmidth",
+        "Model": "BHF-30",
+        "Serial_No": "FLS-2017-2218",
+        "Install_Date": "2018-08-22",
+        "FL_ID": "FL-REHEAT-01",
+        "Criticality": "H",
+        "Nameplate_Power_kW": "200.0",
+        "Nameplate_Capacity": "30000 m3/h",
+        "Nameplate_Size": "DN800",
+        "Downtime_Cost_per_Hour_AED": "35000",
+        "OEM_Manual_File": "flsm_baghouse_fan_manual.pdf",
+        "Nameplate_Photo_File": "eq_bhf30_nameplate.jpg"
+      }
+    },
+    "10": {
+      "id": "EQ-BURN-WEIS-WG40-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 6,
+      "criticality": "H",
+      "json_data": {
+        "Equipment_ID": "EQ-BURN-WEIS-WG40-01",
+        "Equipment_Name": "Furnace Burner WG40",
+        "Manufacturer": "Weishaupt",
+        "Model": "Monarch WG40",
+        "Serial_No": "WEI-2016-1187",
+        "Install_Date": "2017-05-12",
+        "FL_ID": "FL-REHEAT-01",
+        "Criticality": "H",
+        "Nameplate_Power_kW": "3.5",
+        "Nameplate_Capacity": "1,800 kW",
+        "Nameplate_Size": "-",
+        "Downtime_Cost_per_Hour_AED": "40000",
+        "OEM_Manual_File": "weishaupt_wg40_manual.pdf",
+        "Nameplate_Photo_File": "eq_burner_wg40_nameplate.jpg"
+      }
+    },
+    "11": {
+      "id": "EQ-CRANE-DEMAG-DH20-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 7,
+      "criticality": "M",
+      "json_data": {
+        "Equipment_ID": "EQ-CRANE-DEMAG-DH20-01",
+        "Equipment_Name": "Hoist DH 20t",
+        "Manufacturer": "DEMAG",
+        "Model": "DH 20t",
+        "Serial_No": "DMG-2015-9021",
+        "Install_Date": "2016-03-30",
+        "FL_ID": "FL-CRANE-01",
+        "Criticality": "M",
+        "Nameplate_Power_kW": "15.0",
+        "Nameplate_Capacity": "20 t",
+        "Nameplate_Size": "-",
+        "Downtime_Cost_per_Hour_AED": "12000",
+        "OEM_Manual_File": "demag_dh_hoist_manual.pdf",
+        "Nameplate_Photo_File": "eq_demag_dh_nameplate.jpg"
+      }
+    },
+    "12": {
+      "id": "EQ-HPU-REX-45-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 8,
+      "criticality": "H",
+      "json_data": {
+        "Equipment_ID": "EQ-HPU-REX-45-01",
+        "Equipment_Name": "Hydraulic Power Unit 45 kW",
+        "Manufacturer": "Bosch Rexroth",
+        "Model": "HPU-45",
+        "Serial_No": "REX-2021-7782",
+        "Install_Date": "2022-01-08",
+        "FL_ID": "FL-HOTROLL-01",
+        "Criticality": "H",
+        "Nameplate_Power_kW": "45.0",
+        "Nameplate_Capacity": "250 L/min",
+        "Nameplate_Size": "-",
+        "Downtime_Cost_per_Hour_AED": "25000",
+        "OEM_Manual_File": "rexroth_hpu_manual.pdf",
+        "Nameplate_Photo_File": "eq_hpu_nameplate.jpg"
+      }
+    },
+    "13": {
+      "id": "EQ-CAST-MOLD-MOX120-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 9,
+      "criticality": "H",
+      "json_data": {
+        "Equipment_ID": "EQ-CAST-MOLD-MOX120-01",
+        "Equipment_Name": "Mold Oscillator MOX-120",
+        "Manufacturer": "Primetals",
+        "Model": "MOX-120",
+        "Serial_No": "PRM-2018-6610",
+        "Install_Date": "2019-02-19",
+        "FL_ID": "FL-CCM-01",
+        "Criticality": "H",
+        "Nameplate_Power_kW": "22.0",
+        "Nameplate_Capacity": "-",
+        "Nameplate_Size": "-",
+        "Downtime_Cost_per_Hour_AED": "60000",
+        "OEM_Manual_File": "primetals_mox120_manual.pdf",
+        "Nameplate_Photo_File": "eq_mox120_nameplate.jpg"
+      }
+    },
+    "14": {
+      "id": "EQ-CT-FAN-MARLEY-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 10,
+      "criticality": "M",
+      "json_data": {
+        "Equipment_ID": "EQ-CT-FAN-MARLEY-01",
+        "Equipment_Name": "Cooling Tower Geareducer",
+        "Manufacturer": "SPX Marley",
+        "Model": "Geareducer 22.5",
+        "Serial_No": "MRL-2019-4431",
+        "Install_Date": "2020-05-26",
+        "FL_ID": "FL-UTIL-CT-01",
+        "Criticality": "M",
+        "Nameplate_Power_kW": "22.5",
+        "Nameplate_Capacity": "-",
+        "Nameplate_Size": "-",
+        "Downtime_Cost_per_Hour_AED": "7000",
+        "OEM_Manual_File": "marley_geareducer_manual.pdf",
+        "Nameplate_Photo_File": "eq_marley_nameplate.jpg"
+      }
+    },
+    "15": {
+      "id": "EQ-DRIVE-ABB-ACS880-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 11,
+      "criticality": "H",
+      "json_data": {
+        "Equipment_ID": "EQ-DRIVE-ABB-ACS880-01",
+        "Equipment_Name": "VFD ACS880",
+        "Manufacturer": "ABB",
+        "Model": "ACS880-01-038A-5",
+        "Serial_No": "ABB-2020-9112",
+        "Install_Date": "2021-06-14",
+        "FL_ID": "FL-CCM-01",
+        "Criticality": "H",
+        "Nameplate_Power_kW": "30.0",
+        "Nameplate_Capacity": "380-480V",
+        "Nameplate_Size": "-",
+        "Downtime_Cost_per_Hour_AED": "22000",
+        "OEM_Manual_File": "abb_acs880_manual.pdf",
+        "Nameplate_Photo_File": "eq_abb_acs880_nameplate.jpg"
+      }
+    },
+    "16": {
+      "id": "EQ-PLC-S7-1500-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 12,
+      "criticality": "H",
+      "json_data": {
+        "Equipment_ID": "EQ-PLC-S7-1500-01",
+        "Equipment_Name": "PLC CPU 1511-1PN",
+        "Manufacturer": "Siemens",
+        "Model": "S7-1500 1511-1PN",
+        "Serial_No": "SIE-2021-3318",
+        "Install_Date": "2022-09-01",
+        "FL_ID": "FL-CCM-01",
+        "Criticality": "H",
+        "Nameplate_Power_kW": "0.05",
+        "Nameplate_Capacity": "-",
+        "Nameplate_Size": "-",
+        "Downtime_Cost_per_Hour_AED": "15000",
+        "OEM_Manual_File": "siemens_s7_1500_manual.pdf",
+        "Nameplate_Photo_File": "eq_s7_1511_nameplate.jpg"
+      }
+    },
+    "17": {
+      "id": "EQ-BAGHOUSE-DFO3-12-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 13,
+      "criticality": "M",
+      "json_data": {
+        "Equipment_ID": "EQ-BAGHOUSE-DFO3-12-01",
+        "Equipment_Name": "Dust Collector DFO 3-12",
+        "Manufacturer": "Donaldson Torit",
+        "Model": "DFO 3-12",
+        "Serial_No": "DON-2017-6619",
+        "Install_Date": "2018-10-11",
+        "FL_ID": "FL-REHEAT-01",
+        "Criticality": "M",
+        "Nameplate_Power_kW": "18.5",
+        "Nameplate_Capacity": "-",
+        "Nameplate_Size": "-",
+        "Downtime_Cost_per_Hour_AED": "9000",
+        "OEM_Manual_File": "donaldson_dfo_manual.pdf",
+        "Nameplate_Photo_File": "eq_dfo312_nameplate.jpg"
+      }
+    },
+    "18": {
+      "id": "EQ-CONVEY-SEW-R97-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 14,
+      "criticality": "M",
+      "json_data": {
+        "Equipment_ID": "EQ-CONVEY-SEW-R97-01",
+        "Equipment_Name": "Conveyor Gearmotor R97",
+        "Manufacturer": "SEW-Eurodrive",
+        "Model": "R97 DRS280",
+        "Serial_No": "SEW-2019-5123",
+        "Install_Date": "2020-02-07",
+        "FL_ID": "FL-HOTROLL-01",
+        "Criticality": "M",
+        "Nameplate_Power_kW": "22.0",
+        "Nameplate_Capacity": "-",
+        "Nameplate_Size": "-",
+        "Downtime_Cost_per_Hour_AED": "10000",
+        "OEM_Manual_File": "sew_r_series_manual.pdf",
+        "Nameplate_Photo_File": "eq_sew_r97_nameplate.jpg"
+      }
+    },
+    "19": {
+      "id": "EQ-MOTOR-SIEM-1LE1-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 15,
+      "criticality": "M",
+      "json_data": {
+        "Equipment_ID": "EQ-MOTOR-SIEM-1LE1-01",
+        "Equipment_Name": "Induction Motor 75 kW",
+        "Manufacturer": "Siemens",
+        "Model": "1LE1",
+        "Serial_No": "SIE-2018-7777",
+        "Install_Date": "2019-01-15",
+        "FL_ID": "FL-HOTROLL-01",
+        "Criticality": "M",
+        "Nameplate_Power_kW": "75.0",
+        "Nameplate_Capacity": "400V",
+        "Nameplate_Size": "-",
+        "Downtime_Cost_per_Hour_AED": "12000",
+        "OEM_Manual_File": "siemens_1le1_manual.pdf",
+        "Nameplate_Photo_File": "eq_1le1_nameplate.jpg"
+      }
+    },
+    "20": {
+      "id": "EQ-VALVE-FISHER-119-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 16,
+      "criticality": "M",
+      "json_data": {
+        "Equipment_ID": "EQ-VALVE-FISHER-119-01",
+        "Equipment_Name": "Control Valve 119",
+        "Manufacturer": "Fisher",
+        "Model": "119",
+        "Serial_No": "FSH-2016-2211",
+        "Install_Date": "2017-04-21",
+        "FL_ID": "FL-REHEAT-01",
+        "Criticality": "M",
+        "Nameplate_Power_kW": "0.0",
+        "Nameplate_Capacity": "DN100",
+        "Nameplate_Size": "150#",
+        "Downtime_Cost_per_Hour_AED": "14000",
+        "OEM_Manual_File": "fisher_119_manual.pdf",
+        "Nameplate_Photo_File": "eq_fisher_119_nameplate.jpg"
+      }
+    },
+    "21": {
+      "id": "EQ-INST-EH-PROMAG-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 17,
+      "criticality": "L",
+      "json_data": {
+        "Equipment_ID": "EQ-INST-EH-PROMAG-01",
+        "Equipment_Name": "Mag Flowmeter Promag",
+        "Manufacturer": "Endress+Hauser",
+        "Model": "Promag 53",
+        "Serial_No": "E+H-2019-9981",
+        "Install_Date": "2020-07-09",
+        "FL_ID": "FL-UTIL-CT-01",
+        "Criticality": "L",
+        "Nameplate_Power_kW": "0.0",
+        "Nameplate_Capacity": "DN80",
+        "Nameplate_Size": "-",
+        "Downtime_Cost_per_Hour_AED": "3000",
+        "OEM_Manual_File": "eh_promag_manual.pdf",
+        "Nameplate_Photo_File": "eq_promag_nameplate.jpg"
+      }
+    },
+    "22": {
+      "id": "EQ-GEARBOX-FALK-1100-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 18,
+      "criticality": "M",
+      "json_data": {
+        "Equipment_ID": "EQ-GEARBOX-FALK-1100-01",
+        "Equipment_Name": "Grid Coupling 1100T10",
+        "Manufacturer": "Falk",
+        "Model": "Steelflex 1100T10",
+        "Serial_No": "FAL-2017-1120",
+        "Install_Date": "2018-06-18",
+        "FL_ID": "FL-HOTROLL-01",
+        "Criticality": "M",
+        "Nameplate_Power_kW": "0.0",
+        "Nameplate_Capacity": "-",
+        "Nameplate_Size": "-",
+        "Downtime_Cost_per_Hour_AED": "9000",
+        "OEM_Manual_File": "falk_steelflex_manual.pdf",
+        "Nameplate_Photo_File": "eq_falk_nameplate.jpg"
+      }
+    },
+    "23": {
+      "id": "EQ-HPU-COOLER-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 19,
+      "criticality": "M",
+      "json_data": {
+        "Equipment_ID": "EQ-HPU-COOLER-01",
+        "Equipment_Name": "Hydraulic Oil Cooler",
+        "Manufacturer": "HYDAC",
+        "Model": "HEX-45",
+        "Serial_No": "HYD-2022-7711",
+        "Install_Date": "2023-02-12",
+        "FL_ID": "FL-HOTROLL-01",
+        "Criticality": "M",
+        "Nameplate_Power_kW": "2.2",
+        "Nameplate_Capacity": "45 kW",
+        "Nameplate_Size": "-",
+        "Downtime_Cost_per_Hour_AED": "6000",
+        "OEM_Manual_File": "hydac_hex_manual.pdf",
+        "Nameplate_Photo_File": "eq_hex_nameplate.jpg"
+      }
+    },
+    "24": {
+      "id": "EQ-OVEN-SAFETY-PLC-01",
+      "type": "Equipment",
+      "source_file": "Equipment_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 20,
+      "criticality": "H",
+      "json_data": {
+        "Equipment_ID": "EQ-OVEN-SAFETY-PLC-01",
+        "Equipment_Name": "Safety PLC",
+        "Manufacturer": "Pilz",
+        "Model": "PSS 4000",
+        "Serial_No": "PLZ-2018-4412",
+        "Install_Date": "2019-05-09",
+        "FL_ID": "FL-REHEAT-01",
+        "Criticality": "H",
+        "Nameplate_Power_kW": "0.08",
+        "Nameplate_Capacity": "-",
+        "Nameplate_Size": "-",
+        "Downtime_Cost_per_Hour_AED": "20000",
+        "OEM_Manual_File": "pilz_pss4000_manual.pdf",
+        "Nameplate_Photo_File": "eq_pss4000_nameplate.jpg"
+      }
+    },
+    "25": {
+      "id": "FL-CCM-01",
+      "type": "Functional_Locations",
+      "source_file": "Functional_Locations_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 1,
+      "criticality": "H",
+      "json_data": {
+        "FL_ID": "FL-CCM-01",
+        "FL_Name": "Continuous Casting Machine",
+        "Parent_FL_ID": "FL-PLANT-A",
+        "Site_Area": "Jebel Ali Plant A",
+        "Criticality": "H"
+      }
+    },
+    "26": {
+      "id": "FL-HOTROLL-01",
+      "type": "Functional_Locations",
+      "source_file": "Functional_Locations_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 2,
+      "criticality": "H",
+      "json_data": {
+        "FL_ID": "FL-HOTROLL-01",
+        "FL_Name": "Hot Rolling Mill",
+        "Parent_FL_ID": "FL-PLANT-A",
+        "Site_Area": "Jebel Ali Plant A",
+        "Criticality": "H"
+      }
+    },
+    "27": {
+      "id": "FL-UTIL-CT-01",
+      "type": "Functional_Locations",
+      "source_file": "Functional_Locations_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 3,
+      "criticality": "M",
+      "json_data": {
+        "FL_ID": "FL-UTIL-CT-01",
+        "FL_Name": "Utilities - Cooling Tower",
+        "Parent_FL_ID": "FL-PLANT-A",
+        "Site_Area": "Jebel Ali Plant A",
+        "Criticality": "M"
+      }
+    },
+    "28": {
+      "id": "FL-REHEAT-01",
+      "type": "Functional_Locations",
+      "source_file": "Functional_Locations_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 4,
+      "criticality": "H",
+      "json_data": {
+        "FL_ID": "FL-REHEAT-01",
+        "FL_Name": "Reheating Furnace",
+        "Parent_FL_ID": "FL-PLANT-A",
+        "Site_Area": "Jebel Ali Plant A",
+        "Criticality": "H"
+      }
+    },
+    "29": {
+      "id": "FL-CRANE-01",
+      "type": "Functional_Locations",
+      "source_file": "Functional_Locations_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 5,
+      "criticality": "M",
+      "json_data": {
+        "FL_ID": "FL-CRANE-01",
+        "FL_Name": "Overhead Crane Bay",
+        "Parent_FL_ID": "FL-PLANT-A",
+        "Site_Area": "Jebel Ali Plant A",
+        "Criticality": "M"
+      }
+    },
+    "30": {
+      "id": "EQ-PUMP-CRN10-6-01",
+      "type": "Equipment_Material",
+      "source_file": "Equipment_Material_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 1,
+      "criticality": "N/A",
+      "json_data": {
+        "Equipment_ID": "EQ-PUMP-CRN10-6-01",
+        "Material_ID": "MAT-SEAL-35MM-2100",
+        "Qty": "1",
+        "Is_Alternate": "N",
+        "Valid_From": "2022-03-15",
+        "Source": "OEM Manual",
+        "Notes": "Primary seal"
+      }
+    },
+    "31": {
+      "id": "EQ-PUMP-CRN10-6-01",
+      "type": "Equipment_Material",
+      "source_file": "Equipment_Material_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 2,
+      "criticality": "N/A",
+      "json_data": {
+        "Equipment_ID": "EQ-PUMP-CRN10-6-01",
+        "Material_ID": "MAT-SLEEVE-CRN10",
+        "Qty": "1",
+        "Is_Alternate": "N",
+        "Valid_From": "2022-03-15",
+        "Source": "OEM Manual",
+        "Notes": "Shaft sleeve"
+      }
+    },
+    "32": {
+      "id": "EQ-PUMP-KSB-65-160-01",
+      "type": "Equipment_Material",
+      "source_file": "Equipment_Material_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 3,
+      "criticality": "N/A",
+      "json_data": {
+        "Equipment_ID": "EQ-PUMP-KSB-65-160-01",
+        "Material_ID": "MAT-IMPELLER-KSB-65-160",
+        "Qty": "1",
+        "Is_Alternate": "N",
+        "Valid_From": "2020-09-10",
+        "Source": "OEM Manual",
+        "Notes": "Impeller"
+      }
+    },
+    "33": {
+      "id": "EQ-HPU-REX-45-01",
+      "type": "Equipment_Material",
+      "source_file": "Equipment_Material_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 4,
+      "criticality": "N/A",
+      "json_data": {
+        "Equipment_ID": "EQ-HPU-REX-45-01",
+        "Material_ID": "MAT-FILTER-HYDAC-0330D010",
+        "Qty": "2",
+        "Is_Alternate": "N",
+        "Valid_From": "2022-01-08",
+        "Source": "Engineering",
+        "Notes": "Return filter"
+      }
+    },
+    "34": {
+      "id": "EQ-GEAR-FLENDER-H3SH-01",
+      "type": "Equipment_Material",
+      "source_file": "Equipment_Material_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 5,
+      "criticality": "N/A",
+      "json_data": {
+        "Equipment_ID": "EQ-GEAR-FLENDER-H3SH-01",
+        "Material_ID": "MAT-BRG-22224-CCW33",
+        "Qty": "2",
+        "Is_Alternate": "N",
+        "Valid_From": "2019-04-02",
+        "Source": "Engineering",
+        "Notes": "Main bearing"
+      }
+    },
+    "35": {
+      "id": "EQ-CRANE-DEMAG-DH20-01",
+      "type": "Equipment_Material",
+      "source_file": "Equipment_Material_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 6,
+      "criticality": "N/A",
+      "json_data": {
+        "Equipment_ID": "EQ-CRANE-DEMAG-DH20-01",
+        "Material_ID": "MAT-VBELT-SPB-2240",
+        "Qty": "2",
+        "Is_Alternate": "Y",
+        "Valid_From": "2016-03-30",
+        "Source": "WO History",
+        "Notes": "Legacy drive belt"
+      }
+    },
+    "36": {
+      "id": "EQ-VALVE-FISHER-119-01",
+      "type": "Equipment_Material",
+      "source_file": "Equipment_Material_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 7,
+      "criticality": "N/A",
+      "json_data": {
+        "Equipment_ID": "EQ-VALVE-FISHER-119-01",
+        "Material_ID": "MAT-POS-FISHER-DVC6200",
+        "Qty": "1",
+        "Is_Alternate": "N",
+        "Valid_From": "2017-04-21",
+        "Source": "Engineering",
+        "Notes": "Positioner upgrade"
+      }
+    },
+    "37": {
+      "id": "EQ-DRIVE-ABB-ACS880-01",
+      "type": "Equipment_Material",
+      "source_file": "Equipment_Material_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 8,
+      "criticality": "N/A",
+      "json_data": {
+        "Equipment_ID": "EQ-DRIVE-ABB-ACS880-01",
+        "Material_ID": "MAT-FANFILTER-325",
+        "Qty": "2",
+        "Is_Alternate": "N",
+        "Valid_From": "2021-06-14",
+        "Source": "OEM Manual",
+        "Notes": "Cooling filter"
+      }
+    },
+    "38": {
+      "id": "EQ-INST-EH-PROMAG-01",
+      "type": "Equipment_Material",
+      "source_file": "Equipment_Material_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 9,
+      "criticality": "N/A",
+      "json_data": {
+        "Equipment_ID": "EQ-INST-EH-PROMAG-01",
+        "Material_ID": "MAT-THERMO-TYPEK-1200",
+        "Qty": "1",
+        "Is_Alternate": "Y",
+        "Valid_From": "2020-07-09",
+        "Source": "WO History",
+        "Notes": "Used as temp probe"
+      }
+    },
+    "39": {
+      "id": "EQ-GEARBOX-FALK-1100-01",
+      "type": "Equipment_Material",
+      "source_file": "Equipment_Material_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084809",
+      "row_number": 10,
+      "criticality": "N/A",
+      "json_data": {
+        "Equipment_ID": "EQ-GEARBOX-FALK-1100-01",
+        "Material_ID": "MAT-COUP-SPIDER-1100T10",
+        "Qty": "1",
+        "Is_Alternate": "N",
+        "Valid_From": "2018-06-18",
+        "Source": "OEM Manual",
+        "Notes": "Spider insert"
+      }
+    },
+    "40": {
+      "id": "row_1",
+      "type": "Manuals_Specs",
+      "source_file": "Manuals_Specs_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084611",
+      "row_number": 1,
+      "criticality": "N/A",
+      "json_data": {
+        "File_Name": "grundfos_crn_series_manual.pdf",
+        "Related_Equipment_ID": "EQ-PUMP-CRN10-6-01",
+        "Related_Material_ID": "MAT-SEAL-35MM-2100",
+        "Pages_Of_Interest": "45-47"
+      }
+    },
+    "41": {
+      "id": "row_2",
+      "type": "Manuals_Specs",
+      "source_file": "Manuals_Specs_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084611",
+      "row_number": 2,
+      "criticality": "N/A",
+      "json_data": {
+        "File_Name": "ksb_eta_series_manual.pdf",
+        "Related_Equipment_ID": "EQ-PUMP-KSB-65-160-01",
+        "Related_Material_ID": "MAT-IMPELLER-KSB-65-160",
+        "Pages_Of_Interest": "12-15"
+      }
+    },
+    "42": {
+      "id": "row_3",
+      "type": "Manuals_Specs",
+      "source_file": "Manuals_Specs_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084611",
+      "row_number": 3,
+      "criticality": "N/A",
+      "json_data": {
+        "File_Name": "flender_h_series_manual.pdf",
+        "Related_Equipment_ID": "EQ-GEAR-FLENDER-H3SH-01",
+        "Related_Material_ID": "MAT-BRG-22224-CCW33",
+        "Pages_Of_Interest": "88-92"
+      }
+    },
+    "43": {
+      "id": "row_4",
+      "type": "Manuals_Specs",
+      "source_file": "Manuals_Specs_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084611",
+      "row_number": 4,
+      "criticality": "N/A",
+      "json_data": {
+        "File_Name": "rexroth_hpu_manual.pdf",
+        "Related_Equipment_ID": "EQ-HPU-REX-45-01",
+        "Related_Material_ID": "MAT-FILTER-HYDAC-0330D010",
+        "Pages_Of_Interest": "33-35"
+      }
+    },
+    "44": {
+      "id": "row_5",
+      "type": "Manuals_Specs",
+      "source_file": "Manuals_Specs_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084611",
+      "row_number": 5,
+      "criticality": "N/A",
+      "json_data": {
+        "File_Name": "abb_acs880_manual.pdf",
+        "Related_Equipment_ID": "EQ-DRIVE-ABB-ACS880-01",
+        "Related_Material_ID": "MAT-FANFILTER-325",
+        "Pages_Of_Interest": "10-11"
+      }
+    },
+    "45": {
+      "id": "row_6",
+      "type": "Manuals_Specs",
+      "source_file": "Manuals_Specs_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084611",
+      "row_number": 6,
+      "criticality": "N/A",
+      "json_data": {
+        "File_Name": "fisher_119_manual.pdf",
+        "Related_Equipment_ID": "EQ-VALVE-FISHER-119-01",
+        "Related_Material_ID": "MAT-POS-FISHER-DVC6200",
+        "Pages_Of_Interest": "60-61"
+      }
+    },
+    "46": {
+      "id": "row_7",
+      "type": "Manuals_Specs",
+      "source_file": "Manuals_Specs_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084611",
+      "row_number": 7,
+      "criticality": "N/A",
+      "json_data": {
+        "File_Name": "marley_geareducer_manual.pdf",
+        "Related_Equipment_ID": "EQ-CT-FAN-MARLEY-01",
+        "Related_Material_ID": "MAT-OIL-MOBIL-SHC632-20L",
+        "Pages_Of_Interest": "5-6"
+      }
+    },
+    "47": {
+      "id": "row_8",
+      "type": "Manuals_Specs",
+      "source_file": "Manuals_Specs_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084611",
+      "row_number": 8,
+      "criticality": "N/A",
+      "json_data": {
+        "File_Name": "donaldson_dfo_manual.pdf",
+        "Related_Equipment_ID": "EQ-BAGHOUSE-DFO3-12-01",
+        "Related_Material_ID": "MAT-GASKET-4IN-150-SS316G",
+        "Pages_Of_Interest": "21-22"
+      }
+    },
+    "48": {
+      "id": "row_9",
+      "type": "Manuals_Specs",
+      "source_file": "Manuals_Specs_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084611",
+      "row_number": 9,
+      "criticality": "N/A",
+      "json_data": {
+        "File_Name": "sew_r_series_manual.pdf",
+        "Related_Equipment_ID": "EQ-CONVEY-SEW-R97-01",
+        "Related_Material_ID": "MAT-STARTER-ABB-AF116",
+        "Pages_Of_Interest": "14"
+      }
+    },
+    "49": {
+      "id": "row_10",
+      "type": "Manuals_Specs",
+      "source_file": "Manuals_Specs_processed.json",
+      "source_dir": "OUTPUT_INPUT_CSV_20250829_084611",
+      "row_number": 10,
+      "criticality": "N/A",
+      "json_data": {
+        "File_Name": "primetals_mox120_manual.pdf",
+        "Related_Equipment_ID": "EQ-CAST-MOLD-MOX120-01",
+        "Related_Material_ID": null,
+        "Pages_Of_Interest": "101-104"
+      }
+    }
+  },
+  "statistics": {
+    "total_records": 50,
+    "semantic_dim": 3072,
+    "structured_dim": 1536,
+    "semantic_model": "text-embedding-3-large",
+    "structured_model": "text-embedding-3-small",
+    "timestamp": "2025-08-29T08:54:44.907716",
+    "tokens_used": {
+      "semantic": 1575,
+      "structured": 3420
+    },
+    "record_types": {
+      "Vendors": 5,
+      "Equipment": 20,
+      "Functional_Locations": 5,
+      "Equipment_Material": 10,
+      "Manuals_Specs": 10
+    }
+  }
+}

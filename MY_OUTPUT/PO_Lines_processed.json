@@ -1,0 +1,394 @@
+{
+  "metadata": {
+    "total_records": 20,
+    "failed_records": 0,
+    "success_rate": 100.0,
+    "timestamp": "2025-08-29T10:12:21.511050",
+    "batch_size": 20,
+    "api_calls": 9,
+    "total_retries": 3
+  },
+  "records": [
+    {
+      "row_number": 1,
+      "json_data": {
+        "PO_No": "PO-4500188801",
+        "PO_Date": "2025-04-28",
+        "Vendor_ID": "V-DBX-01",
+        "Material_ID": "MAT-SEAL-35MM-2100",
+        "Qty": 2,
+        "Unit_Price_AED": 1950.0,
+        "Requested_Delivery_Date": "2025-05-05",
+        "Promised_Delivery_Date": "2025-05-04",
+        "Delivered_Date": "2025-05-04",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "On-Time",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188801 was created on April 28, 2025, with vendor ID V-DBX-01 for 2 units of material MAT-SEAL-35MM-2100 at a unit price of 1950.0 AED. The requested delivery date was May 5, 2025, and the promised delivery date was May 4, 2025. The item was delivered on May 4, 2025, with a normal freight type and an on-time delivery status.",
+      "combined_text": "Purchase Order number PO-4500188801 was created on April 28, 2025, with vendor ID V-DBX-01 for 2 units of material MAT-SEAL-35MM-2100 at a unit price of 1950.0 AED. The requested delivery date was May 5, 2025, and the promised delivery date was May 4, 2025. The item was delivered on May 4, 2025, with a normal freight type and an on-time delivery status. | PO_No: PO-4500188801 | PO_Date: 2025-04-28 | Vendor_ID: V-DBX-01 | Material_ID: MAT-SEAL-35MM-2100 | Qty: 2 | Unit_Price_AED: 1950.0 | Requested_Delivery_Date: 2025-05-05 | Promised_Delivery_Date: 2025-05-04 | Delivered_Date: 2025-05-04 | Freight_Type: Normal | Delivery_Status: On-Time | Currency: AED"
+    },
+    {
+      "row_number": 2,
+      "json_data": {
+        "PO_No": "PO-4500188802",
+        "PO_Date": "2025-05-02",
+        "Vendor_ID": "V-ADB-02",
+        "Material_ID": "MAT-IMPELLER-KSB-65-160",
+        "Qty": 1,
+        "Unit_Price_AED": 4200.0,
+        "Requested_Delivery_Date": "2025-05-08",
+        "Promised_Delivery_Date": "2025-05-07",
+        "Delivered_Date": "2025-05-08",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "Late",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188802 was created on May 2, 2025, with vendor ID V-ADB-02 for 1 unit of material MAT-IMPELLER-KSB-65-160 at a unit price of 4200.0 AED. The requested delivery date was May 8, 2025, and the promised delivery date was May 7, 2025. The item was delivered on May 8, 2025, with a normal freight type but had a late delivery status.",
+      "combined_text": "Purchase Order number PO-4500188802 was created on May 2, 2025, with vendor ID V-ADB-02 for 1 unit of material MAT-IMPELLER-KSB-65-160 at a unit price of 4200.0 AED. The requested delivery date was May 8, 2025, and the promised delivery date was May 7, 2025. The item was delivered on May 8, 2025, with a normal freight type but had a late delivery status. | PO_No: PO-4500188802 | PO_Date: 2025-05-02 | Vendor_ID: V-ADB-02 | Material_ID: MAT-IMPELLER-KSB-65-160 | Qty: 1 | Unit_Price_AED: 4200.0 | Requested_Delivery_Date: 2025-05-08 | Promised_Delivery_Date: 2025-05-07 | Delivered_Date: 2025-05-08 | Freight_Type: Normal | Delivery_Status: Late | Currency: AED"
+    },
+    {
+      "row_number": 3,
+      "json_data": {
+        "PO_No": "PO-4500188803",
+        "PO_Date": "2025-05-29",
+        "Vendor_ID": "V-GULF-01",
+        "Material_ID": "MAT-BRG-22224-CCW33",
+        "Qty": 2,
+        "Unit_Price_AED": 2100.0,
+        "Requested_Delivery_Date": "2025-06-03",
+        "Promised_Delivery_Date": "2025-06-02",
+        "Delivered_Date": "2025-06-02",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "On-Time",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188803 was created on May 29, 2025, with vendor ID V-GULF-01 for 2 units of material MAT-BRG-22224-CCW33 at a unit price of 2100.0 AED. The requested delivery date was June 3, 2025, and the promised delivery date was June 2, 2025. The item was delivered on June 2, 2025, with a normal freight type and an on-time delivery status.",
+      "combined_text": "Purchase Order number PO-4500188803 was created on May 29, 2025, with vendor ID V-GULF-01 for 2 units of material MAT-BRG-22224-CCW33 at a unit price of 2100.0 AED. The requested delivery date was June 3, 2025, and the promised delivery date was June 2, 2025. The item was delivered on June 2, 2025, with a normal freight type and an on-time delivery status. | PO_No: PO-4500188803 | PO_Date: 2025-05-29 | Vendor_ID: V-GULF-01 | Material_ID: MAT-BRG-22224-CCW33 | Qty: 2 | Unit_Price_AED: 2100.0 | Requested_Delivery_Date: 2025-06-03 | Promised_Delivery_Date: 2025-06-02 | Delivered_Date: 2025-06-02 | Freight_Type: Normal | Delivery_Status: On-Time | Currency: AED"
+    },
+    {
+      "row_number": 4,
+      "json_data": {
+        "PO_No": "PO-4500188804",
+        "PO_Date": "2025-06-10",
+        "Vendor_ID": "V-GULF-01",
+        "Material_ID": "MAT-FILTER-HYDAC-0330D010",
+        "Qty": 6,
+        "Unit_Price_AED": 180.0,
+        "Requested_Delivery_Date": "2025-06-14",
+        "Promised_Delivery_Date": "2025-06-14",
+        "Delivered_Date": "2025-06-15",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "Late",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188804 was created on June 10, 2025, with vendor ID V-GULF-01 for 6 units of material MAT-FILTER-HYDAC-0330D010 at a unit price of 180.0 AED. The requested delivery date was June 14, 2025, and the promised delivery date was also June 14, 2025. The item was delivered on June 15, 2025, with a normal freight type and a late delivery status.",
+      "combined_text": "Purchase Order number PO-4500188804 was created on June 10, 2025, with vendor ID V-GULF-01 for 6 units of material MAT-FILTER-HYDAC-0330D010 at a unit price of 180.0 AED. The requested delivery date was June 14, 2025, and the promised delivery date was also June 14, 2025. The item was delivered on June 15, 2025, with a normal freight type and a late delivery status. | PO_No: PO-4500188804 | PO_Date: 2025-06-10 | Vendor_ID: V-GULF-01 | Material_ID: MAT-FILTER-HYDAC-0330D010 | Qty: 6 | Unit_Price_AED: 180.0 | Requested_Delivery_Date: 2025-06-14 | Promised_Delivery_Date: 2025-06-14 | Delivered_Date: 2025-06-15 | Freight_Type: Normal | Delivery_Status: Late | Currency: AED"
+    },
+    {
+      "row_number": 5,
+      "json_data": {
+        "PO_No": "PO-4500188805",
+        "PO_Date": "2025-04-18",
+        "Vendor_ID": "V-ARAB-03",
+        "Material_ID": "MAT-GASKET-4IN-150-SS316G",
+        "Qty": 10,
+        "Unit_Price_AED": 65.0,
+        "Requested_Delivery_Date": "2025-04-21",
+        "Promised_Delivery_Date": "2025-04-21",
+        "Delivered_Date": "2025-04-21",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "On-Time",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188805 was created on April 18, 2025, with vendor ID V-ARAB-03 for 10 units of material MAT-GASKET-4IN-150-SS316G at a unit price of 65.0 AED. The requested delivery date was April 21, 2025, and the promised delivery date was also April 21, 2025. The item was delivered on April 21, 2025, with a normal freight type and an on-time delivery status.",
+      "combined_text": "Purchase Order number PO-4500188805 was created on April 18, 2025, with vendor ID V-ARAB-03 for 10 units of material MAT-GASKET-4IN-150-SS316G at a unit price of 65.0 AED. The requested delivery date was April 21, 2025, and the promised delivery date was also April 21, 2025. The item was delivered on April 21, 2025, with a normal freight type and an on-time delivery status. | PO_No: PO-4500188805 | PO_Date: 2025-04-18 | Vendor_ID: V-ARAB-03 | Material_ID: MAT-GASKET-4IN-150-SS316G | Qty: 10 | Unit_Price_AED: 65.0 | Requested_Delivery_Date: 2025-04-21 | Promised_Delivery_Date: 2025-04-21 | Delivered_Date: 2025-04-21 | Freight_Type: Normal | Delivery_Status: On-Time | Currency: AED"
+    },
+    {
+      "row_number": 6,
+      "json_data": {
+        "PO_No": "PO-4500188806",
+        "PO_Date": "2025-03-22",
+        "Vendor_ID": "V-ARAB-03",
+        "Material_ID": "MAT-VBELT-SPB-2240",
+        "Qty": 6,
+        "Unit_Price_AED": 95.0,
+        "Requested_Delivery_Date": "2025-03-27",
+        "Promised_Delivery_Date": "2025-03-27",
+        "Delivered_Date": "2025-03-28",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "Late",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188806 was created on March 22, 2025, with vendor ID V-ARAB-03 for 6 units of material MAT-VBELT-SPB-2240 at a unit price of 95.0 AED. The requested delivery date was March 27, 2025, and the promised delivery date was also March 27, 2025. The item was delivered on March 28, 2025, with a normal freight type and a late delivery status.",
+      "combined_text": "Purchase Order number PO-4500188806 was created on March 22, 2025, with vendor ID V-ARAB-03 for 6 units of material MAT-VBELT-SPB-2240 at a unit price of 95.0 AED. The requested delivery date was March 27, 2025, and the promised delivery date was also March 27, 2025. The item was delivered on March 28, 2025, with a normal freight type and a late delivery status. | PO_No: PO-4500188806 | PO_Date: 2025-03-22 | Vendor_ID: V-ARAB-03 | Material_ID: MAT-VBELT-SPB-2240 | Qty: 6 | Unit_Price_AED: 95.0 | Requested_Delivery_Date: 2025-03-27 | Promised_Delivery_Date: 2025-03-27 | Delivered_Date: 2025-03-28 | Freight_Type: Normal | Delivery_Status: Late | Currency: AED"
+    },
+    {
+      "row_number": 7,
+      "json_data": {
+        "PO_No": "PO-4500188807",
+        "PO_Date": "2025-01-15",
+        "Vendor_ID": "V-ADB-02",
+        "Material_ID": "MAT-SLEEVE-CRN10",
+        "Qty": 1,
+        "Unit_Price_AED": 720.0,
+        "Requested_Delivery_Date": "2025-01-20",
+        "Promised_Delivery_Date": "2025-01-20",
+        "Delivered_Date": "2025-01-20",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "On-Time",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188807 was created on January 15, 2025, with vendor ID V-ADB-02 for 1 unit of material MAT-SLEEVE-CRN10 at a unit price of 720.0 AED. The requested delivery date was January 20, 2025, and the promised delivery date was also January 20, 2025. The item was delivered on January 20, 2025, with a normal freight type and an on-time delivery status.",
+      "combined_text": "Purchase Order number PO-4500188807 was created on January 15, 2025, with vendor ID V-ADB-02 for 1 unit of material MAT-SLEEVE-CRN10 at a unit price of 720.0 AED. The requested delivery date was January 20, 2025, and the promised delivery date was also January 20, 2025. The item was delivered on January 20, 2025, with a normal freight type and an on-time delivery status. | PO_No: PO-4500188807 | PO_Date: 2025-01-15 | Vendor_ID: V-ADB-02 | Material_ID: MAT-SLEEVE-CRN10 | Qty: 1 | Unit_Price_AED: 720.0 | Requested_Delivery_Date: 2025-01-20 | Promised_Delivery_Date: 2025-01-20 | Delivered_Date: 2025-01-20 | Freight_Type: Normal | Delivery_Status: On-Time | Currency: AED"
+    },
+    {
+      "row_number": 8,
+      "json_data": {
+        "PO_No": "PO-4500188808",
+        "PO_Date": "2025-02-10",
+        "Vendor_ID": "V-ARAB-03",
+        "Material_ID": "MAT-STARTER-ABB-AF116",
+        "Qty": 1,
+        "Unit_Price_AED": 980.0,
+        "Requested_Delivery_Date": "2025-02-15",
+        "Promised_Delivery_Date": "2025-02-14",
+        "Delivered_Date": "2025-02-14",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "On-Time",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188808 was created on February 10, 2025, with vendor ID V-ARAB-03 for 1 unit of material MAT-STARTER-ABB-AF116 at a unit price of 980.0 AED. The requested delivery date was February 15, 2025, and the promised delivery date was February 14, 2025. The item was delivered on February 14, 2025, with a normal freight type and an on-time delivery status.",
+      "combined_text": "Purchase Order number PO-4500188808 was created on February 10, 2025, with vendor ID V-ARAB-03 for 1 unit of material MAT-STARTER-ABB-AF116 at a unit price of 980.0 AED. The requested delivery date was February 15, 2025, and the promised delivery date was February 14, 2025. The item was delivered on February 14, 2025, with a normal freight type and an on-time delivery status. | PO_No: PO-4500188808 | PO_Date: 2025-02-10 | Vendor_ID: V-ARAB-03 | Material_ID: MAT-STARTER-ABB-AF116 | Qty: 1 | Unit_Price_AED: 980.0 | Requested_Delivery_Date: 2025-02-15 | Promised_Delivery_Date: 2025-02-14 | Delivered_Date: 2025-02-14 | Freight_Type: Normal | Delivery_Status: On-Time | Currency: AED"
+    },
+    {
+      "row_number": 9,
+      "json_data": {
+        "PO_No": "PO-4500188809",
+        "PO_Date": "2025-06-28",
+        "Vendor_ID": "V-GULF-01",
+        "Material_ID": "MAT-OIL-MOBIL-SHC632-20L",
+        "Qty": 4,
+        "Unit_Price_AED": 520.0,
+        "Requested_Delivery_Date": "2025-07-02",
+        "Promised_Delivery_Date": "2025-07-02",
+        "Delivered_Date": "2025-07-03",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "Late",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188809 was created on June 28, 2025, with vendor ID V-GULF-01 for 4 units of material MAT-OIL-MOBIL-SHC632-20L at a unit price of 520.0 AED. The requested delivery date was July 2, 2025, and the promised delivery date was also July 2, 2025. The item was delivered on July 3, 2025, with a normal freight type and a late delivery status.",
+      "combined_text": "Purchase Order number PO-4500188809 was created on June 28, 2025, with vendor ID V-GULF-01 for 4 units of material MAT-OIL-MOBIL-SHC632-20L at a unit price of 520.0 AED. The requested delivery date was July 2, 2025, and the promised delivery date was also July 2, 2025. The item was delivered on July 3, 2025, with a normal freight type and a late delivery status. | PO_No: PO-4500188809 | PO_Date: 2025-06-28 | Vendor_ID: V-GULF-01 | Material_ID: MAT-OIL-MOBIL-SHC632-20L | Qty: 4 | Unit_Price_AED: 520.0 | Requested_Delivery_Date: 2025-07-02 | Promised_Delivery_Date: 2025-07-02 | Delivered_Date: 2025-07-03 | Freight_Type: Normal | Delivery_Status: Late | Currency: AED"
+    },
+    {
+      "row_number": 10,
+      "json_data": {
+        "PO_No": "PO-4500188810",
+        "PO_Date": "2025-02-02",
+        "Vendor_ID": "V-DBX-01",
+        "Material_ID": "MAT-BRG-6312-2ZC3",
+        "Qty": 8,
+        "Unit_Price_AED": 120.0,
+        "Requested_Delivery_Date": "2025-02-07",
+        "Promised_Delivery_Date": "2025-02-06",
+        "Delivered_Date": "2025-02-06",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "On-Time",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-45001888010 was created on February 2, 2025, with vendor ID V-DBX-01 for 8 units of material MAT-BRG-6312-2ZC3 at a unit price of 120.0 AED. The requested delivery date was February 7, 2025, and the promised delivery date was February 6, 2025. The item was delivered on February 6, 2025, with a normal freight type and an on-time delivery status.",
+      "combined_text": "Purchase Order number PO-45001888010 was created on February 2, 2025, with vendor ID V-DBX-01 for 8 units of material MAT-BRG-6312-2ZC3 at a unit price of 120.0 AED. The requested delivery date was February 7, 2025, and the promised delivery date was February 6, 2025. The item was delivered on February 6, 2025, with a normal freight type and an on-time delivery status. | PO_No: PO-4500188810 | PO_Date: 2025-02-02 | Vendor_ID: V-DBX-01 | Material_ID: MAT-BRG-6312-2ZC3 | Qty: 8 | Unit_Price_AED: 120.0 | Requested_Delivery_Date: 2025-02-07 | Promised_Delivery_Date: 2025-02-06 | Delivered_Date: 2025-02-06 | Freight_Type: Normal | Delivery_Status: On-Time | Currency: AED"
+    },
+    {
+      "row_number": 11,
+      "json_data": {
+        "PO_No": "PO-4500188811",
+        "PO_Date": "2025-03-05",
+        "Vendor_ID": "V-ARAB-03",
+        "Material_ID": "MAT-THERMO-TYPEK-1200",
+        "Qty": 2,
+        "Unit_Price_AED": 350.0,
+        "Requested_Delivery_Date": "2025-03-10",
+        "Promised_Delivery_Date": "2025-03-10",
+        "Delivered_Date": "2025-03-11",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "Late",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188811 was created on March 5, 2025, with vendor ID V-ARAB-03 for 2 units of material MAT-THERMO-TYPEK-1200 at a unit price of 350.0 AED. The requested and promised delivery date was March 10, 2025, but the item was delivered late on March 11, 2025. The freight type was normal and the delivery status is marked as late.",
+      "combined_text": "Purchase Order number PO-4500188811 was created on March 5, 2025, with vendor ID V-ARAB-03 for 2 units of material MAT-THERMO-TYPEK-1200 at a unit price of 350.0 AED. The requested and promised delivery date was March 10, 2025, but the item was delivered late on March 11, 2025. The freight type was normal and the delivery status is marked as late. | PO_No: PO-4500188811 | PO_Date: 2025-03-05 | Vendor_ID: V-ARAB-03 | Material_ID: MAT-THERMO-TYPEK-1200 | Qty: 2 | Unit_Price_AED: 350.0 | Requested_Delivery_Date: 2025-03-10 | Promised_Delivery_Date: 2025-03-10 | Delivered_Date: 2025-03-11 | Freight_Type: Normal | Delivery_Status: Late | Currency: AED"
+    },
+    {
+      "row_number": 12,
+      "json_data": {
+        "PO_No": "PO-4500188812",
+        "PO_Date": "2025-05-12",
+        "Vendor_ID": "V-GULF-01",
+        "Material_ID": "MAT-PT-ROSEM-3051-10B",
+        "Qty": 1,
+        "Unit_Price_AED": 4800.0,
+        "Requested_Delivery_Date": "2025-05-17",
+        "Promised_Delivery_Date": "2025-05-17",
+        "Delivered_Date": "2025-05-18",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "Late",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188812 was issued on May 12, 2025, to vendor ID V-GULF-01 for 1 unit of material MAT-PT-ROSEM-3051-10B at a unit price of 4800.0 AED. The requested and promised delivery date was May 17, 2025, but the delivery occurred late on May 18, 2025. The freight type was normal and the delivery status is late.",
+      "combined_text": "Purchase Order number PO-4500188812 was issued on May 12, 2025, to vendor ID V-GULF-01 for 1 unit of material MAT-PT-ROSEM-3051-10B at a unit price of 4800.0 AED. The requested and promised delivery date was May 17, 2025, but the delivery occurred late on May 18, 2025. The freight type was normal and the delivery status is late. | PO_No: PO-4500188812 | PO_Date: 2025-05-12 | Vendor_ID: V-GULF-01 | Material_ID: MAT-PT-ROSEM-3051-10B | Qty: 1 | Unit_Price_AED: 4800.0 | Requested_Delivery_Date: 2025-05-17 | Promised_Delivery_Date: 2025-05-17 | Delivered_Date: 2025-05-18 | Freight_Type: Normal | Delivery_Status: Late | Currency: AED"
+    },
+    {
+      "row_number": 13,
+      "json_data": {
+        "PO_No": "PO-4500188813",
+        "PO_Date": "2025-07-18",
+        "Vendor_ID": "V-ARAB-03",
+        "Material_ID": "MAT-ORING-FKM-35X3",
+        "Qty": 100,
+        "Unit_Price_AED": 2.2,
+        "Requested_Delivery_Date": "2025-07-22",
+        "Promised_Delivery_Date": "2025-07-22",
+        "Delivered_Date": "2025-07-22",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "On-Time",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188813 was created on July 18, 2025, with vendor ID V-ARAB-03 for 100 units of material MAT-ORING-FKM-35X3 at a unit price of 2.2 AED. The requested and promised delivery date was July 22, 2025, and the item was delivered on time on the same day. The freight type was normal and the delivery status is on-time.",
+      "combined_text": "Purchase Order number PO-4500188813 was created on July 18, 2025, with vendor ID V-ARAB-03 for 100 units of material MAT-ORING-FKM-35X3 at a unit price of 2.2 AED. The requested and promised delivery date was July 22, 2025, and the item was delivered on time on the same day. The freight type was normal and the delivery status is on-time. | PO_No: PO-4500188813 | PO_Date: 2025-07-18 | Vendor_ID: V-ARAB-03 | Material_ID: MAT-ORING-FKM-35X3 | Qty: 100 | Unit_Price_AED: 2.2 | Requested_Delivery_Date: 2025-07-22 | Promised_Delivery_Date: 2025-07-22 | Delivered_Date: 2025-07-22 | Freight_Type: Normal | Delivery_Status: On-Time | Currency: AED"
+    },
+    {
+      "row_number": 14,
+      "json_data": {
+        "PO_No": "PO-4500188814",
+        "PO_Date": "2025-06-22",
+        "Vendor_ID": "V-GULF-01",
+        "Material_ID": "MAT-HOSE-2SN-1/2-330",
+        "Qty": 30,
+        "Unit_Price_AED": 28.0,
+        "Requested_Delivery_Date": "2025-06-26",
+        "Promised_Delivery_Date": "2025-06-26",
+        "Delivered_Date": "2025-06-27",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "Late",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188814 was issued on June 22, 2025, to vendor ID V-GULF-01 for 30 units of material MAT-HOSE-2SN-1/2-330 at a unit price of 28.0 AED. The requested and promised delivery date was June 26, 2025, but the delivery was late, occurring on June 27, 2025. The freight type was normal and the delivery status is late.",
+      "combined_text": "Purchase Order number PO-4500188814 was issued on June 22, 2025, to vendor ID V-GULF-01 for 30 units of material MAT-HOSE-2SN-1/2-330 at a unit price of 28.0 AED. The requested and promised delivery date was June 26, 2025, but the delivery was late, occurring on June 27, 2025. The freight type was normal and the delivery status is late. | PO_No: PO-4500188814 | PO_Date: 2025-06-22 | Vendor_ID: V-GULF-01 | Material_ID: MAT-HOSE-2SN-1/2-330 | Qty: 30 | Unit_Price_AED: 28.0 | Requested_Delivery_Date: 2025-06-26 | Promised_Delivery_Date: 2025-06-26 | Delivered_Date: 2025-06-27 | Freight_Type: Normal | Delivery_Status: Late | Currency: AED"
+    },
+    {
+      "row_number": 15,
+      "json_data": {
+        "PO_No": "PO-4500188815",
+        "PO_Date": "2025-05-30",
+        "Vendor_ID": "V-ARAB-03",
+        "Material_ID": "MAT-FANFILTER-325",
+        "Qty": 10,
+        "Unit_Price_AED": 55.0,
+        "Requested_Delivery_Date": "2025-06-03",
+        "Promised_Delivery_Date": "2025-06-03",
+        "Delivered_Date": "2025-06-03",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "On-Time",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188815 was created on May 30, 2025, with vendor ID V-ARAB-03 for 10 units of material MAT-FANFILTER-325 at a unit price of 55.0 AED. The requested and promised delivery date was June 3, 2025, and the item was delivered on time on the same day. The freight type was normal and the delivery status is on-time.",
+      "combined_text": "Purchase Order number PO-4500188815 was created on May 30, 2025, with vendor ID V-ARAB-03 for 10 units of material MAT-FANFILTER-325 at a unit price of 55.0 AED. The requested and promised delivery date was June 3, 2025, and the item was delivered on time on the same day. The freight type was normal and the delivery status is on-time. | PO_No: PO-4500188815 | PO_Date: 2025-05-30 | Vendor_ID: V-ARAB-03 | Material_ID: MAT-FANFILTER-325 | Qty: 10 | Unit_Price_AED: 55.0 | Requested_Delivery_Date: 2025-06-03 | Promised_Delivery_Date: 2025-06-03 | Delivered_Date: 2025-06-03 | Freight_Type: Normal | Delivery_Status: On-Time | Currency: AED"
+    },
+    {
+      "row_number": 16,
+      "json_data": {
+        "PO_No": "PO-4500188816",
+        "PO_Date": "2025-04-06",
+        "Vendor_ID": "V-GULF-01",
+        "Material_ID": "MAT-POS-FISHER-DVC6200",
+        "Qty": 1,
+        "Unit_Price_AED": 6800.0,
+        "Requested_Delivery_Date": "2025-04-12",
+        "Promised_Delivery_Date": "2025-04-12",
+        "Delivered_Date": "2025-04-11",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "On-Time",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188816 was issued on April 6, 2025, to vendor ID V-GULF-01 for 1 unit of material MAT-POS-FISHER-DVC6200 at a unit price of 6800.0 AED. The requested and promised delivery date was April 12, 2025, and the item was delivered on time on April 11, 2025. The freight type was normal and the delivery status is on-time.",
+      "combined_text": "Purchase Order number PO-4500188816 was issued on April 6, 2025, to vendor ID V-GULF-01 for 1 unit of material MAT-POS-FISHER-DVC6200 at a unit price of 6800.0 AED. The requested and promised delivery date was April 12, 2025, and the item was delivered on time on April 11, 2025. The freight type was normal and the delivery status is on-time. | PO_No: PO-4500188816 | PO_Date: 2025-04-06 | Vendor_ID: V-GULF-01 | Material_ID: MAT-POS-FISHER-DVC6200 | Qty: 1 | Unit_Price_AED: 6800.0 | Requested_Delivery_Date: 2025-04-12 | Promised_Delivery_Date: 2025-04-12 | Delivered_Date: 2025-04-11 | Freight_Type: Normal | Delivery_Status: On-Time | Currency: AED"
+    },
+    {
+      "row_number": 17,
+      "json_data": {
+        "PO_No": "PO-4500188817",
+        "PO_Date": "2025-07-21",
+        "Vendor_ID": "V-ADB-02",
+        "Material_ID": "MAT-SEAL-45MM-MFL85N",
+        "Qty": 2,
+        "Unit_Price_AED": 2850.0,
+        "Requested_Delivery_Date": "2025-07-26",
+        "Promised_Delivery_Date": "2025-07-26",
+        "Delivered_Date": "2025-07-28",
+        "Freight_Type": "Expedite",
+        "Delivery_Status": "Late",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188817 was created on July 21, 2025, with vendor ID V-ADB-02 for 2 units of material MAT-SEAL-45MM-MFL85N at a unit price of 2850.0 AED. The requested and promised delivery date was July 26, 2025, but the delivery was late, occurring on July 28, 2025. The freight type was expedited and the delivery status is late.",
+      "combined_text": "Purchase Order number PO-4500188817 was created on July 21, 2025, with vendor ID V-ADB-02 for 2 units of material MAT-SEAL-45MM-MFL85N at a unit price of 2850.0 AED. The requested and promised delivery date was July 26, 2025, but the delivery was late, occurring on July 28, 2025. The freight type was expedited and the delivery status is late. | PO_No: PO-4500188817 | PO_Date: 2025-07-21 | Vendor_ID: V-ADB-02 | Material_ID: MAT-SEAL-45MM-MFL85N | Qty: 2 | Unit_Price_AED: 2850.0 | Requested_Delivery_Date: 2025-07-26 | Promised_Delivery_Date: 2025-07-26 | Delivered_Date: 2025-07-28 | Freight_Type: Expedite | Delivery_Status: Late | Currency: AED"
+    },
+    {
+      "row_number": 18,
+      "json_data": {
+        "PO_No": "PO-4500188818",
+        "PO_Date": "2025-07-24",
+        "Vendor_ID": "V-ALT-04",
+        "Material_ID": "MAT-BRG-22224-CCW33",
+        "Qty": 2,
+        "Unit_Price_AED": 2050.0,
+        "Requested_Delivery_Date": "2025-07-28",
+        "Promised_Delivery_Date": "2025-07-28",
+        "Delivered_Date": "2025-07-29",
+        "Freight_Type": "Expedite",
+        "Delivery_Status": "Late",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188818 was issued on July 24, 2025, to vendor ID V-ALT-04 for 2 units of material MAT-BRG-22224-CCW33 at a unit price of 2050.0 AED. The requested and promised delivery date was July 28, 2025, but the delivery was late, occurring on July 29, 2025. The freight type was expedited and the delivery status is late.",
+      "combined_text": "Purchase Order number PO-4500188818 was issued on July 24, 2025, to vendor ID V-ALT-04 for 2 units of material MAT-BRG-22224-CCW33 at a unit price of 2050.0 AED. The requested and promised delivery date was July 28, 2025, but the delivery was late, occurring on July 29, 2025. The freight type was expedited and the delivery status is late. | PO_No: PO-4500188818 | PO_Date: 2025-07-24 | Vendor_ID: V-ALT-04 | Material_ID: MAT-BRG-22224-CCW33 | Qty: 2 | Unit_Price_AED: 2050.0 | Requested_Delivery_Date: 2025-07-28 | Promised_Delivery_Date: 2025-07-28 | Delivered_Date: 2025-07-29 | Freight_Type: Expedite | Delivery_Status: Late | Currency: AED"
+    },
+    {
+      "row_number": 19,
+      "json_data": {
+        "PO_No": "PO-4500188819",
+        "PO_Date": "2025-06-08",
+        "Vendor_ID": "V-DBX-01",
+        "Material_ID": "MAT-COUP-SPIDER-1100T10",
+        "Qty": 2,
+        "Unit_Price_AED": 320.0,
+        "Requested_Delivery_Date": "2025-06-12",
+        "Promised_Delivery_Date": "2025-06-12",
+        "Delivered_Date": "2025-06-12",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "On-Time",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188819 was created on June 8, 2025, with vendor ID V-DBX-01 for 2 units of material MAT-COUP-SPIDER-1100T10 at a unit price of 320.0 AED. The requested and promised delivery date was June 12, 2025, and the item was delivered on time on the same day. The freight type was normal and the delivery status is on-time.",
+      "combined_text": "Purchase Order number PO-4500188819 was created on June 8, 2025, with vendor ID V-DBX-01 for 2 units of material MAT-COUP-SPIDER-1100T10 at a unit price of 320.0 AED. The requested and promised delivery date was June 12, 2025, and the item was delivered on time on the same day. The freight type was normal and the delivery status is on-time. | PO_No: PO-4500188819 | PO_Date: 2025-06-08 | Vendor_ID: V-DBX-01 | Material_ID: MAT-COUP-SPIDER-1100T10 | Qty: 2 | Unit_Price_AED: 320.0 | Requested_Delivery_Date: 2025-06-12 | Promised_Delivery_Date: 2025-06-12 | Delivered_Date: 2025-06-12 | Freight_Type: Normal | Delivery_Status: On-Time | Currency: AED"
+    },
+    {
+      "row_number": 20,
+      "json_data": {
+        "PO_No": "PO-4500188820",
+        "PO_Date": "2025-05-09",
+        "Vendor_ID": "V-ARAB-03",
+        "Material_ID": "MAT-GASKET-4IN-150-SS316G",
+        "Qty": 20,
+        "Unit_Price_AED": 64.0,
+        "Requested_Delivery_Date": "2025-05-12",
+        "Promised_Delivery_Date": "2025-05-12",
+        "Delivered_Date": "2025-05-12",
+        "Freight_Type": "Normal",
+        "Delivery_Status": "On-Time",
+        "Currency": "AED"
+      },
+      "semantic_statement": "Purchase Order number PO-4500188820 was issued on May 9, 2025, to vendor ID V-ARAB-03 for 20 units of material MAT-GASKET-4IN-150-SS316G at a unit price of 64.0 AED. The requested and promised delivery date was May 12, 2025, and the item was delivered on time on the same day. The freight type was normal and the delivery status is on-time.",
+      "combined_text": "Purchase Order number PO-4500188820 was issued on May 9, 2025, to vendor ID V-ARAB-03 for 20 units of material MAT-GASKET-4IN-150-SS316G at a unit price of 64.0 AED. The requested and promised delivery date was May 12, 2025, and the item was delivered on time on the same day. The freight type was normal and the delivery status is on-time. | PO_No: PO-4500188820 | PO_Date: 2025-05-09 | Vendor_ID: V-ARAB-03 | Material_ID: MAT-GASKET-4IN-150-SS316G | Qty: 20 | Unit_Price_AED: 64.0 | Requested_Delivery_Date: 2025-05-12 | Promised_Delivery_Date: 2025-05-12 | Delivered_Date: 2025-05-12 | Freight_Type: Normal | Delivery_Status: On-Time | Currency: AED"
+    }
+  ],
+  "failed_rows": []
+}

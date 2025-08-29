@@ -1,0 +1,16 @@
+Starting embedding process...
+Loading models...
+✓ Semantic model loaded
+✓ Structured model loaded
+
+Found 3 JSON files
+  Loaded 20 records from Equipment_processed.json
+  Loaded 5 records from Functional_Locations_processed.json
+  Loaded 10 records from Equipment_Material_processed.json
+
+Total records: 35
+
+Generating embeddings...
+  Processing record 1/35...
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

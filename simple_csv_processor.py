@@ -337,13 +337,14 @@ class SimpleCsvProcessor:
                         results
                     )
                     
-                    print(f"\n❌ Processing suspended at row {failed_row}")
+                    print(f"\n⚠️ Processing error at row {failed_row}")
                     print(f"   Error: {e}")
                     print(f"   Checkpoint saved: {checkpoint_file}")
                     print(f"   Successfully processed: {len(results)} rows")
-                    print("\n   To resume: Run the same command again")
+                    print("   Continuing with available data...")
                     
-                    raise
+                    # Break out of processing loop for this file, don't raise
+                    break
         
         return results
     

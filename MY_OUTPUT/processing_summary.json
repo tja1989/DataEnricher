@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-08-29T10:12:36.838988",
+  "output_directory": "MY_OUTPUT",
+  "statistics": {
+    "total_files": 8,
+    "successful_files": 8,
+    "failed_files": 0,
+    "total_api_calls": 11,
+    "total_retries": 3
+  },
+  "files": [
+    {
+      "file": "INPUT_CSV/Manuals_Specs.csv",
+      "total_rows": 10,
+      "processed_rows": 10,
+      "failed_rows": 0,
+      "processing_time": 17.711560249328613,
+      "success_rate": 100.0
+    },
+    {
+      "file": "INPUT_CSV/Materials.csv",
+      "total_rows": 19,
+      "processed_rows": 19,
+      "failed_rows": 0,
+      "processing_time": 141.21088314056396,
+      "success_rate": 100.0
+    },
+    {
+      "file": "INPUT_CSV/PO_Lines.csv",
+      "total_rows": 20,
+      "processed_rows": 20,
+      "failed_rows": 0,
+      "processing_time": 131.9223268032074,
+      "success_rate": 100.0
+    },
+    {
+      "file": "INPUT_CSV/Equipment_Material.csv",
+      "total_rows": 10,
+      "processed_rows": 10,
+      "failed_rows": 0,
+      "processing_time": 11.876764059066772,
+      "success_rate": 100.0
+    },
+    {
+      "file": "INPUT_CSV/Work_Orders.csv",
+      "total_rows": 20,
+      "processed_rows": 20,
+      "failed_rows": 0,
+      "processing_time": 28.346043825149536,
+      "success_rate": 100.0
+    },
+    {
+      "file": "INPUT_CSV/Vendors.csv",
+      "total_rows": 5,
+      "processed_rows": 5,
+      "failed_rows": 0,
+      "processing_time": 14.948806762695312,
+      "success_rate": 100.0
+    },
+    {
+      "file": "INPUT_CSV/Equipment.csv",
+      "total_rows": 20,
+      "processed_rows": 20,
+      "failed_rows": 0,
+      "processing_time": 147.24811601638794,
+      "success_rate": 100.0
+    },
+    {
+      "file": "INPUT_CSV/Functional_Locations.csv",
+      "total_rows": 5,
+      "processed_rows": 5,
+      "failed_rows": 0,
+      "processing_time": 7.287322044372559,
+      "success_rate": 100.0
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "metadata": {
+    "total_records": 19,
+    "failed_records": 0,
+    "success_rate": 100.0,
+    "timestamp": "2025-08-29T10:12:30.799582",
+    "batch_size": 20,
+    "api_calls": 10,
+    "total_retries": 3
+  },
+  "records": [
+    {
+      "row_number": 1,
+      "json_data": {
+        "Material_ID": "MAT-SEAL-35MM-2100",
+        "Material_Name": "Mechanical Seal 35mm, SiC/SiC, Viton, Type 2100",
+        "Base_UOM": "EA",
+        "Class": "mechanical seal",
+        "Key_Specs": "35 mm shaft; Faces SiC/SiC; Elastomer Viton(FKM); PN16; Max 120C",
+        "Manufacturer": "John Crane",
+        "OEM_Part_No": "96509547",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-A1",
+        "Min_Level": 1,
+        "Max_Level": 3,
+        "Current_Stock": 1,
+        "Approved_Suppliers": "V-DBX-01,V-GULF-01",
+        "Spec_Sheet_File": "seal_type2100_datasheet.pdf"
+      },
+      "semantic_statement": "The material with ID MAT-SEAL-35MM-2100 is a Mechanical Seal named 'Mechanical Seal 35mm, SiC/SiC, Viton, Type 2100'. It is classified as a mechanical seal and has a base unit of measure of each (EA). The key specifications include a 35 mm shaft, SiC/SiC faces, Viton (FKM) elastomer, a pressure rating of PN16, and a maximum temperature of 120°C. This product is manufactured by John Crane and has an OEM part number of 96509547. It is stored in location STORE-A1, with a minimum stock level of 1 and a maximum stock level of 3. Currently, there is 1 unit in stock. Approved suppliers for this item include V-DBX-01 and V-GULF-01. For more details, refer to the specification sheet available as 'seal_type2100_datasheet.pdf'.",
+      "combined_text": "The material with ID MAT-SEAL-35MM-2100 is a Mechanical Seal named 'Mechanical Seal 35mm, SiC/SiC, Viton, Type 2100'. It is classified as a mechanical seal and has a base unit of measure of each (EA). The key specifications include a 35 mm shaft, SiC/SiC faces, Viton (FKM) elastomer, a pressure rating of PN16, and a maximum temperature of 120°C. This product is manufactured by John Crane and has an OEM part number of 96509547. It is stored in location STORE-A1, with a minimum stock level of 1 and a maximum stock level of 3. Currently, there is 1 unit in stock. Approved suppliers for this item include V-DBX-01 and V-GULF-01. For more details, refer to the specification sheet available as 'seal_type2100_datasheet.pdf'. | Material_ID: MAT-SEAL-35MM-2100 | Material_Name: Mechanical Seal 35mm, SiC/SiC, Viton, Type 2100 | Base_UOM: EA | Class: mechanical seal | Key_Specs: 35 mm shaft; Faces SiC/SiC; Elastomer Viton(FKM); PN16; Max 120C | Manufacturer: John Crane | OEM_Part_No: 96509547 | Storage_Location: STORE-A1 | Min_Level: 1 | Max_Level: 3 | Current_Stock: 1 | Approved_Suppliers: V-DBX-01,V-GULF-01 | Spec_Sheet_File: seal_type2100_datasheet.pdf"
+    },
+    {
+      "row_number": 2,
+      "json_data": {
+        "Material_ID": "MAT-SEAL-45MM-MFL85N",
+        "Material_Name": "Cartridge Seal 45mm MFL85N",
+        "Base_UOM": "EA",
+        "Class": "mechanical seal",
+        "Key_Specs": "45 mm; Cartridge; EPDM; Max 140C",
+        "Manufacturer": "EagleBurgmann",
+        "OEM_Part_No": "MFL85N-45",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-A2",
+        "Min_Level": 1,
+        "Max_Level": 2,
+        "Current_Stock": 0,
+        "Approved_Suppliers": "V-ADB-02",
+        "Spec_Sheet_File": "mfl85n_datasheet.pdf"
+      },
+      "semantic_statement": "The material with ID MAT-SEAL-45MM-MFL85N is a Cartridge Seal known as 'Cartridge Seal 45mm MFL85N'. It is classified as a mechanical seal, with a base unit of measure of each (EA). The key specifications include a 45 mm size, cartridge design, EPDM material, and a maximum temperature of 140°C. This product is manufactured by EagleBurgmann and has an OEM part number of MFL85N-45. It is stored in location STORE-A2, with a minimum stock level of 1 and a maximum stock level of 2. Currently, there are no units in stock. The approved supplier for this item is V-ADB-02, and the specification sheet can be found as 'mfl85n_datasheet.pdf'.",
+      "combined_text": "The material with ID MAT-SEAL-45MM-MFL85N is a Cartridge Seal known as 'Cartridge Seal 45mm MFL85N'. It is classified as a mechanical seal, with a base unit of measure of each (EA). The key specifications include a 45 mm size, cartridge design, EPDM material, and a maximum temperature of 140°C. This product is manufactured by EagleBurgmann and has an OEM part number of MFL85N-45. It is stored in location STORE-A2, with a minimum stock level of 1 and a maximum stock level of 2. Currently, there are no units in stock. The approved supplier for this item is V-ADB-02, and the specification sheet can be found as 'mfl85n_datasheet.pdf'. | Material_ID: MAT-SEAL-45MM-MFL85N | Material_Name: Cartridge Seal 45mm MFL85N | Base_UOM: EA | Class: mechanical seal | Key_Specs: 45 mm; Cartridge; EPDM; Max 140C | Manufacturer: EagleBurgmann | OEM_Part_No: MFL85N-45 | Storage_Location: STORE-A2 | Min_Level: 1 | Max_Level: 2 | Current_Stock: 0 | Approved_Suppliers: V-ADB-02 | Spec_Sheet_File: mfl85n_datasheet.pdf"
+    },
+    {
+      "row_number": 3,
+      "json_data": {
+        "Material_ID": "MAT-BRG-22224-CCW33",
+        "Material_Name": "Spherical Roller Bearing 22224 CC/W33",
+        "Base_UOM": "EA",
+        "Class": "bearing",
+        "Key_Specs": "22224; ID 120 mm; CC/W33; C3",
+        "Manufacturer": "SKF",
+        "OEM_Part_No": "22224 CC/W33",
+        "Alt_Equivalent_PN": "FAG 22224-E1A-M-C3",
+        "Storage_Location": "STORE-B1",
+        "Min_Level": 1,
+        "Max_Level": 2,
+        "Current_Stock": 1,
+        "Approved_Suppliers": "V-DBX-01,V-GULF-01",
+        "Spec_Sheet_File": "skf_22224_catalog.pdf"
+      },
+      "semantic_statement": "The material with ID MAT-BRG-22224-CCW33 is a Spherical Roller Bearing named 'Spherical Roller Bearing 22224 CC/W33'. It is classified as a bearing and has a base unit of measure of each (EA). The key specifications include a model number of 22224, an inner diameter of 120 mm, CC/W33 design, and a clearance of C3. This product is manufactured by SKF and has an OEM part number of 22224 CC/W33. An alternative equivalent part number is FAG 22224-E1A-M-C3. It is stored in location STORE-B1, with a minimum stock level of 1 and a maximum stock level of 2. Currently, there is 1 unit in stock. Approved suppliers for this item include V-DBX-01 and V-GULF-01. For further details, refer to the specification sheet available as 'skf_22224_catalog.pdf'.",
+      "combined_text": "The material with ID MAT-BRG-22224-CCW33 is a Spherical Roller Bearing named 'Spherical Roller Bearing 22224 CC/W33'. It is classified as a bearing and has a base unit of measure of each (EA). The key specifications include a model number of 22224, an inner diameter of 120 mm, CC/W33 design, and a clearance of C3. This product is manufactured by SKF and has an OEM part number of 22224 CC/W33. An alternative equivalent part number is FAG 22224-E1A-M-C3. It is stored in location STORE-B1, with a minimum stock level of 1 and a maximum stock level of 2. Currently, there is 1 unit in stock. Approved suppliers for this item include V-DBX-01 and V-GULF-01. For further details, refer to the specification sheet available as 'skf_22224_catalog.pdf'. | Material_ID: MAT-BRG-22224-CCW33 | Material_Name: Spherical Roller Bearing 22224 CC/W33 | Base_UOM: EA | Class: bearing | Key_Specs: 22224; ID 120 mm; CC/W33; C3 | Manufacturer: SKF | OEM_Part_No: 22224 CC/W33 | Alt_Equivalent_PN: FAG 22224-E1A-M-C3 | Storage_Location: STORE-B1 | Min_Level: 1 | Max_Level: 2 | Current_Stock: 1 | Approved_Suppliers: V-DBX-01,V-GULF-01 | Spec_Sheet_File: skf_22224_catalog.pdf"
+    },
+    {
+      "row_number": 4,
+      "json_data": {
+        "Material_ID": "MAT-BRG-6312-2ZC3",
+        "Material_Name": "Deep Groove Ball Bearing 6312-2Z/C3",
+        "Base_UOM": "EA",
+        "Class": "bearing",
+        "Key_Specs": "ID 60 mm; 2Z; C3",
+        "Manufacturer": "SKF",
+        "OEM_Part_No": "6312-2Z/C3",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-B1",
+        "Min_Level": 2,
+        "Max_Level": 6,
+        "Current_Stock": 3,
+        "Approved_Suppliers": "V-DBX-01",
+        "Spec_Sheet_File": "skf_6312_catalog.pdf"
+      },
+      "semantic_statement": "The material with ID MAT-BRG-6312-2ZC3 is a Deep Groove Ball Bearing known as 'Deep Groove Ball Bearing 6312-2Z/C3'. It is classified as a bearing, with a base unit of measure of each (EA). The key specifications include an inner diameter of 60 mm, a 2Z design, and a clearance of C3. This product is manufactured by SKF and has an OEM part number of 6312-2Z/C3. It is stored in location STORE-B1, with a minimum stock level of 2 and a maximum stock level of 6. Currently, there are 3 units in stock. The approved supplier for this item is V-DBX-01, and the specification sheet can be found as 'skf_6312_catalog.pdf'.",
+      "combined_text": "The material with ID MAT-BRG-6312-2ZC3 is a Deep Groove Ball Bearing known as 'Deep Groove Ball Bearing 6312-2Z/C3'. It is classified as a bearing, with a base unit of measure of each (EA). The key specifications include an inner diameter of 60 mm, a 2Z design, and a clearance of C3. This product is manufactured by SKF and has an OEM part number of 6312-2Z/C3. It is stored in location STORE-B1, with a minimum stock level of 2 and a maximum stock level of 6. Currently, there are 3 units in stock. The approved supplier for this item is V-DBX-01, and the specification sheet can be found as 'skf_6312_catalog.pdf'. | Material_ID: MAT-BRG-6312-2ZC3 | Material_Name: Deep Groove Ball Bearing 6312-2Z/C3 | Base_UOM: EA | Class: bearing | Key_Specs: ID 60 mm; 2Z; C3 | Manufacturer: SKF | OEM_Part_No: 6312-2Z/C3 | Storage_Location: STORE-B1 | Min_Level: 2 | Max_Level: 6 | Current_Stock: 3 | Approved_Suppliers: V-DBX-01 | Spec_Sheet_File: skf_6312_catalog.pdf"
+    },
+    {
+      "row_number": 5,
+      "json_data": {
+        "Material_ID": "MAT-FILTER-HYDAC-0330D010",
+        "Material_Name": "Hydraulic Filter Element 0330D010BN/HC",
+        "Base_UOM": "EA",
+        "Class": "filter element",
+        "Key_Specs": "10 micron; 330 series; BN/HC",
+        "Manufacturer": "HYDAC",
+        "OEM_Part_No": "0330D010BN/HC",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-C2",
+        "Min_Level": 2,
+        "Max_Level": 6,
+        "Current_Stock": 2,
+        "Approved_Suppliers": "V-GULF-01",
+        "Spec_Sheet_File": "hydac_0330d010.pdf"
+      },
+      "semantic_statement": "The material with ID MAT-FILTER-HYDAC-0330D010 is a Hydraulic Filter Element named 'Hydraulic Filter Element 0330D010BN/HC'. It is classified as a filter element and has a base unit of measure of each (EA). The key specifications include a filtration size of 10 microns, belonging to the 330 series, and a designation of BN/HC. This product is manufactured by HYDAC and has an OEM part number of 0330D010BN/HC. It is stored in location STORE-C2, with a minimum stock level of 2 and a maximum stock level of 6. Currently, there are 2 units in stock. The approved supplier for this item is V-GULF-01, and the specification sheet is available as 'hydac_0330d010.pdf'.",
+      "combined_text": "The material with ID MAT-FILTER-HYDAC-0330D010 is a Hydraulic Filter Element named 'Hydraulic Filter Element 0330D010BN/HC'. It is classified as a filter element and has a base unit of measure of each (EA). The key specifications include a filtration size of 10 microns, belonging to the 330 series, and a designation of BN/HC. This product is manufactured by HYDAC and has an OEM part number of 0330D010BN/HC. It is stored in location STORE-C2, with a minimum stock level of 2 and a maximum stock level of 6. Currently, there are 2 units in stock. The approved supplier for this item is V-GULF-01, and the specification sheet is available as 'hydac_0330d010.pdf'. | Material_ID: MAT-FILTER-HYDAC-0330D010 | Material_Name: Hydraulic Filter Element 0330D010BN/HC | Base_UOM: EA | Class: filter element | Key_Specs: 10 micron; 330 series; BN/HC | Manufacturer: HYDAC | OEM_Part_No: 0330D010BN/HC | Storage_Location: STORE-C2 | Min_Level: 2 | Max_Level: 6 | Current_Stock: 2 | Approved_Suppliers: V-GULF-01 | Spec_Sheet_File: hydac_0330d010.pdf"
+    },
+    {
+      "row_number": 6,
+      "json_data": {
+        "Material_ID": "MAT-GASKET-4IN-150-SS316G",
+        "Material_Name": "Spiral Wound Gasket 4\" 150# SS316/Graphite",
+        "Base_UOM": "EA",
+        "Class": "gasket",
+        "Key_Specs": "4 inch; ASME B16.20; Class 150; SS316/Graphite",
+        "Manufacturer": "Flexitallic",
+        "OEM_Part_No": "SWG-4-150-316G",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-C1",
+        "Min_Level": 5,
+        "Max_Level": 20,
+        "Current_Stock": 8,
+        "Approved_Suppliers": "V-ARAB-03",
+        "Spec_Sheet_File": "flexitallic_swg.pdf"
+      },
+      "semantic_statement": "The material with ID MAT-GASKET-4IN-150-SS316G is a Spiral Wound Gasket known as 'Spiral Wound Gasket 4\" 150# SS316/Graphite'. It is classified as a gasket and has a base unit of measure of each (EA). The key specifications include a size of 4 inches, compliance with ASME B16.20, a class rating of 150, and materials of SS316 and Graphite. This product is manufactured by Flexitallic and has an OEM part number of SWG-4-150-316G. It is stored in location STORE-C1, with a minimum stock level of 5 and a maximum stock level of 20. Currently, there are 8 units in stock. The approved supplier for this item is V-ARAB-03, and the specification sheet can be found as 'flexitallic_swg.pdf'.",
+      "combined_text": "The material with ID MAT-GASKET-4IN-150-SS316G is a Spiral Wound Gasket known as 'Spiral Wound Gasket 4\" 150# SS316/Graphite'. It is classified as a gasket and has a base unit of measure of each (EA). The key specifications include a size of 4 inches, compliance with ASME B16.20, a class rating of 150, and materials of SS316 and Graphite. This product is manufactured by Flexitallic and has an OEM part number of SWG-4-150-316G. It is stored in location STORE-C1, with a minimum stock level of 5 and a maximum stock level of 20. Currently, there are 8 units in stock. The approved supplier for this item is V-ARAB-03, and the specification sheet can be found as 'flexitallic_swg.pdf'. | Material_ID: MAT-GASKET-4IN-150-SS316G | Material_Name: Spiral Wound Gasket 4\" 150# SS316/Graphite | Base_UOM: EA | Class: gasket | Key_Specs: 4 inch; ASME B16.20; Class 150; SS316/Graphite | Manufacturer: Flexitallic | OEM_Part_No: SWG-4-150-316G | Storage_Location: STORE-C1 | Min_Level: 5 | Max_Level: 20 | Current_Stock: 8 | Approved_Suppliers: V-ARAB-03 | Spec_Sheet_File: flexitallic_swg.pdf"
+    },
+    {
+      "row_number": 7,
+      "json_data": {
+        "Material_ID": "MAT-VBELT-SPB-2240",
+        "Material_Name": "V-Belt SPB 2240",
+        "Base_UOM": "EA",
+        "Class": "belt",
+        "Key_Specs": "SPB profile; 2240 mm",
+        "Manufacturer": "Optibelt",
+        "OEM_Part_No": "SPB2240",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-D1",
+        "Min_Level": 2,
+        "Max_Level": 6,
+        "Current_Stock": 1,
+        "Approved_Suppliers": "V-ARAB-03",
+        "Spec_Sheet_File": "optibelt_spb.pdf"
+      },
+      "semantic_statement": "The material with ID MAT-VBELT-SPB-2240 is a V-Belt known as 'V-Belt SPB 2240'. It is classified as a belt and has a base unit of measure of each (EA). The key specifications include an SPB profile and a length of 2240 mm. This product is manufactured by Optibelt and has an OEM part number of SPB2240. It is stored in location STORE-D1, with a minimum stock level of 2 and a maximum stock level of 6. Currently, there is 1 unit in stock. The approved supplier for this item is V-ARAB-03, and the specification sheet is available as 'optibelt_spb.pdf'.",
+      "combined_text": "The material with ID MAT-VBELT-SPB-2240 is a V-Belt known as 'V-Belt SPB 2240'. It is classified as a belt and has a base unit of measure of each (EA). The key specifications include an SPB profile and a length of 2240 mm. This product is manufactured by Optibelt and has an OEM part number of SPB2240. It is stored in location STORE-D1, with a minimum stock level of 2 and a maximum stock level of 6. Currently, there is 1 unit in stock. The approved supplier for this item is V-ARAB-03, and the specification sheet is available as 'optibelt_spb.pdf'. | Material_ID: MAT-VBELT-SPB-2240 | Material_Name: V-Belt SPB 2240 | Base_UOM: EA | Class: belt | Key_Specs: SPB profile; 2240 mm | Manufacturer: Optibelt | OEM_Part_No: SPB2240 | Storage_Location: STORE-D1 | Min_Level: 2 | Max_Level: 6 | Current_Stock: 1 | Approved_Suppliers: V-ARAB-03 | Spec_Sheet_File: optibelt_spb.pdf"
+    },
+    {
+      "row_number": 8,
+      "json_data": {
+        "Material_ID": "MAT-IMPELLER-KSB-65-160",
+        "Material_Name": "Impeller for KSB ETA 65-160",
+        "Base_UOM": "EA",
+        "Class": "pump impeller",
+        "Key_Specs": "ETA 65-160; Bronze",
+        "Manufacturer": "KSB",
+        "OEM_Part_No": "ETA-65-160-IMP",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-A2",
+        "Min_Level": 0,
+        "Max_Level": 1,
+        "Current_Stock": 0,
+        "Approved_Suppliers": "V-ADB-02",
+        "Spec_Sheet_File": "ksb_eta_impeller.pdf"
+      },
+      "semantic_statement": "The material with ID MAT-IMPELLER-KSB-65-160 is an Impeller known as 'Impeller for KSB ETA 65-160'. It is classified as a pump impeller and has a base unit of measure of each (EA). The key specifications include compatibility with ETA 65-160 and a material made of bronze. This product is manufactured by KSB and has an OEM part number of ETA-65-160-IMP. It is stored in location STORE-A2, with a minimum stock level of 0 and a maximum stock level of 1. Currently, there are no units in stock. The approved supplier for this item is V-ADB-02, and the specification sheet can be found as 'ksb_eta_impeller.pdf'.",
+      "combined_text": "The material with ID MAT-IMPELLER-KSB-65-160 is an Impeller known as 'Impeller for KSB ETA 65-160'. It is classified as a pump impeller and has a base unit of measure of each (EA). The key specifications include compatibility with ETA 65-160 and a material made of bronze. This product is manufactured by KSB and has an OEM part number of ETA-65-160-IMP. It is stored in location STORE-A2, with a minimum stock level of 0 and a maximum stock level of 1. Currently, there are no units in stock. The approved supplier for this item is V-ADB-02, and the specification sheet can be found as 'ksb_eta_impeller.pdf'. | Material_ID: MAT-IMPELLER-KSB-65-160 | Material_Name: Impeller for KSB ETA 65-160 | Base_UOM: EA | Class: pump impeller | Key_Specs: ETA 65-160; Bronze | Manufacturer: KSB | OEM_Part_No: ETA-65-160-IMP | Storage_Location: STORE-A2 | Min_Level: 0 | Max_Level: 1 | Current_Stock: 0 | Approved_Suppliers: V-ADB-02 | Spec_Sheet_File: ksb_eta_impeller.pdf"
+    },
+    {
+      "row_number": 9,
+      "json_data": {
+        "Material_ID": "MAT-OIL-MOBIL-SHC632-20L",
+        "Material_Name": "Gear Oil Mobil SHC 632 20L",
+        "Base_UOM": "CAN",
+        "Class": "lubricant",
+        "Key_Specs": "ISO VG 320; PAO; 20 L",
+        "Manufacturer": "Mobil",
+        "OEM_Part_No": "SHC632-20L",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "LUBE-01",
+        "Min_Level": 2,
+        "Max_Level": 6,
+        "Current_Stock": 4,
+        "Approved_Suppliers": "V-GULF-01",
+        "Spec_Sheet_File": "mobil_shc632_tds.pdf"
+      },
+      "semantic_statement": "The material with ID MAT-OIL-MOBIL-SHC632-20L is a Gear Oil known as 'Gear Oil Mobil SHC 632 20L'. It is classified as a lubricant and has a base unit of measure of can (CAN). The key specifications include an ISO VG of 320, a PAO base, and a volume of 20 liters. This product is manufactured by Mobil and has an OEM part number of SHC632-20L. It is stored in location LUBE-01, with a minimum stock level of 2 and a maximum stock level of 6. Currently, there are 4 units in stock. The approved supplier for this item is V-GULF-01, and the specification sheet is available as 'mobil_shc632_tds.pdf'.",
+      "combined_text": "The material with ID MAT-OIL-MOBIL-SHC632-20L is a Gear Oil known as 'Gear Oil Mobil SHC 632 20L'. It is classified as a lubricant and has a base unit of measure of can (CAN). The key specifications include an ISO VG of 320, a PAO base, and a volume of 20 liters. This product is manufactured by Mobil and has an OEM part number of SHC632-20L. It is stored in location LUBE-01, with a minimum stock level of 2 and a maximum stock level of 6. Currently, there are 4 units in stock. The approved supplier for this item is V-GULF-01, and the specification sheet is available as 'mobil_shc632_tds.pdf'. | Material_ID: MAT-OIL-MOBIL-SHC632-20L | Material_Name: Gear Oil Mobil SHC 632 20L | Base_UOM: CAN | Class: lubricant | Key_Specs: ISO VG 320; PAO; 20 L | Manufacturer: Mobil | OEM_Part_No: SHC632-20L | Storage_Location: LUBE-01 | Min_Level: 2 | Max_Level: 6 | Current_Stock: 4 | Approved_Suppliers: V-GULF-01 | Spec_Sheet_File: mobil_shc632_tds.pdf"
+    },
+    {
+      "row_number": 10,
+      "json_data": {
+        "Material_ID": "MAT-THERMO-TYPEK-1200",
+        "Material_Name": "Thermocouple Type K 1200mm 1/2\" NPT",
+        "Base_UOM": "EA",
+        "Class": "instrument",
+        "Key_Specs": "Type K; 1200 mm; 1/2\" NPT; 0–1200C",
+        "Manufacturer": "Omega",
+        "OEM_Part_No": "KQXL-1200-12NPT",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-E1",
+        "Min_Level": 1,
+        "Max_Level": 3,
+        "Current_Stock": 1,
+        "Approved_Suppliers": "V-ARAB-03",
+        "Spec_Sheet_File": "omega_typek.pdf"
+      },
+      "semantic_statement": "The item is a Thermocouple Type K measuring 1200mm with a 1/2\" NPT fitting. It is classified as an instrument and is capable of measuring temperatures from 0 to 1200°C. Manufactured by Omega, its OEM part number is KQXL-1200-12NPT. The item is stored in location STORE-E1, with a minimum stock level of 1 and a maximum of 3. Currently, there is 1 unit in stock, and it is approved for supply by V-ARAB-03. For further details, refer to the specification sheet available as omega_typek.pdf.",
+      "combined_text": "The item is a Thermocouple Type K measuring 1200mm with a 1/2\" NPT fitting. It is classified as an instrument and is capable of measuring temperatures from 0 to 1200°C. Manufactured by Omega, its OEM part number is KQXL-1200-12NPT. The item is stored in location STORE-E1, with a minimum stock level of 1 and a maximum of 3. Currently, there is 1 unit in stock, and it is approved for supply by V-ARAB-03. For further details, refer to the specification sheet available as omega_typek.pdf. | Material_ID: MAT-THERMO-TYPEK-1200 | Material_Name: Thermocouple Type K 1200mm 1/2\" NPT | Base_UOM: EA | Class: instrument | Key_Specs: Type K; 1200 mm; 1/2\" NPT; 0–1200C | Manufacturer: Omega | OEM_Part_No: KQXL-1200-12NPT | Storage_Location: STORE-E1 | Min_Level: 1 | Max_Level: 3 | Current_Stock: 1 | Approved_Suppliers: V-ARAB-03 | Spec_Sheet_File: omega_typek.pdf"
+    },
+    {
+      "row_number": 11,
+      "json_data": {
+        "Material_ID": "MAT-PT-ROSEM-3051-10B",
+        "Material_Name": "Pressure Transmitter 3051 0–10 bar",
+        "Base_UOM": "EA",
+        "Class": "instrument",
+        "Key_Specs": "0–10 bar; 4-20mA; HART",
+        "Manufacturer": "Rosemount",
+        "OEM_Part_No": "3051-10B",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-E1",
+        "Min_Level": 1,
+        "Max_Level": 2,
+        "Current_Stock": 1,
+        "Approved_Suppliers": "V-GULF-01",
+        "Spec_Sheet_File": "rosemount_3051.pdf"
+      },
+      "semantic_statement": "This Pressure Transmitter 3051 operates within a range of 0 to 10 bar and features a 4-20mA output with HART communication. It is categorized as an instrument and is manufactured by Rosemount, with the OEM part number 3051-10B. The item is located in STORE-E1, with a minimum stock level of 1 and a maximum of 2. Currently, there is 1 unit in stock, and it is supplied by V-GULF-01. Additional specifications can be found in the spec sheet titled rosemount_3051.pdf.",
+      "combined_text": "This Pressure Transmitter 3051 operates within a range of 0 to 10 bar and features a 4-20mA output with HART communication. It is categorized as an instrument and is manufactured by Rosemount, with the OEM part number 3051-10B. The item is located in STORE-E1, with a minimum stock level of 1 and a maximum of 2. Currently, there is 1 unit in stock, and it is supplied by V-GULF-01. Additional specifications can be found in the spec sheet titled rosemount_3051.pdf. | Material_ID: MAT-PT-ROSEM-3051-10B | Material_Name: Pressure Transmitter 3051 0–10 bar | Base_UOM: EA | Class: instrument | Key_Specs: 0–10 bar; 4-20mA; HART | Manufacturer: Rosemount | OEM_Part_No: 3051-10B | Storage_Location: STORE-E1 | Min_Level: 1 | Max_Level: 2 | Current_Stock: 1 | Approved_Suppliers: V-GULF-01 | Spec_Sheet_File: rosemount_3051.pdf"
+    },
+    {
+      "row_number": 12,
+      "json_data": {
+        "Material_ID": "MAT-ORING-FKM-35X3",
+        "Material_Name": "O-Ring Viton 35x3 mm",
+        "Base_UOM": "EA",
+        "Class": "seal",
+        "Key_Specs": "FKM 70 Shore; 35x3 mm",
+        "Manufacturer": "Trelleborg",
+        "OEM_Part_No": "OR-35x3-FKM",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-C1",
+        "Min_Level": 10,
+        "Max_Level": 50,
+        "Current_Stock": 20,
+        "Approved_Suppliers": "V-ARAB-03",
+        "Spec_Sheet_File": "trelleborg_orings.pdf"
+      },
+      "semantic_statement": "The O-Ring Viton measures 35x3 mm and is classified as a seal. It is made from FKM material with a hardness of 70 Shore and is produced by Trelleborg, with the OEM part number OR-35x3-FKM. This item is stored in STORE-C1, with a minimum stock level of 10 and a maximum of 50. Currently, there are 20 units in stock, and it is approved for supply by V-ARAB-03. For more information, refer to the specification sheet available as trelleborg_orings.pdf.",
+      "combined_text": "The O-Ring Viton measures 35x3 mm and is classified as a seal. It is made from FKM material with a hardness of 70 Shore and is produced by Trelleborg, with the OEM part number OR-35x3-FKM. This item is stored in STORE-C1, with a minimum stock level of 10 and a maximum of 50. Currently, there are 20 units in stock, and it is approved for supply by V-ARAB-03. For more information, refer to the specification sheet available as trelleborg_orings.pdf. | Material_ID: MAT-ORING-FKM-35X3 | Material_Name: O-Ring Viton 35x3 mm | Base_UOM: EA | Class: seal | Key_Specs: FKM 70 Shore; 35x3 mm | Manufacturer: Trelleborg | OEM_Part_No: OR-35x3-FKM | Storage_Location: STORE-C1 | Min_Level: 10 | Max_Level: 50 | Current_Stock: 20 | Approved_Suppliers: V-ARAB-03 | Spec_Sheet_File: trelleborg_orings.pdf"
+    },
+    {
+      "row_number": 13,
+      "json_data": {
+        "Material_ID": "MAT-HOSE-2SN-1/2-330",
+        "Material_Name": "Hydraulic Hose 1/2\" 2SN 330 bar",
+        "Base_UOM": "M",
+        "Class": "hose",
+        "Key_Specs": "DN12; 2SN; WP 330 bar",
+        "Manufacturer": "Parker",
+        "OEM_Part_No": "301-8",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-C2",
+        "Min_Level": 10,
+        "Max_Level": 50,
+        "Current_Stock": 15,
+        "Approved_Suppliers": "V-GULF-01",
+        "Spec_Sheet_File": "parker_2sn.pdf"
+      },
+      "semantic_statement": "This Hydraulic Hose is 1/2\" in diameter, rated for a working pressure of 330 bar, and classified as a hose. It features a DN12 size and is manufactured by Parker, with the OEM part number 301-8. The item is stored in STORE-C2, with a minimum stock level of 10 and a maximum of 50. Currently, there are 15 units in stock, and it is supplied by V-GULF-01. More details can be found in the spec sheet titled parker_2sn.pdf.",
+      "combined_text": "This Hydraulic Hose is 1/2\" in diameter, rated for a working pressure of 330 bar, and classified as a hose. It features a DN12 size and is manufactured by Parker, with the OEM part number 301-8. The item is stored in STORE-C2, with a minimum stock level of 10 and a maximum of 50. Currently, there are 15 units in stock, and it is supplied by V-GULF-01. More details can be found in the spec sheet titled parker_2sn.pdf. | Material_ID: MAT-HOSE-2SN-1/2-330 | Material_Name: Hydraulic Hose 1/2\" 2SN 330 bar | Base_UOM: M | Class: hose | Key_Specs: DN12; 2SN; WP 330 bar | Manufacturer: Parker | OEM_Part_No: 301-8 | Storage_Location: STORE-C2 | Min_Level: 10 | Max_Level: 50 | Current_Stock: 15 | Approved_Suppliers: V-GULF-01 | Spec_Sheet_File: parker_2sn.pdf"
+    },
+    {
+      "row_number": 14,
+      "json_data": {
+        "Material_ID": "MAT-STARTER-ABB-AF116",
+        "Material_Name": "Contactor AF116-30-11 110V",
+        "Base_UOM": "EA",
+        "Class": "electrical",
+        "Key_Specs": "AC-3 75kW @400V; 110V coil",
+        "Manufacturer": "ABB",
+        "OEM_Part_No": "AF116-30-11-11",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-E2",
+        "Min_Level": 1,
+        "Max_Level": 2,
+        "Current_Stock": 1,
+        "Approved_Suppliers": "V-ARAB-03",
+        "Spec_Sheet_File": "abb_af116.pdf"
+      },
+      "semantic_statement": "The Contactor AF116-30-11 operates at 110V and is classified as electrical equipment. It has a rating of AC-3 75kW at 400V and is manufactured by ABB, with the OEM part number AF116-30-11-11. This item is located in STORE-E2, with a minimum stock level of 1 and a maximum of 2. Currently, there is 1 unit in stock, and it is approved for supply by V-ARAB-03. For further details, consult the specification sheet available as abb_af116.pdf.",
+      "combined_text": "The Contactor AF116-30-11 operates at 110V and is classified as electrical equipment. It has a rating of AC-3 75kW at 400V and is manufactured by ABB, with the OEM part number AF116-30-11-11. This item is located in STORE-E2, with a minimum stock level of 1 and a maximum of 2. Currently, there is 1 unit in stock, and it is approved for supply by V-ARAB-03. For further details, consult the specification sheet available as abb_af116.pdf. | Material_ID: MAT-STARTER-ABB-AF116 | Material_Name: Contactor AF116-30-11 110V | Base_UOM: EA | Class: electrical | Key_Specs: AC-3 75kW @400V; 110V coil | Manufacturer: ABB | OEM_Part_No: AF116-30-11-11 | Storage_Location: STORE-E2 | Min_Level: 1 | Max_Level: 2 | Current_Stock: 1 | Approved_Suppliers: V-ARAB-03 | Spec_Sheet_File: abb_af116.pdf"
+    },
+    {
+      "row_number": 15,
+      "json_data": {
+        "Material_ID": "MAT-FANFILTER-325",
+        "Material_Name": "VFD Fan Filter 325x325 mm",
+        "Base_UOM": "EA",
+        "Class": "filter",
+        "Key_Specs": "325x325 mm; washable",
+        "Manufacturer": "Rittal",
+        "OEM_Part_No": "3412.225",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-E2",
+        "Min_Level": 2,
+        "Max_Level": 6,
+        "Current_Stock": 2,
+        "Approved_Suppliers": "V-ARAB-03",
+        "Spec_Sheet_File": "rittal_ffilter.pdf"
+      },
+      "semantic_statement": "The VFD Fan Filter measures 325x325 mm and is classified as a filter. It is washable and manufactured by Rittal, with the OEM part number 3412.225. This item is stored in STORE-E2, with a minimum stock level of 2 and a maximum of 6. Currently, there are 2 units in stock, and it is approved for supply by V-ARAB-03. More information can be found in the spec sheet titled rittal_ffilter.pdf.",
+      "combined_text": "The VFD Fan Filter measures 325x325 mm and is classified as a filter. It is washable and manufactured by Rittal, with the OEM part number 3412.225. This item is stored in STORE-E2, with a minimum stock level of 2 and a maximum of 6. Currently, there are 2 units in stock, and it is approved for supply by V-ARAB-03. More information can be found in the spec sheet titled rittal_ffilter.pdf. | Material_ID: MAT-FANFILTER-325 | Material_Name: VFD Fan Filter 325x325 mm | Base_UOM: EA | Class: filter | Key_Specs: 325x325 mm; washable | Manufacturer: Rittal | OEM_Part_No: 3412.225 | Storage_Location: STORE-E2 | Min_Level: 2 | Max_Level: 6 | Current_Stock: 2 | Approved_Suppliers: V-ARAB-03 | Spec_Sheet_File: rittal_ffilter.pdf"
+    },
+    {
+      "row_number": 16,
+      "json_data": {
+        "Material_ID": "MAT-SLEEVE-CRN10",
+        "Material_Name": "Pump Shaft Sleeve for CRN 10",
+        "Base_UOM": "EA",
+        "Class": "pump sleeve",
+        "Key_Specs": "CRN 10; SS316",
+        "Manufacturer": "Grundfos",
+        "OEM_Part_No": "CRN10-SL",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-A1",
+        "Min_Level": 0,
+        "Max_Level": 1,
+        "Current_Stock": 0,
+        "Approved_Suppliers": "V-ADB-02",
+        "Spec_Sheet_File": "grundfos_crn_spares.pdf"
+      },
+      "semantic_statement": "The Pump Shaft Sleeve for CRN 10 is classified as a pump sleeve and is made from SS316 material. It is manufactured by Grundfos, with the OEM part number CRN10-SL. This item is stored in STORE-A1, with a minimum stock level of 0 and a maximum of 1. Currently, there are no units in stock, and it is approved for supply by V-ADB-02. For more details, refer to the specification sheet available as grundfos_crn_spares.pdf.",
+      "combined_text": "The Pump Shaft Sleeve for CRN 10 is classified as a pump sleeve and is made from SS316 material. It is manufactured by Grundfos, with the OEM part number CRN10-SL. This item is stored in STORE-A1, with a minimum stock level of 0 and a maximum of 1. Currently, there are no units in stock, and it is approved for supply by V-ADB-02. For more details, refer to the specification sheet available as grundfos_crn_spares.pdf. | Material_ID: MAT-SLEEVE-CRN10 | Material_Name: Pump Shaft Sleeve for CRN 10 | Base_UOM: EA | Class: pump sleeve | Key_Specs: CRN 10; SS316 | Manufacturer: Grundfos | OEM_Part_No: CRN10-SL | Storage_Location: STORE-A1 | Min_Level: 0 | Max_Level: 1 | Current_Stock: 0 | Approved_Suppliers: V-ADB-02 | Spec_Sheet_File: grundfos_crn_spares.pdf"
+    },
+    {
+      "row_number": 17,
+      "json_data": {
+        "Material_ID": "MAT-POS-FISHER-DVC6200",
+        "Material_Name": "Valve Positioner DVC6200",
+        "Base_UOM": "EA",
+        "Class": "instrument",
+        "Key_Specs": "HART; SIS capable",
+        "Manufacturer": "Fisher",
+        "OEM_Part_No": "DVC6200",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-E1",
+        "Min_Level": 0,
+        "Max_Level": 1,
+        "Current_Stock": 0,
+        "Approved_Suppliers": "V-GULF-01",
+        "Spec_Sheet_File": "fisher_dvc6200.pdf"
+      },
+      "semantic_statement": "The Valve Positioner DVC6200 is classified as an instrument and is HART and SIS capable. It is manufactured by Fisher, with the OEM part number DVC6200. This item is stored in STORE-E1, with a minimum stock level of 0 and a maximum of 1. Currently, there are no units in stock, and it is approved for supply by V-GULF-01. Additional specifications can be found in the spec sheet titled fisher_dvc6200.pdf.",
+      "combined_text": "The Valve Positioner DVC6200 is classified as an instrument and is HART and SIS capable. It is manufactured by Fisher, with the OEM part number DVC6200. This item is stored in STORE-E1, with a minimum stock level of 0 and a maximum of 1. Currently, there are no units in stock, and it is approved for supply by V-GULF-01. Additional specifications can be found in the spec sheet titled fisher_dvc6200.pdf. | Material_ID: MAT-POS-FISHER-DVC6200 | Material_Name: Valve Positioner DVC6200 | Base_UOM: EA | Class: instrument | Key_Specs: HART; SIS capable | Manufacturer: Fisher | OEM_Part_No: DVC6200 | Storage_Location: STORE-E1 | Min_Level: 0 | Max_Level: 1 | Current_Stock: 0 | Approved_Suppliers: V-GULF-01 | Spec_Sheet_File: fisher_dvc6200.pdf"
+    },
+    {
+      "row_number": 18,
+      "json_data": {
+        "Material_ID": "MAT-SOL-ASC0-551",
+        "Material_Name": "Solenoid Valve 551 24VDC",
+        "Base_UOM": "EA",
+        "Class": "valve",
+        "Key_Specs": "G1/4; 24VDC; 10 bar",
+        "Manufacturer": "ASCO",
+        "OEM_Part_No": "551-24VDC",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-E2",
+        "Min_Level": 2,
+        "Max_Level": 6,
+        "Current_Stock": 2,
+        "Approved_Suppliers": "V-ARAB-03",
+        "Spec_Sheet_File": "asco_551.pdf"
+      },
+      "semantic_statement": "The Solenoid Valve 551 operates at 24VDC and is classified as a valve. It has a G1/4 connection and a pressure rating of 10 bar. Manufactured by ASCO, its OEM part number is 551-24VDC. This item is stored in STORE-E2, with a minimum stock level of 2 and a maximum of 6. Currently, there are 2 units in stock, and it is approved for supply by V-ARAB-03. For further details, refer to the specification sheet available as asco_551.pdf.",
+      "combined_text": "The Solenoid Valve 551 operates at 24VDC and is classified as a valve. It has a G1/4 connection and a pressure rating of 10 bar. Manufactured by ASCO, its OEM part number is 551-24VDC. This item is stored in STORE-E2, with a minimum stock level of 2 and a maximum of 6. Currently, there are 2 units in stock, and it is approved for supply by V-ARAB-03. For further details, refer to the specification sheet available as asco_551.pdf. | Material_ID: MAT-SOL-ASC0-551 | Material_Name: Solenoid Valve 551 24VDC | Base_UOM: EA | Class: valve | Key_Specs: G1/4; 24VDC; 10 bar | Manufacturer: ASCO | OEM_Part_No: 551-24VDC | Storage_Location: STORE-E2 | Min_Level: 2 | Max_Level: 6 | Current_Stock: 2 | Approved_Suppliers: V-ARAB-03 | Spec_Sheet_File: asco_551.pdf"
+    },
+    {
+      "row_number": 19,
+      "json_data": {
+        "Material_ID": "MAT-COUP-SPIDER-1100T10",
+        "Material_Name": "Coupling Spider for 1100T10",
+        "Base_UOM": "EA",
+        "Class": "coupling insert",
+        "Key_Specs": "Falk 1100T10; PU",
+        "Manufacturer": "Rexnord",
+        "OEM_Part_No": "1100T10-SPDR",
+        "Alt_Equivalent_PN": null,
+        "Storage_Location": "STORE-D1",
+        "Min_Level": 1,
+        "Max_Level": 3,
+        "Current_Stock": 1,
+        "Approved_Suppliers": "V-GULF-01",
+        "Spec_Sheet_File": "rexnord_steelflex_spider.pdf"
+      },
+      "semantic_statement": "The Coupling Spider for 1100T10 is classified as a coupling insert and is made from PU material. It is manufactured by Rexnord, with the OEM part number 1100T10-SPDR. This item is stored in STORE-D1, with a minimum stock level of 1 and a maximum of 3. Currently, there is 1 unit in stock, and it is approved for supply by V-GULF-01. For more information, consult the specification sheet titled rexnord_steelflex_spider.pdf.",
+      "combined_text": "The Coupling Spider for 1100T10 is classified as a coupling insert and is made from PU material. It is manufactured by Rexnord, with the OEM part number 1100T10-SPDR. This item is stored in STORE-D1, with a minimum stock level of 1 and a maximum of 3. Currently, there is 1 unit in stock, and it is approved for supply by V-GULF-01. For more information, consult the specification sheet titled rexnord_steelflex_spider.pdf. | Material_ID: MAT-COUP-SPIDER-1100T10 | Material_Name: Coupling Spider for 1100T10 | Base_UOM: EA | Class: coupling insert | Key_Specs: Falk 1100T10; PU | Manufacturer: Rexnord | OEM_Part_No: 1100T10-SPDR | Storage_Location: STORE-D1 | Min_Level: 1 | Max_Level: 3 | Current_Stock: 1 | Approved_Suppliers: V-GULF-01 | Spec_Sheet_File: rexnord_steelflex_spider.pdf"
+    }
+  ],
+  "failed_rows": []
+}

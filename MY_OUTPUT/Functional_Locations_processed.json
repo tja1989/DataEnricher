@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "total_records": 5,
+    "failed_records": 0,
+    "success_rate": 100.0,
+    "timestamp": "2025-08-29T10:10:16.877364",
+    "batch_size": 20,
+    "api_calls": 1,
+    "total_retries": 0
+  },
+  "records": [
+    {
+      "row_number": 1,
+      "json_data": {
+        "FL_ID": "FL-CCM-01",
+        "FL_Name": "Continuous Casting Machine",
+        "Parent_FL_ID": "FL-PLANT-A",
+        "Site_Area": "Jebel Ali Plant A",
+        "Criticality": "H"
+      },
+      "semantic_statement": "The Continuous Casting Machine, identified as FL-CCM-01, is located in the Jebel Ali Plant A and is categorized under the parent facility FL-PLANT-A. This machine has a high criticality rating.",
+      "combined_text": "The Continuous Casting Machine, identified as FL-CCM-01, is located in the Jebel Ali Plant A and is categorized under the parent facility FL-PLANT-A. This machine has a high criticality rating. | FL_ID: FL-CCM-01 | FL_Name: Continuous Casting Machine | Parent_FL_ID: FL-PLANT-A | Site_Area: Jebel Ali Plant A | Criticality: H"
+    },
+    {
+      "row_number": 2,
+      "json_data": {
+        "FL_ID": "FL-HOTROLL-01",
+        "FL_Name": "Hot Rolling Mill",
+        "Parent_FL_ID": "FL-PLANT-A",
+        "Site_Area": "Jebel Ali Plant A",
+        "Criticality": "H"
+      },
+      "semantic_statement": "The Hot Rolling Mill, with the identifier FL-HOTROLL-01, is situated in the Jebel Ali Plant A and falls under the parent facility FL-PLANT-A. It is also rated with high criticality.",
+      "combined_text": "The Hot Rolling Mill, with the identifier FL-HOTROLL-01, is situated in the Jebel Ali Plant A and falls under the parent facility FL-PLANT-A. It is also rated with high criticality. | FL_ID: FL-HOTROLL-01 | FL_Name: Hot Rolling Mill | Parent_FL_ID: FL-PLANT-A | Site_Area: Jebel Ali Plant A | Criticality: H"
+    },
+    {
+      "row_number": 3,
+      "json_data": {
+        "FL_ID": "FL-UTIL-CT-01",
+        "FL_Name": "Utilities - Cooling Tower",
+        "Parent_FL_ID": "FL-PLANT-A",
+        "Site_Area": "Jebel Ali Plant A",
+        "Criticality": "M"
+      },
+      "semantic_statement": "The Utilities - Cooling Tower, identified as FL-UTIL-CT-01, is located in the Jebel Ali Plant A and is part of the parent facility FL-PLANT-A. This utility has a medium criticality rating.",
+      "combined_text": "The Utilities - Cooling Tower, identified as FL-UTIL-CT-01, is located in the Jebel Ali Plant A and is part of the parent facility FL-PLANT-A. This utility has a medium criticality rating. | FL_ID: FL-UTIL-CT-01 | FL_Name: Utilities - Cooling Tower | Parent_FL_ID: FL-PLANT-A | Site_Area: Jebel Ali Plant A | Criticality: M"
+    },
+    {
+      "row_number": 4,
+      "json_data": {
+        "FL_ID": "FL-REHEAT-01",
+        "FL_Name": "Reheating Furnace",
+        "Parent_FL_ID": "FL-PLANT-A",
+        "Site_Area": "Jebel Ali Plant A",
+        "Criticality": "H"
+      },
+      "semantic_statement": "The Reheating Furnace, with the identifier FL-REHEAT-01, is found in the Jebel Ali Plant A and is associated with the parent facility FL-PLANT-A. It has a high criticality rating.",
+      "combined_text": "The Reheating Furnace, with the identifier FL-REHEAT-01, is found in the Jebel Ali Plant A and is associated with the parent facility FL-PLANT-A. It has a high criticality rating. | FL_ID: FL-REHEAT-01 | FL_Name: Reheating Furnace | Parent_FL_ID: FL-PLANT-A | Site_Area: Jebel Ali Plant A | Criticality: H"
+    },
+    {
+      "row_number": 5,
+      "json_data": {
+        "FL_ID": "FL-CRANE-01",
+        "FL_Name": "Overhead Crane Bay",
+        "Parent_FL_ID": "FL-PLANT-A",
+        "Site_Area": "Jebel Ali Plant A",
+        "Criticality": "M"
+      },
+      "semantic_statement": "The Overhead Crane Bay, identified as FL-CRANE-01, is located in the Jebel Ali Plant A and is categorized under the parent facility FL-PLANT-A. This facility has a medium criticality rating.",
+      "combined_text": "The Overhead Crane Bay, identified as FL-CRANE-01, is located in the Jebel Ali Plant A and is categorized under the parent facility FL-PLANT-A. This facility has a medium criticality rating. | FL_ID: FL-CRANE-01 | FL_Name: Overhead Crane Bay | Parent_FL_ID: FL-PLANT-A | Site_Area: Jebel Ali Plant A | Criticality: M"
+    }
+  ],
+  "failed_rows": []
+}

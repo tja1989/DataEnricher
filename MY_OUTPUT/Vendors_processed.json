@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "total_records": 5,
+    "failed_records": 0,
+    "success_rate": 100.0,
+    "timestamp": "2025-08-29T10:10:24.538947",
+    "batch_size": 20,
+    "api_calls": 3,
+    "total_retries": 0
+  },
+  "records": [
+    {
+      "row_number": 1,
+      "json_data": {
+        "Vendor_ID": "V-DBX-01",
+        "Vendor_Name": "Dubai Bearings & Seals LLC",
+        "Aliases": "DBX Bearings; Dubai Bearings",
+        "Contact_Name": "Ahmed Khan",
+        "Contact_Email": "sales@dbxbearings.ae",
+        "Contact_Phone": "+971-4-555-1234",
+        "Approval_Status": "Approved",
+        "OEM_Authorized": "Y",
+        "Typical_Lead_Time_Days": 5,
+        "Currency": "AED",
+        "Incoterms": "EXW",
+        "Region": "UAE"
+      },
+      "semantic_statement": "The vendor with ID V-DBX-01 is Dubai Bearings & Seals LLC, also known as DBX Bearings or Dubai Bearings. The primary contact is Ahmed Khan, who can be reached via email at sales@dbxbearings.ae or by phone at +971-4-555-1234. This vendor has an approval status of 'Approved' and is OEM authorized. They typically have a lead time of 5 days for orders, operate in AED currency, and follow EXW incoterms, serving the UAE region.",
+      "combined_text": "The vendor with ID V-DBX-01 is Dubai Bearings & Seals LLC, also known as DBX Bearings or Dubai Bearings. The primary contact is Ahmed Khan, who can be reached via email at sales@dbxbearings.ae or by phone at +971-4-555-1234. This vendor has an approval status of 'Approved' and is OEM authorized. They typically have a lead time of 5 days for orders, operate in AED currency, and follow EXW incoterms, serving the UAE region. | Vendor_ID: V-DBX-01 | Vendor_Name: Dubai Bearings & Seals LLC | Aliases: DBX Bearings; Dubai Bearings | Contact_Name: Ahmed Khan | Contact_Email: sales@dbxbearings.ae | Contact_Phone: +971-4-555-1234 | Approval_Status: Approved | OEM_Authorized: Y | Typical_Lead_Time_Days: 5 | Currency: AED | Incoterms: EXW | Region: UAE"
+    },
+    {
+      "row_number": 2,
+      "json_data": {
+        "Vendor_ID": "V-ADB-02",
+        "Vendor_Name": "Abu Dhabi Sealing Co.",
+        "Aliases": "AD Sealing; AbuDhabi Sealing",
+        "Contact_Name": "Fatima Al Nuaimi",
+        "Contact_Email": "orders@adsealing.ae",
+        "Contact_Phone": "+971-2-555-9876",
+        "Approval_Status": "Qualified",
+        "OEM_Authorized": "N",
+        "Typical_Lead_Time_Days": 7,
+        "Currency": "AED",
+        "Incoterms": "DAP",
+        "Region": "UAE"
+      },
+      "semantic_statement": "Vendor ID V-ADB-02 belongs to Abu Dhabi Sealing Co., which is also referred to as AD Sealing or AbuDhabi Sealing. The contact person is Fatima Al Nuaimi, available at orders@adsealing.ae or +971-2-555-9876. This vendor is 'Qualified' in terms of approval status and is not OEM authorized. They usually require 7 days for lead time, use AED as their currency, and adhere to DAP incoterms, operating within the UAE.",
+      "combined_text": "Vendor ID V-ADB-02 belongs to Abu Dhabi Sealing Co., which is also referred to as AD Sealing or AbuDhabi Sealing. The contact person is Fatima Al Nuaimi, available at orders@adsealing.ae or +971-2-555-9876. This vendor is 'Qualified' in terms of approval status and is not OEM authorized. They usually require 7 days for lead time, use AED as their currency, and adhere to DAP incoterms, operating within the UAE. | Vendor_ID: V-ADB-02 | Vendor_Name: Abu Dhabi Sealing Co. | Aliases: AD Sealing; AbuDhabi Sealing | Contact_Name: Fatima Al Nuaimi | Contact_Email: orders@adsealing.ae | Contact_Phone: +971-2-555-9876 | Approval_Status: Qualified | OEM_Authorized: N | Typical_Lead_Time_Days: 7 | Currency: AED | Incoterms: DAP | Region: UAE"
+    },
+    {
+      "row_number": 3,
+      "json_data": {
+        "Vendor_ID": "V-GULF-01",
+        "Vendor_Name": "Gulf Industrial Supplies FZE",
+        "Aliases": "Gulf Ind. Supplies F.Z.E.; GIS FZE",
+        "Contact_Name": "Mohammed Ali",
+        "Contact_Email": "info@gis-fze.com",
+        "Contact_Phone": "+971-6-555-2222",
+        "Approval_Status": "Approved",
+        "OEM_Authorized": "Y",
+        "Typical_Lead_Time_Days": 6,
+        "Currency": "AED",
+        "Incoterms": "FCA",
+        "Region": "UAE"
+      },
+      "semantic_statement": "Gulf Industrial Supplies FZE is identified by vendor ID V-GULF-01 and is also known as Gulf Ind. Supplies F.Z.E. or GIS FZE. The contact for this vendor is Mohammed Ali, who can be contacted at info@gis-fze.com or +971-6-555-2222. They have an 'Approved' status and are OEM authorized. The typical lead time for orders is 6 days, they operate in AED currency, and follow FCA incoterms, serving the UAE region.",
+      "combined_text": "Gulf Industrial Supplies FZE is identified by vendor ID V-GULF-01 and is also known as Gulf Ind. Supplies F.Z.E. or GIS FZE. The contact for this vendor is Mohammed Ali, who can be contacted at info@gis-fze.com or +971-6-555-2222. They have an 'Approved' status and are OEM authorized. The typical lead time for orders is 6 days, they operate in AED currency, and follow FCA incoterms, serving the UAE region. | Vendor_ID: V-GULF-01 | Vendor_Name: Gulf Industrial Supplies FZE | Aliases: Gulf Ind. Supplies F.Z.E.; GIS FZE | Contact_Name: Mohammed Ali | Contact_Email: info@gis-fze.com | Contact_Phone: +971-6-555-2222 | Approval_Status: Approved | OEM_Authorized: Y | Typical_Lead_Time_Days: 6 | Currency: AED | Incoterms: FCA | Region: UAE"
+    },
+    {
+      "row_number": 4,
+      "json_data": {
+        "Vendor_ID": "V-ARAB-03",
+        "Vendor_Name": "Arabian Pumps & Valves Trading LLC",
+        "Aliases": "Arabian Pumps; APV Trading",
+        "Contact_Name": "Rashid Al Mansoori",
+        "Contact_Email": "sales@arabianpumps.ae",
+        "Contact_Phone": "+971-4-555-4444",
+        "Approval_Status": "Approved",
+        "OEM_Authorized": "N",
+        "Typical_Lead_Time_Days": 4,
+        "Currency": "AED",
+        "Incoterms": "EXW",
+        "Region": "UAE"
+      },
+      "semantic_statement": "The vendor Arabian Pumps & Valves Trading LLC, with ID V-ARAB-03, is also known as Arabian Pumps or APV Trading. Rashid Al Mansoori is the contact person, reachable at sales@arabianpumps.ae or +971-4-555-4444. This vendor has an 'Approved' status but is not OEM authorized. They typically have a lead time of 4 days, use AED currency, and follow EXW incoterms, operating in the UAE.",
+      "combined_text": "The vendor Arabian Pumps & Valves Trading LLC, with ID V-ARAB-03, is also known as Arabian Pumps or APV Trading. Rashid Al Mansoori is the contact person, reachable at sales@arabianpumps.ae or +971-4-555-4444. This vendor has an 'Approved' status but is not OEM authorized. They typically have a lead time of 4 days, use AED currency, and follow EXW incoterms, operating in the UAE. | Vendor_ID: V-ARAB-03 | Vendor_Name: Arabian Pumps & Valves Trading LLC | Aliases: Arabian Pumps; APV Trading | Contact_Name: Rashid Al Mansoori | Contact_Email: sales@arabianpumps.ae | Contact_Phone: +971-4-555-4444 | Approval_Status: Approved | OEM_Authorized: N | Typical_Lead_Time_Days: 4 | Currency: AED | Incoterms: EXW | Region: UAE"
+    },
+    {
+      "row_number": 5,
+      "json_data": {
+        "Vendor_ID": "V-ALT-04",
+        "Vendor_Name": "Gulf Industrial Supplies F.Z.E.",
+        "Aliases": "Gulf Industrial Supplies; Gulf Ind Supplies",
+        "Contact_Name": "Mohd. Ali",
+        "Contact_Email": "sales@gulfindsup.com",
+        "Contact_Phone": "+971-6-555-2223",
+        "Approval_Status": "New",
+        "OEM_Authorized": "Y",
+        "Typical_Lead_Time_Days": 8,
+        "Currency": "AED",
+        "Incoterms": "CIP",
+        "Region": "UAE"
+      },
+      "semantic_statement": "Vendor ID V-ALT-04 corresponds to Gulf Industrial Supplies F.Z.E., also referred to as Gulf Industrial Supplies or Gulf Ind Supplies. The contact person is Mohd. Ali, who can be reached at sales@gulfindsup.com or +971-6-555-2223. This vendor is classified as 'New' and is OEM authorized. They usually have a lead time of 8 days, operate in AED currency, and follow CIP incoterms, serving the UAE region.",
+      "combined_text": "Vendor ID V-ALT-04 corresponds to Gulf Industrial Supplies F.Z.E., also referred to as Gulf Industrial Supplies or Gulf Ind Supplies. The contact person is Mohd. Ali, who can be reached at sales@gulfindsup.com or +971-6-555-2223. This vendor is classified as 'New' and is OEM authorized. They usually have a lead time of 8 days, operate in AED currency, and follow CIP incoterms, serving the UAE region. | Vendor_ID: V-ALT-04 | Vendor_Name: Gulf Industrial Supplies F.Z.E. | Aliases: Gulf Industrial Supplies; Gulf Ind Supplies | Contact_Name: Mohd. Ali | Contact_Email: sales@gulfindsup.com | Contact_Phone: +971-6-555-2223 | Approval_Status: New | OEM_Authorized: Y | Typical_Lead_Time_Days: 8 | Currency: AED | Incoterms: CIP | Region: UAE"
+    }
+  ],
+  "failed_rows": []
+}

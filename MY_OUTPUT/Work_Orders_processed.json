@@ -1,0 +1,314 @@
+{
+  "metadata": {
+    "total_records": 20,
+    "failed_records": 0,
+    "success_rate": 100.0,
+    "timestamp": "2025-08-29T10:10:37.935835",
+    "batch_size": 20,
+    "api_calls": 5,
+    "total_retries": 0
+  },
+  "records": [
+    {
+      "row_number": 1,
+      "json_data": {
+        "WO_ID": "WO-2025-000101",
+        "Equipment_ID": "EQ-PUMP-CRN10-6-01",
+        "Request_Text": "Seal leakage; replace mech seal",
+        "Start_Date": "2025-05-03",
+        "Finish_Date": "2025-05-03",
+        "Downtime_Hours": 4.0,
+        "Materials_Consumed": "MAT-SEAL-35MM-2100:1",
+        "Technician_Notes": "Old seal worn; Viton required due to hot water"
+      },
+      "semantic_statement": "Work order WO-2025-000101 involved the equipment EQ-PUMP-CRN10-6-01, where a seal leakage was reported, necessitating the replacement of the mechanical seal. The work started and finished on May 3, 2025, resulting in 4 hours of downtime. The technician consumed one unit of MAT-SEAL-35MM-2100 and noted that the old seal was worn and that Viton was required due to hot water conditions.",
+      "combined_text": "Work order WO-2025-000101 involved the equipment EQ-PUMP-CRN10-6-01, where a seal leakage was reported, necessitating the replacement of the mechanical seal. The work started and finished on May 3, 2025, resulting in 4 hours of downtime. The technician consumed one unit of MAT-SEAL-35MM-2100 and noted that the old seal was worn and that Viton was required due to hot water conditions. | WO_ID: WO-2025-000101 | Equipment_ID: EQ-PUMP-CRN10-6-01 | Request_Text: Seal leakage; replace mech seal | Start_Date: 2025-05-03 | Finish_Date: 2025-05-03 | Downtime_Hours: 4.0 | Materials_Consumed: MAT-SEAL-35MM-2100:1 | Technician_Notes: Old seal worn; Viton required due to hot water"
+    },
+    {
+      "row_number": 2,
+      "json_data": {
+        "WO_ID": "WO-2025-000102",
+        "Equipment_ID": "EQ-PUMP-KSB-65-160-01",
+        "Request_Text": "Low flow; impeller damage suspected",
+        "Start_Date": "2025-05-07",
+        "Finish_Date": "2025-05-08",
+        "Downtime_Hours": 6.0,
+        "Materials_Consumed": "MAT-IMPELLER-KSB-65-160:1",
+        "Technician_Notes": "Replaced impeller; restored performance"
+      },
+      "semantic_statement": "In work order WO-2025-000102, the equipment EQ-PUMP-KSB-65-160-01 experienced low flow, suspected to be due to impeller damage. The repair took place from May 7 to May 8, 2025, with a total downtime of 6 hours. The technician replaced the impeller with one unit of MAT-IMPELLER-KSB-65-160 and confirmed that performance was restored.",
+      "combined_text": "In work order WO-2025-000102, the equipment EQ-PUMP-KSB-65-160-01 experienced low flow, suspected to be due to impeller damage. The repair took place from May 7 to May 8, 2025, with a total downtime of 6 hours. The technician replaced the impeller with one unit of MAT-IMPELLER-KSB-65-160 and confirmed that performance was restored. | WO_ID: WO-2025-000102 | Equipment_ID: EQ-PUMP-KSB-65-160-01 | Request_Text: Low flow; impeller damage suspected | Start_Date: 2025-05-07 | Finish_Date: 2025-05-08 | Downtime_Hours: 6.0 | Materials_Consumed: MAT-IMPELLER-KSB-65-160:1 | Technician_Notes: Replaced impeller; restored performance"
+    },
+    {
+      "row_number": 3,
+      "json_data": {
+        "WO_ID": "WO-2025-000103",
+        "Equipment_ID": "EQ-GEAR-FLENDER-H3SH-01",
+        "Request_Text": "Vibration high; inspect bearings",
+        "Start_Date": "2025-06-01",
+        "Finish_Date": "2025-06-01",
+        "Downtime_Hours": 3.0,
+        "Materials_Consumed": "MAT-BRG-22224-CCW33:2",
+        "Technician_Notes": "Installed SKF 22224 CC/W33; clearance C3"
+      },
+      "semantic_statement": "Work order WO-2025-000103 addressed high vibration issues in the equipment EQ-GEAR-FLENDER-H3SH-01, prompting an inspection of the bearings. The work was completed on June 1, 2025, with 3 hours of downtime. The technician consumed two units of MAT-BRG-22224-CCW33 and installed SKF 22224 CC/W33 bearings with clearance C3.",
+      "combined_text": "Work order WO-2025-000103 addressed high vibration issues in the equipment EQ-GEAR-FLENDER-H3SH-01, prompting an inspection of the bearings. The work was completed on June 1, 2025, with 3 hours of downtime. The technician consumed two units of MAT-BRG-22224-CCW33 and installed SKF 22224 CC/W33 bearings with clearance C3. | WO_ID: WO-2025-000103 | Equipment_ID: EQ-GEAR-FLENDER-H3SH-01 | Request_Text: Vibration high; inspect bearings | Start_Date: 2025-06-01 | Finish_Date: 2025-06-01 | Downtime_Hours: 3.0 | Materials_Consumed: MAT-BRG-22224-CCW33:2 | Technician_Notes: Installed SKF 22224 CC/W33; clearance C3"
+    },
+    {
+      "row_number": 4,
+      "json_data": {
+        "WO_ID": "WO-2025-000104",
+        "Equipment_ID": "EQ-HPU-REX-45-01",
+        "Request_Text": "Filter clogged; pressure drop",
+        "Start_Date": "2025-06-12",
+        "Finish_Date": "2025-06-12",
+        "Downtime_Hours": 2.0,
+        "Materials_Consumed": "MAT-FILTER-HYDAC-0330D010:2,MAT-OIL-MOBIL-SHC632-20L:1",
+        "Technician_Notes": "Changed return filter; topped up Mobil SHC 632"
+      },
+      "semantic_statement": "In work order WO-2025-000104, the equipment EQ-HPU-REX-45-01 had a clogged filter causing a pressure drop. The maintenance was performed on June 12, 2025, resulting in 2 hours of downtime. The technician changed the return filter and topped up one unit of MAT-OIL-MOBIL-SHC632-20L.",
+      "combined_text": "In work order WO-2025-000104, the equipment EQ-HPU-REX-45-01 had a clogged filter causing a pressure drop. The maintenance was performed on June 12, 2025, resulting in 2 hours of downtime. The technician changed the return filter and topped up one unit of MAT-OIL-MOBIL-SHC632-20L. | WO_ID: WO-2025-000104 | Equipment_ID: EQ-HPU-REX-45-01 | Request_Text: Filter clogged; pressure drop | Start_Date: 2025-06-12 | Finish_Date: 2025-06-12 | Downtime_Hours: 2.0 | Materials_Consumed: MAT-FILTER-HYDAC-0330D010:2,MAT-OIL-MOBIL-SHC632-20L:1 | Technician_Notes: Changed return filter; topped up Mobil SHC 632"
+    },
+    {
+      "row_number": 5,
+      "json_data": {
+        "WO_ID": "WO-2025-000105",
+        "Equipment_ID": "EQ-CRANE-DEMAG-DH20-01",
+        "Request_Text": "Belt wear on hoist drive",
+        "Start_Date": "2025-04-20",
+        "Finish_Date": "2025-04-20",
+        "Downtime_Hours": 1.0,
+        "Materials_Consumed": "MAT-VBELT-SPB-2240:2",
+        "Technician_Notes": "Temporary fix; consider chain drive"
+      },
+      "semantic_statement": "Work order WO-2025-000105 reported belt wear on the hoist drive of equipment EQ-CRANE-DEMAG-DH20-01. The repair was completed on April 20, 2025, with 1 hour of downtime. The technician consumed two units of MAT-VBELT-SPB-2240 and noted that a temporary fix was applied, suggesting a future consideration for a chain drive.",
+      "combined_text": "Work order WO-2025-000105 reported belt wear on the hoist drive of equipment EQ-CRANE-DEMAG-DH20-01. The repair was completed on April 20, 2025, with 1 hour of downtime. The technician consumed two units of MAT-VBELT-SPB-2240 and noted that a temporary fix was applied, suggesting a future consideration for a chain drive. | WO_ID: WO-2025-000105 | Equipment_ID: EQ-CRANE-DEMAG-DH20-01 | Request_Text: Belt wear on hoist drive | Start_Date: 2025-04-20 | Finish_Date: 2025-04-20 | Downtime_Hours: 1.0 | Materials_Consumed: MAT-VBELT-SPB-2240:2 | Technician_Notes: Temporary fix; consider chain drive"
+    },
+    {
+      "row_number": 6,
+      "json_data": {
+        "WO_ID": "WO-2025-000106",
+        "Equipment_ID": "EQ-CT-FAN-MARLEY-01",
+        "Request_Text": "Fan gearbox noise",
+        "Start_Date": "2025-05-15",
+        "Finish_Date": "2025-05-15",
+        "Downtime_Hours": 2.0,
+        "Materials_Consumed": "MAT-OIL-MOBIL-SHC632-20L:1",
+        "Technician_Notes": "Oil change reduced noise"
+      },
+      "semantic_statement": "In work order WO-2025-000106, the equipment EQ-CT-FAN-MARLEY-01 had a noisy fan gearbox. The issue was resolved on May 15, 2025, with 2 hours of downtime. The technician performed an oil change using one unit of MAT-OIL-MOBIL-SHC632-20L, which successfully reduced the noise.",
+      "combined_text": "In work order WO-2025-000106, the equipment EQ-CT-FAN-MARLEY-01 had a noisy fan gearbox. The issue was resolved on May 15, 2025, with 2 hours of downtime. The technician performed an oil change using one unit of MAT-OIL-MOBIL-SHC632-20L, which successfully reduced the noise. | WO_ID: WO-2025-000106 | Equipment_ID: EQ-CT-FAN-MARLEY-01 | Request_Text: Fan gearbox noise | Start_Date: 2025-05-15 | Finish_Date: 2025-05-15 | Downtime_Hours: 2.0 | Materials_Consumed: MAT-OIL-MOBIL-SHC632-20L:1 | Technician_Notes: Oil change reduced noise"
+    },
+    {
+      "row_number": 7,
+      "json_data": {
+        "WO_ID": "WO-2025-000107",
+        "Equipment_ID": "EQ-DRIVE-ABB-ACS880-01",
+        "Request_Text": "Overtemp alarm; check cooling",
+        "Start_Date": "2025-07-01",
+        "Finish_Date": "2025-07-01",
+        "Downtime_Hours": 1.0,
+        "Materials_Consumed": "MAT-FANFILTER-325:1",
+        "Technician_Notes": "Replaced fan filter"
+      },
+      "semantic_statement": "Work order WO-2025-000107 involved the equipment EQ-DRIVE-ABB-ACS880-01, which triggered an overtemperature alarm requiring a cooling check. The work was completed on July 1, 2025, with 1 hour of downtime. The technician replaced one unit of MAT-FANFILTER-325.",
+      "combined_text": "Work order WO-2025-000107 involved the equipment EQ-DRIVE-ABB-ACS880-01, which triggered an overtemperature alarm requiring a cooling check. The work was completed on July 1, 2025, with 1 hour of downtime. The technician replaced one unit of MAT-FANFILTER-325. | WO_ID: WO-2025-000107 | Equipment_ID: EQ-DRIVE-ABB-ACS880-01 | Request_Text: Overtemp alarm; check cooling | Start_Date: 2025-07-01 | Finish_Date: 2025-07-01 | Downtime_Hours: 1.0 | Materials_Consumed: MAT-FANFILTER-325:1 | Technician_Notes: Replaced fan filter"
+    },
+    {
+      "row_number": 8,
+      "json_data": {
+        "WO_ID": "WO-2025-000108",
+        "Equipment_ID": "EQ-VALVE-FISHER-119-01",
+        "Request_Text": "Valve hunting; positioner fault",
+        "Start_Date": "2025-03-11",
+        "Finish_Date": "2025-03-12",
+        "Downtime_Hours": 3.0,
+        "Materials_Consumed": "MAT-POS-FISHER-DVC6200:1",
+        "Technician_Notes": "Upgraded to DVC6200; loop tuned"
+      },
+      "semantic_statement": "In work order WO-2025-000108, the equipment EQ-VALVE-FISHER-119-01 was experiencing valve hunting due to a positioner fault. The repair took place from March 11 to March 12, 2025, resulting in 3 hours of downtime. The technician upgraded the positioner to DVC6200 and tuned the loop, consuming one unit of MAT-POS-FISHER-DVC6200.",
+      "combined_text": "In work order WO-2025-000108, the equipment EQ-VALVE-FISHER-119-01 was experiencing valve hunting due to a positioner fault. The repair took place from March 11 to March 12, 2025, resulting in 3 hours of downtime. The technician upgraded the positioner to DVC6200 and tuned the loop, consuming one unit of MAT-POS-FISHER-DVC6200. | WO_ID: WO-2025-000108 | Equipment_ID: EQ-VALVE-FISHER-119-01 | Request_Text: Valve hunting; positioner fault | Start_Date: 2025-03-11 | Finish_Date: 2025-03-12 | Downtime_Hours: 3.0 | Materials_Consumed: MAT-POS-FISHER-DVC6200:1 | Technician_Notes: Upgraded to DVC6200; loop tuned"
+    },
+    {
+      "row_number": 9,
+      "json_data": {
+        "WO_ID": "WO-2025-000109",
+        "Equipment_ID": "EQ-PUMP-CRN10-6-01",
+        "Request_Text": "Shaft sleeve scored",
+        "Start_Date": "2025-02-14",
+        "Finish_Date": "2025-02-14",
+        "Downtime_Hours": 2.0,
+        "Materials_Consumed": "MAT-SLEEVE-CRN10:1",
+        "Technician_Notes": "Sleeve replaced; align shaft"
+      },
+      "semantic_statement": "Work order WO-2025-000109 reported a scored shaft sleeve on the equipment EQ-PUMP-CRN10-6-01. The repair was completed on February 14, 2025, with 2 hours of downtime. The technician replaced the sleeve using one unit of MAT-SLEEVE-CRN10 and aligned the shaft.",
+      "combined_text": "Work order WO-2025-000109 reported a scored shaft sleeve on the equipment EQ-PUMP-CRN10-6-01. The repair was completed on February 14, 2025, with 2 hours of downtime. The technician replaced the sleeve using one unit of MAT-SLEEVE-CRN10 and aligned the shaft. | WO_ID: WO-2025-000109 | Equipment_ID: EQ-PUMP-CRN10-6-01 | Request_Text: Shaft sleeve scored | Start_Date: 2025-02-14 | Finish_Date: 2025-02-14 | Downtime_Hours: 2.0 | Materials_Consumed: MAT-SLEEVE-CRN10:1 | Technician_Notes: Sleeve replaced; align shaft"
+    },
+    {
+      "row_number": 10,
+      "json_data": {
+        "WO_ID": "WO-2025-000110",
+        "Equipment_ID": "EQ-INST-EH-PROMAG-01",
+        "Request_Text": "Temp probe replacement during calibration",
+        "Start_Date": "2025-06-20",
+        "Finish_Date": "2025-06-20",
+        "Downtime_Hours": 0.5,
+        "Materials_Consumed": "MAT-THERMO-TYPEK-1200:1",
+        "Technician_Notes": "Temporary probe used"
+      },
+      "semantic_statement": "In work order WO-2025-000110, the equipment EQ-INST-EH-PROMAG-01 required a temperature probe replacement during calibration. The work was done on June 20, 2025, with only 0.5 hours of downtime. The technician used one unit of MAT-THERMO-TYPEK-1200 as a temporary probe.",
+      "combined_text": "In work order WO-2025-000110, the equipment EQ-INST-EH-PROMAG-01 required a temperature probe replacement during calibration. The work was done on June 20, 2025, with only 0.5 hours of downtime. The technician used one unit of MAT-THERMO-TYPEK-1200 as a temporary probe. | WO_ID: WO-2025-000110 | Equipment_ID: EQ-INST-EH-PROMAG-01 | Request_Text: Temp probe replacement during calibration | Start_Date: 2025-06-20 | Finish_Date: 2025-06-20 | Downtime_Hours: 0.5 | Materials_Consumed: MAT-THERMO-TYPEK-1200:1 | Technician_Notes: Temporary probe used"
+    },
+    {
+      "row_number": 11,
+      "json_data": {
+        "WO_ID": "WO-2025-000111",
+        "Equipment_ID": "EQ-PLC-S7-1500-01",
+        "Request_Text": "Panel maintenance; replace clogged filter",
+        "Start_Date": "2025-01-21",
+        "Finish_Date": "2025-01-21",
+        "Downtime_Hours": 0.5,
+        "Materials_Consumed": "MAT-FANFILTER-325:1",
+        "Technician_Notes": "Preventive change"
+      },
+      "semantic_statement": "Work order WO-2025-000111 involved panel maintenance for the equipment EQ-PLC-S7-1500-01, specifically replacing a clogged filter. The maintenance was completed on January 21, 2025, with 0.5 hours of downtime. The technician consumed one unit of MAT-FANFILTER-325 as a preventive change.",
+      "combined_text": "Work order WO-2025-000111 involved panel maintenance for the equipment EQ-PLC-S7-1500-01, specifically replacing a clogged filter. The maintenance was completed on January 21, 2025, with 0.5 hours of downtime. The technician consumed one unit of MAT-FANFILTER-325 as a preventive change. | WO_ID: WO-2025-000111 | Equipment_ID: EQ-PLC-S7-1500-01 | Request_Text: Panel maintenance; replace clogged filter | Start_Date: 2025-01-21 | Finish_Date: 2025-01-21 | Downtime_Hours: 0.5 | Materials_Consumed: MAT-FANFILTER-325:1 | Technician_Notes: Preventive change"
+    },
+    {
+      "row_number": 12,
+      "json_data": {
+        "WO_ID": "WO-2025-000112",
+        "Equipment_ID": "EQ-HPU-COOLER-01",
+        "Request_Text": "Hose leak at pump outlet",
+        "Start_Date": "2025-07-09",
+        "Finish_Date": "2025-07-09",
+        "Downtime_Hours": 1.5,
+        "Materials_Consumed": "MAT-HOSE-2SN-1/2-330:3,MAT-ORING-FKM-35X3:2",
+        "Technician_Notes": "Cut and crimped 3 m hose; replaced O-rings"
+      },
+      "semantic_statement": "In work order WO-2025-000112, a hose leak was reported at the pump outlet of the equipment EQ-HPU-COOLER-01. The repair took place on July 9, 2025, resulting in 1.5 hours of downtime. The technician cut and crimped a 3-meter hose and replaced two O-rings, consuming three units of MAT-HOSE-2SN-1/2-330 and two units of MAT-ORING-FKM-35X3.",
+      "combined_text": "In work order WO-2025-000112, a hose leak was reported at the pump outlet of the equipment EQ-HPU-COOLER-01. The repair took place on July 9, 2025, resulting in 1.5 hours of downtime. The technician cut and crimped a 3-meter hose and replaced two O-rings, consuming three units of MAT-HOSE-2SN-1/2-330 and two units of MAT-ORING-FKM-35X3. | WO_ID: WO-2025-000112 | Equipment_ID: EQ-HPU-COOLER-01 | Request_Text: Hose leak at pump outlet | Start_Date: 2025-07-09 | Finish_Date: 2025-07-09 | Downtime_Hours: 1.5 | Materials_Consumed: MAT-HOSE-2SN-1/2-330:3,MAT-ORING-FKM-35X3:2 | Technician_Notes: Cut and crimped 3 m hose; replaced O-rings"
+    },
+    {
+      "row_number": 13,
+      "json_data": {
+        "WO_ID": "WO-2025-000113",
+        "Equipment_ID": "EQ-GEARBOX-FALK-1100-01",
+        "Request_Text": "Coupling insert worn",
+        "Start_Date": "2025-05-27",
+        "Finish_Date": "2025-05-27",
+        "Downtime_Hours": 1.0,
+        "Materials_Consumed": "MAT-COUP-SPIDER-1100T10:1",
+        "Technician_Notes": "Grid inspected OK"
+      },
+      "semantic_statement": "Work order WO-2025-000113 addressed a worn coupling insert in the equipment EQ-GEARBOX-FALK-1100-01. The repair was completed on May 27, 2025, with 1 hour of downtime. The technician replaced the coupling insert using one unit of MAT-COUP-SPIDER-1100T10 and confirmed that the grid was inspected and found to be okay.",
+      "combined_text": "Work order WO-2025-000113 addressed a worn coupling insert in the equipment EQ-GEARBOX-FALK-1100-01. The repair was completed on May 27, 2025, with 1 hour of downtime. The technician replaced the coupling insert using one unit of MAT-COUP-SPIDER-1100T10 and confirmed that the grid was inspected and found to be okay. | WO_ID: WO-2025-000113 | Equipment_ID: EQ-GEARBOX-FALK-1100-01 | Request_Text: Coupling insert worn | Start_Date: 2025-05-27 | Finish_Date: 2025-05-27 | Downtime_Hours: 1.0 | Materials_Consumed: MAT-COUP-SPIDER-1100T10:1 | Technician_Notes: Grid inspected OK"
+    },
+    {
+      "row_number": 14,
+      "json_data": {
+        "WO_ID": "WO-2025-000114",
+        "Equipment_ID": "EQ-PUMP-KSB-65-160-01",
+        "Request_Text": "Seal leaking (cartridge)",
+        "Start_Date": "2025-07-19",
+        "Finish_Date": "2025-07-19",
+        "Downtime_Hours": 3.0,
+        "Materials_Consumed": "MAT-SEAL-45MM-MFL85N:1",
+        "Technician_Notes": "EagleBurgmann 45 mm cartridge installed"
+      },
+      "semantic_statement": "In work order WO-2025-000114, the equipment EQ-PUMP-KSB-65-160-01 had a leaking cartridge seal. The repair was completed on July 19, 2025, resulting in 3 hours of downtime. The technician installed an EagleBurgmann 45 mm cartridge seal, consuming one unit of MAT-SEAL-45MM-MFL85N.",
+      "combined_text": "In work order WO-2025-000114, the equipment EQ-PUMP-KSB-65-160-01 had a leaking cartridge seal. The repair was completed on July 19, 2025, resulting in 3 hours of downtime. The technician installed an EagleBurgmann 45 mm cartridge seal, consuming one unit of MAT-SEAL-45MM-MFL85N. | WO_ID: WO-2025-000114 | Equipment_ID: EQ-PUMP-KSB-65-160-01 | Request_Text: Seal leaking (cartridge) | Start_Date: 2025-07-19 | Finish_Date: 2025-07-19 | Downtime_Hours: 3.0 | Materials_Consumed: MAT-SEAL-45MM-MFL85N:1 | Technician_Notes: EagleBurgmann 45 mm cartridge installed"
+    },
+    {
+      "row_number": 15,
+      "json_data": {
+        "WO_ID": "WO-2025-000115",
+        "Equipment_ID": "EQ-IDFAN-BHF-30-01",
+        "Request_Text": "Gasket failure on 4\" flange",
+        "Start_Date": "2025-05-11",
+        "Finish_Date": "2025-05-11",
+        "Downtime_Hours": 2.0,
+        "Materials_Consumed": "MAT-GASKET-4IN-150-SS316G:2",
+        "Technician_Notes": "Replaced both sides; torque per B16.5"
+      },
+      "semantic_statement": "Work order WO-2025-000115 involved a gasket failure on a 4\" flange of the equipment EQ-IDFAN-BHF-30-01. The repair was performed on May 11, 2025, with 2 hours of downtime. The technician replaced both sides of the gasket using two units of MAT-GASKET-4IN-150-SS316G, applying torque as per B16.5 standards.",
+      "combined_text": "Work order WO-2025-000115 involved a gasket failure on a 4\" flange of the equipment EQ-IDFAN-BHF-30-01. The repair was performed on May 11, 2025, with 2 hours of downtime. The technician replaced both sides of the gasket using two units of MAT-GASKET-4IN-150-SS316G, applying torque as per B16.5 standards. | WO_ID: WO-2025-000115 | Equipment_ID: EQ-IDFAN-BHF-30-01 | Request_Text: Gasket failure on 4\" flange | Start_Date: 2025-05-11 | Finish_Date: 2025-05-11 | Downtime_Hours: 2.0 | Materials_Consumed: MAT-GASKET-4IN-150-SS316G:2 | Technician_Notes: Replaced both sides; torque per B16.5"
+    },
+    {
+      "row_number": 16,
+      "json_data": {
+        "WO_ID": "WO-2025-000116",
+        "Equipment_ID": "EQ-CONVEY-SEW-R97-01",
+        "Request_Text": "Motor starter failed (stuck contact)",
+        "Start_Date": "2025-03-30",
+        "Finish_Date": "2025-03-30",
+        "Downtime_Hours": 1.0,
+        "Materials_Consumed": "MAT-STARTER-ABB-AF116:1",
+        "Technician_Notes": "Replaced AF116-30; coil 110V"
+      },
+      "semantic_statement": "In work order WO-2025-000116, the motor starter of the equipment EQ-CONVEY-SEW-R97-01 failed due to a stuck contact. The repair was completed on March 30, 2025, with 1 hour of downtime. The technician replaced the starter with one unit of MAT-STARTER-ABB-AF116, specifying that the coil was 110V.",
+      "combined_text": "In work order WO-2025-000116, the motor starter of the equipment EQ-CONVEY-SEW-R97-01 failed due to a stuck contact. The repair was completed on March 30, 2025, with 1 hour of downtime. The technician replaced the starter with one unit of MAT-STARTER-ABB-AF116, specifying that the coil was 110V. | WO_ID: WO-2025-000116 | Equipment_ID: EQ-CONVEY-SEW-R97-01 | Request_Text: Motor starter failed (stuck contact) | Start_Date: 2025-03-30 | Finish_Date: 2025-03-30 | Downtime_Hours: 1.0 | Materials_Consumed: MAT-STARTER-ABB-AF116:1 | Technician_Notes: Replaced AF116-30; coil 110V"
+    },
+    {
+      "row_number": 17,
+      "json_data": {
+        "WO_ID": "WO-2025-000117",
+        "Equipment_ID": "EQ-COMP-ATC-GA45-01",
+        "Request_Text": "Solenoid valve coil burnt",
+        "Start_Date": "2025-04-09",
+        "Finish_Date": "2025-04-09",
+        "Downtime_Hours": 0.5,
+        "Materials_Consumed": "MAT-SOL-ASC0-551:1",
+        "Technician_Notes": "ASCO 551 24VDC replaced"
+      },
+      "semantic_statement": "Work order WO-2025-000117 addressed a burnt solenoid valve coil in the equipment EQ-COMP-ATC-GA45-01. The repair was completed on April 9, 2025, with 0.5 hours of downtime. The technician replaced the coil with one unit of MAT-SOL-ASC0-551, specifying that it was an ASCO 551 24VDC.",
+      "combined_text": "Work order WO-2025-000117 addressed a burnt solenoid valve coil in the equipment EQ-COMP-ATC-GA45-01. The repair was completed on April 9, 2025, with 0.5 hours of downtime. The technician replaced the coil with one unit of MAT-SOL-ASC0-551, specifying that it was an ASCO 551 24VDC. | WO_ID: WO-2025-000117 | Equipment_ID: EQ-COMP-ATC-GA45-01 | Request_Text: Solenoid valve coil burnt | Start_Date: 2025-04-09 | Finish_Date: 2025-04-09 | Downtime_Hours: 0.5 | Materials_Consumed: MAT-SOL-ASC0-551:1 | Technician_Notes: ASCO 551 24VDC replaced"
+    },
+    {
+      "row_number": 18,
+      "json_data": {
+        "WO_ID": "WO-2025-000118",
+        "Equipment_ID": "EQ-GEAR-FLENDER-H3SH-01",
+        "Request_Text": "Unexpected bearing failure (emergency)",
+        "Start_Date": "2025-07-25",
+        "Finish_Date": "2025-07-25",
+        "Downtime_Hours": 6.0,
+        "Materials_Consumed": "MAT-BRG-22224-CCW33:2,MAT-OIL-MOBIL-SHC632-20L:1",
+        "Technician_Notes": "Used FAG equivalent once; topped oil"
+      },
+      "semantic_statement": "In work order WO-2025-000118, the equipment EQ-GEAR-FLENDER-H3SH-01 experienced an unexpected bearing failure, requiring emergency attention. The repair was completed on July 25, 2025, with 6 hours of downtime. The technician used two units of MAT-BRG-22224-CCW33 and one unit of MAT-OIL-MOBIL-SHC632-20L, noting that a FAG equivalent was used and oil was topped up.",
+      "combined_text": "In work order WO-2025-000118, the equipment EQ-GEAR-FLENDER-H3SH-01 experienced an unexpected bearing failure, requiring emergency attention. The repair was completed on July 25, 2025, with 6 hours of downtime. The technician used two units of MAT-BRG-22224-CCW33 and one unit of MAT-OIL-MOBIL-SHC632-20L, noting that a FAG equivalent was used and oil was topped up. | WO_ID: WO-2025-000118 | Equipment_ID: EQ-GEAR-FLENDER-H3SH-01 | Request_Text: Unexpected bearing failure (emergency) | Start_Date: 2025-07-25 | Finish_Date: 2025-07-25 | Downtime_Hours: 6.0 | Materials_Consumed: MAT-BRG-22224-CCW33:2,MAT-OIL-MOBIL-SHC632-20L:1 | Technician_Notes: Used FAG equivalent once; topped oil"
+    },
+    {
+      "row_number": 19,
+      "json_data": {
+        "WO_ID": "WO-2025-000119",
+        "Equipment_ID": "EQ-OVEN-SAFETY-PLC-01",
+        "Request_Text": "Spurious trips; check IO and air filters",
+        "Start_Date": "2025-06-04",
+        "Finish_Date": "2025-06-04",
+        "Downtime_Hours": 1.0,
+        "Materials_Consumed": "MAT-FANFILTER-325:1",
+        "Technician_Notes": "Filter restricted airflow"
+      },
+      "semantic_statement": "Work order WO-2025-000119 involved spurious trips in the equipment EQ-OVEN-SAFETY-PLC-01, prompting a check of the input/output and air filters. The work was completed on June 4, 2025, with 1 hour of downtime. The technician replaced one unit of MAT-FANFILTER-325, noting that the filter was restricting airflow.",
+      "combined_text": "Work order WO-2025-000119 involved spurious trips in the equipment EQ-OVEN-SAFETY-PLC-01, prompting a check of the input/output and air filters. The work was completed on June 4, 2025, with 1 hour of downtime. The technician replaced one unit of MAT-FANFILTER-325, noting that the filter was restricting airflow. | WO_ID: WO-2025-000119 | Equipment_ID: EQ-OVEN-SAFETY-PLC-01 | Request_Text: Spurious trips; check IO and air filters | Start_Date: 2025-06-04 | Finish_Date: 2025-06-04 | Downtime_Hours: 1.0 | Materials_Consumed: MAT-FANFILTER-325:1 | Technician_Notes: Filter restricted airflow"
+    },
+    {
+      "row_number": 20,
+      "json_data": {
+        "WO_ID": "WO-2025-000120",
+        "Equipment_ID": "EQ-CT-FAN-MARLEY-01",
+        "Request_Text": "Thermocouple sheath cracked",
+        "Start_Date": "2025-07-30",
+        "Finish_Date": "2025-07-30",
+        "Downtime_Hours": 1.0,
+        "Materials_Consumed": "MAT-THERMO-TYPEK-1200:1",
+        "Technician_Notes": "Replaced with 1200mm Type K"
+      },
+      "semantic_statement": "In work order WO-2025-000120, the thermocouple sheath of the equipment EQ-CT-FAN-MARLEY-01 was found to be cracked. The repair was completed on July 30, 2025, with 1 hour of downtime. The technician replaced it with one unit of MAT-THERMO-TYPEK-1200.",
+      "combined_text": "In work order WO-2025-000120, the thermocouple sheath of the equipment EQ-CT-FAN-MARLEY-01 was found to be cracked. The repair was completed on July 30, 2025, with 1 hour of downtime. The technician replaced it with one unit of MAT-THERMO-TYPEK-1200. | WO_ID: WO-2025-000120 | Equipment_ID: EQ-CT-FAN-MARLEY-01 | Request_Text: Thermocouple sheath cracked | Start_Date: 2025-07-30 | Finish_Date: 2025-07-30 | Downtime_Hours: 1.0 | Materials_Consumed: MAT-THERMO-TYPEK-1200:1 | Technician_Notes: Replaced with 1200mm Type K"
+    }
+  ],
+  "failed_rows": []
+}
